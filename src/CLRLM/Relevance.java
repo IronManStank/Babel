@@ -73,7 +73,7 @@ public class Relevance {
 			pqM.add(p);
 			totalProb += p;
 		}
-		
+		System.out.println("w");
 		/*
 		 * 遍历w，计算P(w|Q)=P(w|Mt)*P(Ms|Q),其中计算P(Ms|Q)时使用贝叶斯公式并忽略P(Ms)项
 		 */
@@ -89,7 +89,7 @@ public class Relevance {
 			}
 			pwR.put(w, pwRm);
 		}
-		
+		System.out.println("KL");
 		/*
 		 * 遍历文档，根据KL散度计算每篇文档与query的相关性
 		 */
@@ -109,6 +109,7 @@ public class Relevance {
 		 * 输出前10个相关文档
 		 */
 		int num = 0;
+		System.out.println(KLDocument.size());
 		for(Map.Entry<Double, String[]> document:KLDocument.entrySet()) {
 			String s = "";
 			String[] terms = document.getValue();

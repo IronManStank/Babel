@@ -14,7 +14,7 @@ public class Entry {
 	String targetFile = "";
 	public static void main(String[] args) {
 		Entry entry = new Entry();		
-		if(args[0].equalsIgnoreCase("t")) {
+		if(args.length > 0 && args[0].equalsIgnoreCase("t")) {
 			entry.sourceFile = "source.txt";
 			entry.targetFile = "target.txt";
 			entry.train();
