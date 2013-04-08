@@ -27,15 +27,9 @@ public class Relevance {
 			this.entry = entry;
 			sourceR = new BufferedReader(new InputStreamReader(new FileInputStream("source.txt")));
 			targetR = new BufferedReader(new InputStreamReader(new FileInputStream("target.txt")));
-			probSourceR = new BufferedReader(new InputStreamReader(new FileInputStream("probSource.txt")));
-			probTargetR = new BufferedReader(new InputStreamReader(new FileInputStream("probTarget.txt")));
 			sourceText = new ArrayList<String[]>();
 			targetText = new ArrayList<String[]>();
 			documents = new ArrayList<String[]>();
-			probSource = new HashMap<String, Double>();
-			probTarget = new HashMap<String, Double>();
-			probWordGivenSource = new HashMap<String, HashMap<Integer, Double>>();
-			probWordGivenTarget = new HashMap<String, HashMap<Integer, Double>>();
 			String line;
 			while((line = sourceR.readLine()) != null) {
 				sourceText.add(line.split(" "));
@@ -45,49 +39,66 @@ public class Relevance {
 				targetText.add(line.split(" "));
 			}
 			targetR.close();
-			while((line = probSourceR.readLine()) != null) {
-				probSource.put(line.split(" ")[0], Double.valueOf(line.split(" ")[1]));
-			}
-			probSourceR.close();
-			while((line = probTargetR.readLine()) != null) {
-				probTarget.put(line.split(" ")[0], Double.valueOf(line.split(" ")[1]));
-			}
-			probTargetR.close();
 			documents = targetText;	
-			BufferedReader pwgs = new BufferedReader(new InputStreamReader(new FileInputStream("probWordGivenSource.txt")));
-			while((line = pwgs.readLine()) != null) {
-				String[] lines = line.split(" ");
-				if(probWordGivenSource.containsKey(lines[0])) {
-					for(int i = 1; i < lines.length; i += 2) {
-						probWordGivenSource.get(lines[0]).put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
-					}
-				}
-				else {
-					HashMap<Integer, Double> tmp = new HashMap<Integer, Double>();
-					for(int i = 1; i < lines.length; i += 2) {
-						tmp.put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
-					}
-					probWordGivenSource.put(lines[0], tmp);
-				}
+			if(entry.t) {
+				probSource = entry.ps;
+				probTarget = entry.pt;
+				probWordGivenSource = entry.probWordGivenSource;
+				probWordGivenTarget = entry.probWordGivenTarget;				
 			}
-			pwgs.close();
-			BufferedReader pwgt = new BufferedReader(new InputStreamReader(new FileInputStream("probWordGivenTarget.txt")));
-			while((line = pwgt.readLine()) != null) {
-				String[] lines = line.split(" ");
-				if(probWordGivenTarget.containsKey(lines[0])) {
-					for(int i = 1; i < lines.length; i += 2) {
-						probWordGivenTarget.get(lines[0]).put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
+			else {
+				probSourceR = new BufferedReader(new InputStreamReader(new FileInputStream("probSource.txt")));
+				probTargetR = new BufferedReader(new InputStreamReader(new FileInputStream("probTarget.txt")));
+				probSource = new HashMap<String, Double>();
+				probTarget = new HashMap<String, Double>();
+				probWordGivenSource = new HashMap<String, HashMap<Integer, Double>>();
+				probWordGivenTarget = new HashMap<String, HashMap<Integer, Double>>();
+				
+				while((line = probSourceR.readLine()) != null) {
+					probSource.put(line.split(" ")[0], Double.valueOf(line.split(" ")[1]));
+				}
+				probSourceR.close();
+				while((line = probTargetR.readLine()) != null) {
+					probTarget.put(line.split(" ")[0], Double.valueOf(line.split(" ")[1]));
+				}
+				probTargetR.close();
+				
+				BufferedReader pwgs = new BufferedReader(new InputStreamReader(new FileInputStream("probWordGivenSource.txt")));
+				while((line = pwgs.readLine()) != null) {
+					String[] lines = line.split(" ");
+					if(probWordGivenSource.containsKey(lines[0])) {
+						for(int i = 1; i < lines.length; i += 2) {
+							probWordGivenSource.get(lines[0]).put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
+						}
+					}
+					else {
+						HashMap<Integer, Double> tmp = new HashMap<Integer, Double>();
+						for(int i = 1; i < lines.length; i += 2) {
+							tmp.put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
+						}
+						probWordGivenSource.put(lines[0], tmp);
 					}
 				}
-				else {
-					HashMap<Integer, Double> tmp = new HashMap<Integer, Double>();
-					for(int i = 1; i < lines.length; i += 2) {
-						tmp.put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
+				pwgs.close();
+				
+				BufferedReader pwgt = new BufferedReader(new InputStreamReader(new FileInputStream("probWordGivenTarget.txt")));
+				while((line = pwgt.readLine()) != null) {
+					String[] lines = line.split(" ");
+					if(probWordGivenTarget.containsKey(lines[0])) {
+						for(int i = 1; i < lines.length; i += 2) {
+							probWordGivenTarget.get(lines[0]).put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
+						}
 					}
-					probWordGivenTarget.put(lines[0], tmp);
+					else {
+						HashMap<Integer, Double> tmp = new HashMap<Integer, Double>();
+						for(int i = 1; i < lines.length; i += 2) {
+							tmp.put(Integer.valueOf(lines[i]), Double.valueOf(lines[i+1]));
+						}
+						probWordGivenTarget.put(lines[0], tmp);
+					}
 				}
+				pwgt.close();
 			}
-			pwgt.close();
 			System.out.println("Ready");
 		}
 		catch(Exception e) {

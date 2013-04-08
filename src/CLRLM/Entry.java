@@ -16,6 +16,11 @@ public class Entry {
 	String stopWordsFile = "stopwords.txt";
 	HashSet<String> stopWords = new HashSet<String>();
 	boolean t = false;
+	HashMap<String, HashMap<Integer, Double>> probWordGivenSource = new HashMap<String, HashMap<Integer, Double>>();
+	HashMap<String, HashMap<Integer, Double>> probWordGivenTarget = new HashMap<String, HashMap<Integer, Double>>();
+	HashMap<String, Double> ps = new HashMap<String, Double>();
+	HashMap<String, Double> pt = new HashMap<String, Double>();
+	
 	public static void main(String[] args) {
 		Entry entry = new Entry();		
 		entry.stopWords();
@@ -61,8 +66,6 @@ public class Entry {
 			String line;			
 			HashMap<String, Integer> countSource = new HashMap<String, Integer>();
 			HashMap<String, Integer> countTarget = new HashMap<String, Integer>();
-			HashMap<String, HashMap<Integer, Double>> probWordGivenSource = new HashMap<String, HashMap<Integer, Double>>();
-			HashMap<String, HashMap<Integer, Double>> probWordGivenTarget = new HashMap<String, HashMap<Integer, Double>>();
 			int totalSource = 0, totalTarget = 0;
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(sourceFile)));		
 			int No = 0;
@@ -130,14 +133,14 @@ public class Entry {
 			}
 			br.close();
 
-			HashMap<String, Double> ps = new HashMap<String, Double>();
+			
 			PrintWriter bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probSource.txt")));
 			for(Map.Entry<String, Integer> m:countSource.entrySet()) {
 				bw.println(m.getKey() + " " + (double)m.getValue()/(double)totalSource);
 				ps.put(m.getKey(), (double)m.getValue()/(double)totalSource);
 			}
 			bw.close();
-			HashMap<String, Double> pt = new HashMap<String, Double>();
+			
 			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probTarget.txt")));
 			for(Map.Entry<String, Integer> m:countTarget.entrySet()) {
 				bw.println(m.getKey() + " " + (double)m.getValue()/(double)totalTarget);
