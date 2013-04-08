@@ -186,7 +186,8 @@ public class Relevance {
 			*/
 			int x = 0;
 			for(Map.Entry<Double, String> targetTerm:pwRs.entrySet()) {
-				if(x >= 1000) break;
+				x++;
+				if(x > 100) break;
 				String w = targetTerm.getValue();
 				double pwD;
 				if(probWordGivenTarget.get(w).containsKey(i+1))
@@ -195,6 +196,7 @@ public class Relevance {
 				p2 = p2 + pwR.get(w)*Math.log(pwR.get(w)/pwD);
 			}
 			KLDocument2.put(p2, document);
+			
 			HashSet<String> filter = new HashSet<String>();
 			for(int j = 0; j < document.length; j++) {
 				String w = document[j].toLowerCase();
