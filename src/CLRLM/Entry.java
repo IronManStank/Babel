@@ -7,19 +7,25 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 public class Entry {
 	String sourceFile = "";
 	String targetFile = "";
+	String stopWordsFile = "stopwords.txt";
+	HashSet<String> stopWords = new HashSet<String>();
+	boolean t = false;
 	public static void main(String[] args) {
 		Entry entry = new Entry();		
+		entry.stopWords();
 		if(args.length > 0 && args[0].equalsIgnoreCase("t")) {
+			entry.t = true;
 			entry.sourceFile = "source.txt";
 			entry.targetFile = "target.txt";
 			entry.train();
 		}
-		Relevance relevance = new Relevance();
+		Relevance relevance = new Relevance(entry);
 		try{
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			String line;
@@ -32,58 +38,134 @@ public class Entry {
 			relevance.close();
 		}
 		catch(Exception e) {
-			System.out.println(e);
-			System.out.println(1);
+			e.printStackTrace();
+		}
+	}
+	
+	public void stopWords() {
+		try{
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(stopWordsFile)));
+			String line;
+			while((line = br.readLine()) != null) {
+				stopWords.add(line);
+			}
+			br.close();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 	
 	public void train() {
 		try{
+			String line;			
 			HashMap<String, Integer> countSource = new HashMap<String, Integer>();
 			HashMap<String, Integer> countTarget = new HashMap<String, Integer>();
+			HashMap<String, HashMap<Integer, Double>> probWordGivenSource = new HashMap<String, HashMap<Integer, Double>>();
+			HashMap<String, HashMap<Integer, Double>> probWordGivenTarget = new HashMap<String, HashMap<Integer, Double>>();
 			int totalSource = 0, totalTarget = 0;
-			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(sourceFile)));
-			String line;
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(sourceFile)));		
+			int No = 0;
 			while((line = br.readLine()) != null) {
+				No++;
+				HashMap<String, Integer> tmpCount = new HashMap<String, Integer>();
 				String terms[] = line.split(" ");
+				int tmpTotalSource = 0;
 				for(String term: terms) {
-					if(countSource.containsKey(term)) {
-						countSource.put(term, countSource.get(term)+1);
+					if(tmpCount.containsKey(term)) {
+						tmpCount.put(term, tmpCount.get(term)+1);
 					}
 					else {
-						countSource.put(term, 1);
+						tmpCount.put(term, 1);
 					}
-					totalSource++;
+					tmpTotalSource++;
+				}
+				totalSource += tmpTotalSource;
+				for(Map.Entry<String, Integer> term:tmpCount.entrySet()) {
+					if(countSource.containsKey(term.getKey())) {
+						countSource.put(term.getKey(), countSource.get(term.getKey()) + term.getValue());
+						probWordGivenSource.get(term.getKey()).put(No, ((double)term.getValue()/tmpTotalSource));
+					}
+					else {
+						countSource.put(term.getKey(), term.getValue());
+						HashMap<Integer, Double> tmp = new HashMap<Integer, Double>();
+						tmp.put(No, ((double)term.getValue()/tmpTotalSource));
+						probWordGivenSource.put(term.getKey(), tmp);
+					}
 				}
 			}
 			br.close();
-			br = new BufferedReader(new InputStreamReader(new FileInputStream(targetFile)));
+			
+			br = new BufferedReader(new InputStreamReader(new FileInputStream(targetFile)));			
+			No = 0;
 			while((line = br.readLine()) != null) {
+				No++;
+				HashMap<String, Integer> tmpCount = new HashMap<String, Integer>();
 				String terms[] = line.split(" ");
+				int tmpTotalTarget = 0;
 				for(String term: terms) {
-					if(countTarget.containsKey(term)) {
-						countTarget.put(term, countTarget.get(term)+1);
+					term = term.toLowerCase();
+					if(stopWords.contains(term)) continue;
+					if(tmpCount.containsKey(term)) {
+						tmpCount.put(term, tmpCount.get(term)+1);
 					}
 					else {
-						countTarget.put(term, 1);
+						tmpCount.put(term, 1);
 					}
-					totalTarget++;
+					tmpTotalTarget++;
+				}
+				totalTarget += tmpTotalTarget;
+				for(Map.Entry<String, Integer> term:tmpCount.entrySet()) {
+					if(countTarget.containsKey(term.getKey())) {
+						countTarget.put(term.getKey(), countTarget.get(term.getKey()) + term.getValue());
+						probWordGivenTarget.get(term.getKey()).put(No, ((double)term.getValue()/tmpTotalTarget));
+					}
+					else {
+						countTarget.put(term.getKey(), term.getValue());
+						HashMap<Integer, Double> tmp = new HashMap<Integer, Double>();
+						tmp.put(No, ((double)term.getValue()/tmpTotalTarget));
+						probWordGivenTarget.put(term.getKey(), tmp);
+					}
 				}
 			}
 			br.close();
+
+			HashMap<String, Double> ps = new HashMap<String, Double>();
 			PrintWriter bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probSource.txt")));
 			for(Map.Entry<String, Integer> m:countSource.entrySet()) {
 				bw.println(m.getKey() + " " + (double)m.getValue()/(double)totalSource);
+				ps.put(m.getKey(), (double)m.getValue()/(double)totalSource);
 			}
 			bw.close();
+			HashMap<String, Double> pt = new HashMap<String, Double>();
 			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probTarget.txt")));
 			for(Map.Entry<String, Integer> m:countTarget.entrySet()) {
 				bw.println(m.getKey() + " " + (double)m.getValue()/(double)totalTarget);
+				pt.put(m.getKey(), (double)m.getValue()/(double)totalSource);
 			}
 			bw.close();
+			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probWordGivenSource.txt")));
+			for(Map.Entry<String, HashMap<Integer, Double>> m:probWordGivenSource.entrySet()) {
+				bw.print(m.getKey() + " ");
+				for(Map.Entry<Integer, Double> x: m.getValue().entrySet()) {	
+					bw.print(x.getKey() + " " + (0.8*x.getValue()+0.2*ps.get(m.getKey())) + " ");
+				}
+				bw.println();
+			}
+			bw.close();
+			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probWordGivenTarget.txt")));
+			for(Map.Entry<String, HashMap<Integer, Double>> m:probWordGivenTarget.entrySet()) {
+				bw.print(m.getKey() + " ");
+				for(Map.Entry<Integer, Double> x: m.getValue().entrySet()) {	
+					bw.print(x.getKey() + " " + (0.8*x.getValue()+0.2*pt.get(m.getKey())) + " ");
+				}
+				bw.println();
+			}
+			bw.close();
+			
 		}
 		catch(Exception e) {
-			System.out.println(e);
+			e.printStackTrace();
 		}
 	}
 }
