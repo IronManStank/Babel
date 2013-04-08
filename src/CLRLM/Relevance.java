@@ -204,14 +204,6 @@ public class Relevance {
 	}
 	
 	public void close() {
-		try{
-			sourceR.close();
-			targetR.close();
-			probSourceR.close();
-			probTargetR.close();
-		}
-		catch(Exception e) {
-			e.printStackTrace();
-		}
+
 	}
 }
