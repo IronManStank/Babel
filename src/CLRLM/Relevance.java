@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -110,6 +111,12 @@ public class Relevance {
 		System.out.println(query);
 		String[] queryTerms = query.split(" ");
 		HashMap<String, Double> pwR = new HashMap<String, Double>();
+		TreeMap<Double, String> pwRs = new TreeMap<Double, String>(new Comparator<Double>() {
+			public int compare(Double d1, Double d2) {
+				if(d2 - d1 > 0) return 1;
+				else return -1;
+			}
+		});
 		ArrayList<Double> pqM = new ArrayList<Double>();
 		double totalProb = 0;
 		/*
@@ -149,6 +156,7 @@ public class Relevance {
 				pwRm += p;
 			}
 			pwR.put(w, pwRm);
+			pwRs.put(pwRm, w);
 			allp += pwRm*Math.log(pwRm/(beta*probTarget.get(w)));//通过先求和来减少之后KL部分的计算其实是不可行的，因为实际中双语语料库和文档集是不重合的
 		}
 		System.out.println("KL");
@@ -157,9 +165,11 @@ public class Relevance {
 		 */
 		//TODO 只计算高分w的值是否可行？
 		KLDocument = new TreeMap<Double, String[]>();
+		TreeMap<Double, String[]> KLDocument2 = new TreeMap<Double, String[]>();
 		for(int i = 0; i < documents.size(); i++) {
 			String[] document = documents.get(i);
 			double p = allp;
+			double p2 = 0;
 			/*
 			for(Map.Entry<String, Double> targetTerm:probTarget.entrySet()) {
 				String w = targetTerm.getKey();
@@ -174,12 +184,23 @@ public class Relevance {
 				p += pwR.get(w)*Math.log(pwR.get(w)/pwD);
 			}
 			*/
+			int x = 0;
+			for(Map.Entry<Double, String> targetTerm:pwRs.entrySet()) {
+				if(x >= 1000) break;
+				String w = targetTerm.getValue();
+				double pwD;
+				if(probWordGivenTarget.get(w).containsKey(i+1))
+					pwD = alpha*probWordGivenTarget.get(w).get(i+1) + beta*probTarget.get(w);
+				else pwD = beta*probTarget.get(w);
+				p2 = p2 + pwR.get(w)*Math.log(pwR.get(w)/pwD);
+			}
+			KLDocument2.put(p2, document);
 			HashSet<String> filter = new HashSet<String>();
 			for(int j = 0; j < document.length; j++) {
 				String w = document[j].toLowerCase();
 				if(entry.stopWords.contains(w)||filter.contains(w)) continue;
 				filter.add(w);
-				double pwD = alpha*probWordGivenTarget.get(w).get(i+1) + beta*probTarget.get(w);//probS(queryTerms[j], sourceText.get(i));
+				double pwD = alpha*probWordGivenTarget.get(w).get(i+1) + beta*probTarget.get(w);
 				p = p + pwR.get(w)*Math.log(pwR.get(w)/pwD) - pwR.get(w)*Math.log(pwR.get(w)/(beta*probTarget.get(w)));
 			}
 			KLDocument.put(p, document);
@@ -189,8 +210,20 @@ public class Relevance {
 		 * 输出前10个相关文档
 		 */
 		int num = 0;
-		System.out.println(KLDocument.size());
 		for(Map.Entry<Double, String[]> document:KLDocument.entrySet()) {
+			String s = "";
+			String[] terms = document.getValue();
+			for(int i = 0; i < terms.length; i++) {
+				s += terms[i] + " ";
+			}
+			System.out.println(s);
+			System.out.println(document.getKey());
+			num++;
+			if(num > 10) break;
+		}
+		System.out.println("--------------");
+		num = 0;
+		for(Map.Entry<Double, String[]> document:KLDocument2.entrySet()) {
 			String s = "";
 			String[] terms = document.getValue();
 			for(int i = 0; i < terms.length; i++) {
