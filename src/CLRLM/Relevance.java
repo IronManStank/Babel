@@ -139,7 +139,7 @@ public class Relevance {
 			for(int i = 0; i < targetText.size(); i++) {
 				double p = 1;
 				if(probWordGivenTarget.get(w).containsKey(i+1)) {
-					p *= alpha*probWordGivenTarget.get(w).get(i+1) + beta*probTarget.get(w);//probS(queryTerms[j], sourceText.get(i));
+					p *= alpha*probWordGivenTarget.get(w).get(i+1) + beta*probTarget.get(w);
 				}
 				else {
 					p *= beta*probTarget.get(w);
@@ -149,12 +149,13 @@ public class Relevance {
 				pwRm += p;
 			}
 			pwR.put(w, pwRm);
-			allp += pwRm*Math.log(pwRm/(beta*probTarget.get(w)));
+			allp += pwRm*Math.log(pwRm/(beta*probTarget.get(w)));//通过先求和来减少之后KL部分的计算其实是不可行的，因为实际中双语语料库和文档集是不重合的
 		}
 		System.out.println("KL");
 		/*
 		 * 遍历文档，根据KL散度计算每篇文档与query的相关性
 		 */
+		//TODO 只计算高分w的值是否可行？
 		KLDocument = new TreeMap<Double, String[]>();
 		for(int i = 0; i < documents.size(); i++) {
 			String[] document = documents.get(i);
@@ -164,7 +165,7 @@ public class Relevance {
 				String w = targetTerm.getKey();
 				double pwD;
 				if(probWordGivenTarget.get(w).containsKey(i+1)) {
-					pwD = 0.8*probWordGivenTarget.get(w).get(i+1) + 0.2*probTarget.get(w);//probS(queryTerms[j], sourceText.get(i));
+					pwD = 0.8*probWordGivenTarget.get(w).get(i+1) + 0.2*probTarget.get(w);
 				}
 				else {
 					pwD = 0.2*probTarget.get(w);
