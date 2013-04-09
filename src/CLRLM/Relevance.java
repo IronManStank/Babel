@@ -110,6 +110,7 @@ public class Relevance {
 	}
 	
 	public void configure(String query) {
+		//TODO 处理OOV！
 		System.out.println(query);
 		String[] queryTerms = query.split(" ");
 		HashMap<String, Double> pwR = new HashMap<String, Double>();
