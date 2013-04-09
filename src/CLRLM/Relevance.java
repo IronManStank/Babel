@@ -157,19 +157,19 @@ public class Relevance {
 			}
 			pwR.put(w, pwRm);
 			pwRs.put(pwRm, w);
-			allp += pwRm*Math.log(pwRm/(beta*probTarget.get(w)));//通过先求和来减少之后KL部分的计算其实是不可行的，因为实际中双语语料库和文档集是不重合的
+			//通过先求和来减少之后KL部分的计算其实是不可行的，因为实际中双语语料库和文档集是不重合的，需要在文档集进行这一步操作，做实验先用allp存储起来
+			allp += pwRm*Math.log(pwRm/(beta*probTarget.get(w)));
 		}
 		System.out.println("KL");
 		/*
 		 * 遍历文档，根据KL散度计算每篇文档与query的相关性
 		 */
-		//TODO 只计算高分w的值是否可行？
+		//DONE 只计算高分w的值是否可行？可行！
+		//TODO 通过高分w的probWordGivenTarget表格（实际相当于一个index）预先选取一部分文档，只对这部分文档进行操作是否可行？
 		KLDocument = new TreeMap<Double, String[]>();
 		TreeMap<Double, String[]> KLDocument2 = new TreeMap<Double, String[]>();
 		for(int i = 0; i < documents.size(); i++) {
-			String[] document = documents.get(i);
-			double p = allp;
-			double p2 = 0;
+			String[] document = documents.get(i);	
 			/*
 			for(Map.Entry<String, Double> targetTerm:probTarget.entrySet()) {
 				String w = targetTerm.getKey();
@@ -184,11 +184,16 @@ public class Relevance {
 				p += pwR.get(w)*Math.log(pwR.get(w)/pwD);
 			}
 			*/
+			/**
+			 * 只选用评分最高的100个target language term进行计算
+			 */
+			double p2 = 0;
 			int x = 0;
 			for(Map.Entry<Double, String> targetTerm:pwRs.entrySet()) {
 				x++;
-				if(x > 100) break;
+				if(x > 100) break; 
 				String w = targetTerm.getValue();
+				System.out.println(w+" "+targetTerm.getKey());
 				double pwD;
 				if(probWordGivenTarget.get(w).containsKey(i+1))
 					pwD = alpha*probWordGivenTarget.get(w).get(i+1) + beta*probTarget.get(w);
@@ -197,6 +202,10 @@ public class Relevance {
 			}
 			KLDocument2.put(p2, document);
 			
+			/**
+			 * 选用全部target language term计算，预先计算了不在document中的term的权值，因此只需要重新计算document中的term
+			 */
+			double p = allp;
 			HashSet<String> filter = new HashSet<String>();
 			for(int j = 0; j < document.length; j++) {
 				String w = document[j].toLowerCase();
