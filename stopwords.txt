@@ -172,3 +172,13 @@ your
 yours
 yourself
 yourselves
+,
+.
+:
+'s
+'
+'d
+'ll
+'re
+'ve
+'t

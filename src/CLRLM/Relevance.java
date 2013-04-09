@@ -17,9 +17,11 @@ public class Relevance {
 	BufferedReader probTargetR;
 	ArrayList<String[]> sourceText, targetText, documents;
 	HashMap<String, Double> probSource, probTarget;
-	TreeMap<Double, String[]> KLDocument; 
+	TreeMap<Double, String[]> KLDocument, KLDocument2; 
 	HashMap<String, HashMap<Integer, Double>> probWordGivenSource;
 	HashMap<String, HashMap<Integer, Double>> probWordGivenTarget;
+	String[] result;
+	TreeMap<Double, String> pwRs;
 	Entry entry;
 	double alpha = 0.8, beta = 0.2;
 	
@@ -111,7 +113,7 @@ public class Relevance {
 		System.out.println(query);
 		String[] queryTerms = query.split(" ");
 		HashMap<String, Double> pwR = new HashMap<String, Double>();
-		TreeMap<Double, String> pwRs = new TreeMap<Double, String>(new Comparator<Double>() {
+		pwRs = new TreeMap<Double, String>(new Comparator<Double>() {
 			public int compare(Double d1, Double d2) {
 				if(d2 - d1 > 0) return 1;
 				else return -1;
@@ -167,7 +169,7 @@ public class Relevance {
 		//DONE 只计算高分w的值是否可行？可行！
 		//TODO 通过高分w的probWordGivenTarget表格（实际相当于一个index）预先选取一部分文档，只对这部分文档进行操作是否可行？
 		KLDocument = new TreeMap<Double, String[]>();
-		TreeMap<Double, String[]> KLDocument2 = new TreeMap<Double, String[]>();
+		KLDocument2 = new TreeMap<Double, String[]>();
 		for(int i = 0; i < documents.size(); i++) {
 			String[] document = documents.get(i);	
 			/*
@@ -193,7 +195,6 @@ public class Relevance {
 				x++;
 				if(x > 100) break; 
 				String w = targetTerm.getValue();
-				System.out.println(w+" "+targetTerm.getKey());
 				double pwD;
 				if(probWordGivenTarget.get(w).containsKey(i+1))
 					pwD = alpha*probWordGivenTarget.get(w).get(i+1) + beta*probTarget.get(w);
@@ -217,7 +218,8 @@ public class Relevance {
 			KLDocument.put(p, document);
 		}
 		
-		/*
+		/**
+		 * 
 		 * 输出前10个相关文档
 		 */
 		int num = 0;
@@ -233,19 +235,22 @@ public class Relevance {
 			if(num > 10) break;
 		}
 		System.out.println("--------------");
+		
+		result = new String[10];
 		num = 0;
 		for(Map.Entry<Double, String[]> document:KLDocument2.entrySet()) {
 			String s = "";
 			String[] terms = document.getValue();
+			result[num] = "";
 			for(int i = 0; i < terms.length; i++) {
 				s += terms[i] + " ";
+				result[num] += terms[i] + " ";
 			}
 			System.out.println(s);
 			System.out.println(document.getKey());
 			num++;
-			if(num > 10) break;
+			if(num >= 10) break;
 		}
-		
 	}
 	
 	public void close() {

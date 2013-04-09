@@ -47,6 +47,10 @@ public class Entry {
 		}
 	}
 	
+	public Entry() {
+		
+	}
+	
 	public void stopWords() {
 		try{
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(stopWordsFile)));
