@@ -221,8 +221,16 @@ public class Relevance {
 		
 		/**
 		 * 
-		 * 输出前10个相关文档
+		 * 输出前若干个相关词项及文档
 		 */
+		int x = 0;
+		for(Map.Entry<Double, String> targetTerm:pwRs.entrySet()) {
+			x++;
+			String w = targetTerm.getValue();
+			System.out.println(w+" "+targetTerm.getKey());
+			if(x >= 20) break;
+		}
+		System.out.println("--------------");
 		int num = 0;
 		for(Map.Entry<Double, String[]> document:KLDocument.entrySet()) {
 			String s = "";
@@ -252,6 +260,7 @@ public class Relevance {
 			num++;
 			if(num >= 10) break;
 		}
+		System.out.println("+++++++++++++++++++++++++");
 	}
 	
 	public void close() {
