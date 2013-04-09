@@ -28,8 +28,8 @@ public class Relevance {
 	public Relevance(Entry entry) {
 		try{
 			this.entry = entry;
-			sourceR = new BufferedReader(new InputStreamReader(new FileInputStream("source.txt")));
-			targetR = new BufferedReader(new InputStreamReader(new FileInputStream("target.txt")));
+			sourceR = new BufferedReader(new InputStreamReader(new FileInputStream("data/source.txt")));
+			targetR = new BufferedReader(new InputStreamReader(new FileInputStream("data/target.txt")));
 			sourceText = new ArrayList<String[]>();
 			targetText = new ArrayList<String[]>();
 			documents = new ArrayList<String[]>();
@@ -50,8 +50,8 @@ public class Relevance {
 				probWordGivenTarget = entry.probWordGivenTarget;				
 			}
 			else {
-				probSourceR = new BufferedReader(new InputStreamReader(new FileInputStream("probSource.txt")));
-				probTargetR = new BufferedReader(new InputStreamReader(new FileInputStream("probTarget.txt")));
+				probSourceR = new BufferedReader(new InputStreamReader(new FileInputStream("data/probSource.txt")));
+				probTargetR = new BufferedReader(new InputStreamReader(new FileInputStream("data/probTarget.txt")));
 				probSource = new HashMap<String, Double>();
 				probTarget = new HashMap<String, Double>();
 				probWordGivenSource = new HashMap<String, HashMap<Integer, Double>>();
@@ -66,7 +66,7 @@ public class Relevance {
 				}
 				probTargetR.close();
 				
-				BufferedReader pwgs = new BufferedReader(new InputStreamReader(new FileInputStream("probWordGivenSource.txt")));
+				BufferedReader pwgs = new BufferedReader(new InputStreamReader(new FileInputStream("data/probWordGivenSource.txt")));
 				while((line = pwgs.readLine()) != null) {
 					String[] lines = line.split(" ");
 					if(probWordGivenSource.containsKey(lines[0])) {
@@ -84,7 +84,7 @@ public class Relevance {
 				}
 				pwgs.close();
 				
-				BufferedReader pwgt = new BufferedReader(new InputStreamReader(new FileInputStream("probWordGivenTarget.txt")));
+				BufferedReader pwgt = new BufferedReader(new InputStreamReader(new FileInputStream("data/probWordGivenTarget.txt")));
 				while((line = pwgt.readLine()) != null) {
 					String[] lines = line.split(" ");
 					if(probWordGivenTarget.containsKey(lines[0])) {

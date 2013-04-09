@@ -13,7 +13,7 @@ import java.util.Map;
 public class Entry {
 	String sourceFile = "";
 	String targetFile = "";
-	String stopWordsFile = "stopwords.txt";
+	String stopWordsFile = "data/stopwords.txt";
 	HashSet<String> stopWords = new HashSet<String>();
 	boolean t = false;
 	HashMap<String, HashMap<Integer, Double>> probWordGivenSource = new HashMap<String, HashMap<Integer, Double>>();
@@ -26,8 +26,8 @@ public class Entry {
 		entry.stopWords();
 		if(args.length > 0 && args[0].equalsIgnoreCase("t")) {
 			entry.t = true;
-			entry.sourceFile = "source.txt";
-			entry.targetFile = "target.txt";
+			entry.sourceFile = "data/source.txt";
+			entry.targetFile = "data/target.txt";
 			entry.train();
 		}
 		Relevance relevance = new Relevance(entry);
@@ -138,20 +138,20 @@ public class Entry {
 			br.close();
 
 			
-			PrintWriter bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probSource.txt")));
+			PrintWriter bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("data/probSource.txt")));
 			for(Map.Entry<String, Integer> m:countSource.entrySet()) {
 				bw.println(m.getKey() + " " + (double)m.getValue()/(double)totalSource);
 				ps.put(m.getKey(), (double)m.getValue()/(double)totalSource);
 			}
 			bw.close();
 			
-			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probTarget.txt")));
+			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("data/probTarget.txt")));
 			for(Map.Entry<String, Integer> m:countTarget.entrySet()) {
 				bw.println(m.getKey() + " " + (double)m.getValue()/(double)totalTarget);
 				pt.put(m.getKey(), (double)m.getValue()/(double)totalSource);
 			}
 			bw.close();
-			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probWordGivenSource.txt")));
+			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("data/probWordGivenSource.txt")));
 			for(Map.Entry<String, HashMap<Integer, Double>> m:probWordGivenSource.entrySet()) {
 				bw.print(m.getKey() + " ");
 				for(Map.Entry<Integer, Double> x: m.getValue().entrySet()) {	
@@ -160,7 +160,7 @@ public class Entry {
 				bw.println();
 			}
 			bw.close();
-			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("probWordGivenTarget.txt")));
+			bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("data/probWordGivenTarget.txt")));
 			for(Map.Entry<String, HashMap<Integer, Double>> m:probWordGivenTarget.entrySet()) {
 				bw.print(m.getKey() + " ");
 				for(Map.Entry<Integer, Double> x: m.getValue().entrySet()) {	
