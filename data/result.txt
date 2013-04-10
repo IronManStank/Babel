@@ -1,0 +1,1225 @@
+Ready
+德国
+w
+KL
+germany 0.03256818337268774
+german 0.020833623046997166
+china 0.0072333541262805
+president 0.006680234489092653
+pound 0.006602418743956976
+sterling 0.006602243351991311
+will 0.005991243960256289
+said 0.005643299945002319
+economic 0.004787307834514452
+chinese 0.0038929614310021505
+year 0.0038877335534104373
+visit 0.0035864490394404724
+countries 0.0035839499812850366
+government 0.0035588236927904665
+people 0.003397348380258528
+also 0.0032779046763614667
+visits 0.003106159339374614
+economy 0.0030285755393897273
+united 0.003004143139548258
+states 0.002920514939782318
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+1.483667400463794
+bonn , march 10 ( xinhua ) german chancellor helmut kohl said here today that germany will adopt a single european currency only if monetary stability is maintained within europe 
+1.4921589525635248
+germany will manufacture the new plane in cooperation with some other european countries , including france negotiations are being conducted on the issue , a spokesman for the german defense ministry said monday 
+1.50237895652593
+the shift of focus from politics to economy also affects german american relations , the german foreign minister said it is equally important for germany to develop relations with both the united states and europe , he remarked 
+1.5026307676271624
+hans olaf henkel , president of the federation of german industry , said in koln over the weekend that although germany is the second largest exporter in the world after the united states , some two thirds of its products were exported to countries of the european union 
+1.5046082690874092
+bonn , may 7 ( xinhua ) both germany and jordan hope that the middle east peace process will be maintained until a comprehensive and lasting peace is established in the region , a german government spokesman said today 
+1.508769414821145
+bonn , november 14 ( xinhua ) germany 's " five sages " ( german council of economic experts ) predicts a 2 5 percent economic increase for germany , in 1998 in its annual report to be submitted to the government tomorrow 
+1.508942146828851
+bonn , october 7 ( xinhua ) germany 's new aviation research plan will receive 1200-million marks ( 800-million u s dollars ) in financial support over the next four years , half from the government and half from industrial sponsors , according to the german newspaper " suddeutsche zeitung " today 
+1.5097010459164817
+glos said that germany attaches great importance to its friendly relations with china mr glos added that premier kohl had also expressed support and concern for german chinese ties 
+1.5113508522883858
+in response to a chinese reporter 's question on the one china policy adopted by the new german government , schroeder answered that the new german government will unequivocally continue to adopt the one china policy and germany will not participate in any activity that may pose a potential threat to china 
+1.5180821504078368
+bonn , may 3 ( xinhua ) german exports to asian countries increased to 93-7-billion germany marks ( about 80-billion u s dollars ) in 1994 , up 18-4 percent over last year , while its imports from those countries stood at 112 5 billion , an increase of 8 8 percent 
+1.520458899786392
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+0.4109359311861608
+bonn , march 10 ( xinhua ) german chancellor helmut kohl said here today that germany will adopt a single european currency only if monetary stability is maintained within europe 
+0.41376852493147753
+the shift of focus from politics to economy also affects german american relations , the german foreign minister said it is equally important for germany to develop relations with both the united states and europe , he remarked 
+0.41497992725196836
+hans olaf henkel , president of the federation of german industry , said in koln over the weekend that although germany is the second largest exporter in the world after the united states , some two thirds of its products were exported to countries of the european union 
+0.4161493397711159
+germany will manufacture the new plane in cooperation with some other european countries , including france negotiations are being conducted on the issue , a spokesman for the german defense ministry said monday 
+0.4181794572248897
+bonn , may 7 ( xinhua ) both germany and jordan hope that the middle east peace process will be maintained until a comprehensive and lasting peace is established in the region , a german government spokesman said today 
+0.42798625079483454
+bonn , november 14 ( xinhua ) germany 's " five sages " ( german council of economic experts ) predicts a 2 5 percent economic increase for germany , in 1998 in its annual report to be submitted to the government tomorrow 
+0.43479943379878894
+glos said that germany attaches great importance to its friendly relations with china mr glos added that premier kohl had also expressed support and concern for german chinese ties 
+0.43552779838961053
+in response to a chinese reporter 's question on the one china policy adopted by the new german government , schroeder answered that the new german government will unequivocally continue to adopt the one china policy and germany will not participate in any activity that may pose a potential threat to china 
+0.4396604095522053
+the economic growth in germany remains promising and the effect of the mark 's revaluation on the german economy is yet to be felt next year 
+0.44168428709842755
++++++++++++++++++++++++++
+德国 经济 发展
+w
+KL
+economic 0.0361387890679675
+germany 0.028505223821216907
+development 0.019351682974318413
+economy 0.016951501418159837
+german 0.013723417954188912
+growth 0.010403230336821478
+china 0.008647128114538894
+will 0.008558920295134533
+recovery 0.007055483687002086
+expected 0.00705103970752586
+western 0.00700918718312442
+said 0.006988863746942943
+year 0.006662728108893347
+greater 0.006184736763906276
+begins 0.006002174443428035
+beijing 0.00597124227112593
+also 0.005800267279002013
+cooperation 0.005707930604687311
+foreign 0.004112799218336984
+minister 0.003941522350374077
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+1.3237875402086676
+liu qi said beijing has enjoyed a close economic and technological cooperation and exchange with germany for a long time . quite a few german entrepreneurs have become members of the beijing mayor 's international entrepreneurs ' council . each year they provide excellent suggestions and opinions on the major issues concerning beijing and its economic development and play a very important role in promoting the economic exchange and cooperation between beijing and germany . 
+1.3741525828734003
+bonn , october 9 ( xinhua ) germany will provide the philippines with 77 5 million marks ( 52 6 million u s dollars ) in development aid , the foreign economic cooperation ministry announced today 
+1.3926393425001742
+germany is an economic and technological power with rich experience in these fields . beijing welcomes the experts from the german manufacturers , small and medium-sized companies as well as related fields to bring their advanced experience , technologies , and capitals to beijing to jointly promote beijing 's economic development and ensure the smooth preparation for the 2008 olympic games . 
+1.4131018051230249
+inspired by economic integration , latin america has become one of the regions with rapid economic development , which has provided " a good chance " for germany , economic figures said 
+1.4149964402857265
+the economic growth in germany remains promising and the effect of the mark 's revaluation on the german economy is yet to be felt next year 
+1.418888523843178
+after the strong momentum given the economy by exports , active investment in equipment in germany will become a second impetus but the slowing down of western germany 's investment in building and the rise in interest rates on the capital market will curb its economic development 
+1.471851310418217
+( afp , berlin ) economy ministry said today that germany , as the biggest economy in the eurozone of 12 nations , has seen an accelerated economic recovery in the 2nd quarter this year , and the gdp is estimated to grow by more than 0.5% over the previous quarter . 
+1.4736502002560088
+greater economic growth expected in germany 
+1.4752724323387336
+in a survey of 334 companies across germany , the munich economic research institute concluded that over the next five years , the german economy will remain sluggish 
+1.4797819658172926
+bonn , november 14 ( xinhua ) germany 's council of economic advisors , known as the " five wise men " have drawn a gloomy picture of its 1994 economy with a zero growth in western germany and 7 5 percent growth in the eastern part 
+1.483518350406348
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+0.7121085494417241
+inspired by economic integration , latin america has become one of the regions with rapid economic development , which has provided " a good chance " for germany , economic figures said 
+0.7769376181065495
+bonn , october 9 ( xinhua ) germany will provide the philippines with 77 5 million marks ( 52 6 million u s dollars ) in development aid , the foreign economic cooperation ministry announced today 
+0.797714599725875
+the economic growth in germany remains promising and the effect of the mark 's revaluation on the german economy is yet to be felt next year 
+0.8039385746653459
+liu qi said beijing has enjoyed a close economic and technological cooperation and exchange with germany for a long time . quite a few german entrepreneurs have become members of the beijing mayor 's international entrepreneurs ' council . each year they provide excellent suggestions and opinions on the major issues concerning beijing and its economic development and play a very important role in promoting the economic exchange and cooperation between beijing and germany . 
+0.8060284619339746
+greater economic growth expected in germany 
+0.8372136101595571
+germany is an economic and technological power with rich experience in these fields . beijing welcomes the experts from the german manufacturers , small and medium-sized companies as well as related fields to bring their advanced experience , technologies , and capitals to beijing to jointly promote beijing 's economic development and ensure the smooth preparation for the 2008 olympic games . 
+0.8502415293566773
+after the strong momentum given the economy by exports , active investment in equipment in germany will become a second impetus but the slowing down of western germany 's investment in building and the rise in interest rates on the capital market will curb its economic development 
+0.8606822635098531
+( afp , berlin ) economy ministry said today that germany , as the biggest economy in the eurozone of 12 nations , has seen an accelerated economic recovery in the 2nd quarter this year , and the gdp is estimated to grow by more than 0.5% over the previous quarter . 
+0.863221984513075
+bonn , november 14 ( xinhua ) germany 's council of economic advisors , known as the " five wise men " have drawn a gloomy picture of its 1994 economy with a zero growth in western germany and 7 5 percent growth in the eastern part 
+0.8648756663720638
++++++++++++++++++++++++++
+最高 法院
+w
+KL
+court 0.08130336852138956
+supreme 0.0781725257534622
+us 0.0346330325703016
+president 0.029977556186409113
+will 0.029035680776147658
+chilean 0.027538787793293162
+visits 0.026690255858811657
+zhejiang 0.026655507573702737
+ruling 0.019782473614229135
+appealed 0.01965137797466957
+u.s 0.009660479589180529
+turned 0.00962204892586417
+likely 0.009619729566313077
+almost 0.009619410070421395
+go 0.008308965321212091
+case 0.008292964417641152
+sure 0.008238283931406434
+doubt 0.00823415179930224
+prisoners 0.0057894922315603935
+guantanamo 0.0057798240597858935
+--------------
+chilean supreme court president visits zhejiang 
+1.5177064976427934
+there is no doubt that the ruling will be appealed to us supreme court . 
+1.7032165329597027
+the ruling is likely to be appealed in u.s . supreme court . 
+1.870946325553753
+it will almost be turned to the us supreme court . 
+1.9243753903052914
+the case for sure will go to the us supreme court . 
+1.9274197217467937
+us supreme court examines the legality of detaining war prisoners at guantanamo 
+1.9677425711716454
+chinese state president jiang zemin met withhernan alvarez , president of the chilean supreme court at the supreme courtbuilding on 6 april and had a friendly conversation him . 
+2.035088886998257
+the supreme court will decide in june whether the guantanamo prisoners have the right to challenge their detention in a us court . 
+2.0611789498694604
+the us supreme court has been examining the legality of detaining about 600 prisoners indefinitely at guantanamo , a military base in cuba . 
+2.093807441319754
+chinese state president jiang zemin 6 april met with the president of the chilean supreme court hernan alvarez at the latter 's office and the two held a friendly talk . 
+2.1005730546215227
+among them , eight of the petitioners appealed to the supreme court on september 4 . they are asking the court to rule the occupation illegal . 
+2.1301686174480396
+--------------
+chilean supreme court president visits zhejiang 
+1.185523246394521
+there is no doubt that the ruling will be appealed to us supreme court . 
+1.3710332817114306
+the ruling is likely to be appealed in u.s . supreme court . 
+1.5387630743054805
+it will almost be turned to the us supreme court . 
+1.5921921390570195
+the case for sure will go to the us supreme court . 
+1.5952364704985214
+us supreme court examines the legality of detaining war prisoners at guantanamo 
+1.6355593199233733
+chinese state president jiang zemin met withhernan alvarez , president of the chilean supreme court at the supreme courtbuilding on 6 april and had a friendly conversation him . 
+1.7193889435831329
+the supreme court will decide in june whether the guantanamo prisoners have the right to challenge their detention in a us court . 
+1.7546099660706005
+the us supreme court has been examining the legality of detaining about 600 prisoners indefinitely at guantanamo , a military base in cuba . 
+1.782726683379134
+chinese state president jiang zemin 6 april met with the president of the chilean supreme court hernan alvarez at the latter 's office and the two held a friendly talk . 
+1.7834139650908527
++++++++++++++++++++++++++
+美国 贸易
+w
+KL
+trade 0.033513590924221744
+china 0.027149821731621997
+us 0.021467822707931624
+united 0.013122588609931332
+states 0.013107682711508735
+visit 0.008931750448883523
+barshefsky 0.008295007369079158
+said 0.006800662081863054
+will 0.006791743879464803
+s 0.00604164103935304
+u 0.005978585214106778
+free 0.005129093545978853
+partner 0.004984249213068925
+may 0.004290371459983244
+largest 0.0041037856439086785
+slow 0.003741764310333716
+dollars 0.0037289492941825603
+economic 0.0037126941601779324
+year 0.003534321151276079
+world 0.003213017433996019
+--------------
+us trade representative charlene barshefsky said here on 22 march that the bilateral agreement on china 's accession to the world trade organization is a " win-win " achievement beneficial to both the united states and china , and the agreement will help develop relations between the two countries . 
+1.2687063613197143
+beijing , june 13 ( xinhua ) acting us trade representative charlene barshefsky will arrive in beijing to visit china at the invitation of the chinese ministry of foreign trade and economic cooperation ( moftec ) 
+1.3423225130360086
+the united states is china 's second largest trade partner . chinese workers produce good-quality yet inexpensive commodity worth tens of billion us dollars every year for us companies . american people now can not live without things " made in china . " 
+1.3491462107257721
+sun zhenyu , vice chairman of the ministry of foreign trade and economic cooperation of china , who is visiting here met with us congressmen on 1 march during which he pointed out : the treatment of permanent normal trade relations is not a favor given by the us but the content of the stipulations in the bilateral agreement signed between china and the united states on china 's entry into the world trade organization [ wto ] and a commitment which the us should keep . 
+1.3514436498695548
+the us government hopes that china will smoothly accede to the wto and the united states firmly applies itself to bringing about permanent normal trade relations between the united states and china . 
+1.3665019234933267
+the united states is china 's second largest trade partner , while china is the united states ' fourth biggest trade partner . 
+1.3665706433012026
+the minister of foreign trade and economic cooperation ( moftec ) said that chinese and u s negotiators worked arduously , sometimes overnight , during premier zhu 's visit to the united states , and have achieved importance progress on the issue the u s side voiced firm support for china 's entry into the wto in the year 1999 
+1.372694816778539
+japan has , for four years , successively ranked first place among china 's foreign trade partners , and the bilateral trade volume last year was 17.22-billion us dollars higher than that of china and the us , china 's second largest trade partner . 
+1.3731202594312868
+he believes that it is " unwise " to link china 's trade status to issues such as taiwan , human rights , and arms proliferation because if the us congress rejects the pntr bill , the united states will not be able to benefit from china 's entry into the wto and its own national interests will be undermined . 
+1.3765746860651655
+speaking at a meeting of the us electronics industry association , us treasury secretary summers stressed that it will bring " enormous commercial advantages " to the united states if the us congress passes the legislation president clinton proposed on 8 march granting china permanent normal trade relations [ pntr ] . 
+1.3907313998183863
+and other house republican leaders urged members of congress from both the republican and democratic parties to support the agreement reached by the united states and china on china 's accession to the wto , as well as the move to grant china permanent normal trade relations status . dreier said : the house leadership plans to vote on the agreement by 1 august at the latest . the vote is extremely important for maintaining us economic prosperity ; 
+1.3914560716960163
+--------------
+us trade representative charlene barshefsky said here on 22 march that the bilateral agreement on china 's accession to the world trade organization is a " win-win " achievement beneficial to both the united states and china , and the agreement will help develop relations between the two countries . 
+0.487703970480127
+beijing , june 13 ( xinhua ) acting us trade representative charlene barshefsky will arrive in beijing to visit china at the invitation of the chinese ministry of foreign trade and economic cooperation ( moftec ) 
+0.5458253001872929
+the united states is china 's second largest trade partner , while china is the united states ' fourth biggest trade partner . 
+0.556516545213468
+the united states is china 's second largest trade partner . chinese workers produce good-quality yet inexpensive commodity worth tens of billion us dollars every year for us companies . american people now can not live without things " made in china . " 
+0.5609564112190629
+the us government hopes that china will smoothly accede to the wto and the united states firmly applies itself to bringing about permanent normal trade relations between the united states and china . 
+0.5649394094883926
+sun zhenyu , vice chairman of the ministry of foreign trade and economic cooperation of china , who is visiting here met with us congressmen on 1 march during which he pointed out : the treatment of permanent normal trade relations is not a favor given by the us but the content of the stipulations in the bilateral agreement signed between china and the united states on china 's entry into the world trade organization [ wto ] and a commitment which the us should keep . 
+0.5827618815986989
+the minister of foreign trade and economic cooperation ( moftec ) said that chinese and u s negotiators worked arduously , sometimes overnight , during premier zhu 's visit to the united states , and have achieved importance progress on the issue the u s side voiced firm support for china 's entry into the wto in the year 1999 
+0.5831581525685504
+japan has , for four years , successively ranked first place among china 's foreign trade partners , and the bilateral trade volume last year was 17.22-billion us dollars higher than that of china and the us , china 's second largest trade partner . 
+0.589549635422468
+he believes that it is " unwise " to link china 's trade status to issues such as taiwan , human rights , and arms proliferation because if the us congress rejects the pntr bill , the united states will not be able to benefit from china 's entry into the wto and its own national interests will be undermined . 
+0.6028190659556304
+the united states claimed that it had trade deficit with china of 18-3-billion u s dollars , japan claimed its trade deficit with china hit 4 989 billion u s dollars and the ec alleged that its deficit with china exceeded 10-billion u s dollars 
+0.6121306056437248
++++++++++++++++++++++++++
+美国
+w
+KL
+us 0.022269433482111484
+states 0.01584212435095668
+united 0.01582513815535321
+china 0.008716540289626535
+will 0.00669824209198522
+said 0.00583183855093959
+people 0.004358895643062106
+chinese 0.004338025970436314
+military 0.004246871087047091
+also 0.003867310411445107
+government 0.003736191856315661
+new 0.0034557054602943555
+countries 0.003389606327553422
+taiwan 0.003352691279865149
+world 0.0030823778209140146
+president 0.0028115871111971365
+development 0.0027417948430690964
+two 0.0025428085144140592
+economic 0.0025322079518528945
+can 0.002489740029337116
+--------------
+qian qichen said : " during my visit , i also had the chance to have extensive contact and exchange with personalities from various circles , such as the us congress , industrial and commercial enterprises , media , ethnic chinese community , and community of chinese people residing in the united states . they all expressed the wish to see china and the united states friendly to each other and that the bilateral relations between the two countries can develop steadily . " 
+1.0461770366218344
+during his visit to the united states , qian qichen also separately met with us vice president dick cheney , defense secretary donald rumsfeld , and national security adviser to the president condoleezza rice to exchange views with them on china 's accession to the world trade organization , the human rights issue , bilateral trade and the issue of the us establishment of the nmd . 
+1.048537038220412
+while denouncing iraq in strong terms , the us government is working on a new set of national security strategy . defense officials said that the united states will take preemptive military actions against states that support terrorism and seek to develop weapons of mass destruction . 
+1.049510124790706
+senate foreign relations committee chairman jesse helms said that the us policy is that taiwan is not a chinese province and that the united states only acknowledges that chinese people on both sides of the strait hold that there is only one china , while bolton said that the united states never subscribed to the view that the " china " in the " one china " policy refers to the prc . 
+1.0498164533374938
+this is of course related to the us domestic political situation , but it should be realized that for the united states nmd is not a purely security issue but also involves vast science and technology and economic interests ; at the same time it is also a strategic means by which the united states will continue to preserve its " world hegemony " status in the future , and so the united states will not lightly change course . 
+1.0516483203461078
+after that , in an interview by the us cable news network ( cnn ) , qian qichen personally made a clarification denying he had said that and emphasized : " what move china will make by that time depends on the situation . " he pointed out that china and the united states already reached consensus on us arms sales to taiwan in 1982 and he believed the united states is clear about china 's stand and will properly handle its arms sales to taiwan . 
+1.0519991848189674
+he also vigorously fawned on the united states by stressing that keeping the channels of contact open between the us and taiwan administrative departments " is in us interests in the asia-pacific region " ; he said that although the us side does not want to be a cross-strait mediator , it " can play a more active part as a stabilizer and balancer between the two sides " ; this was ingratiating himself with the us government and catering to the us strategic intention to " curb china by means of taiwan " . 
+1.0560563941268106
+however , we hope and believe that , during the term of president george w . bush , the united states ' china policy , supported by the two us parties , will continue to be implemented and that sino-us relations will see new development . 
+1.0561226118548743
+however , the arms sales meeting will still be of importance , because it will become an indicator for us to observe the orientation of the china policy pursued by the new government in the united states . 
+1.056349072106755
+he said : it was not the chinese plane that came to the united states , but the us aircraft flew to china . 
+1.0579643445253748
+since us president bush took office , he and his major government officials have repeatedly said that the tough diplomatic policy toward iraq that the united states has adopted over a long period of time will not be changed . 
+1.0591239861633823
+--------------
+however , the arms sales meeting will still be of importance , because it will become an indicator for us to observe the orientation of the china policy pursued by the new government in the united states . 
+0.15477720377439136
+he said : it was not the chinese plane that came to the united states , but the us aircraft flew to china . 
+0.15590555457745506
+senate foreign relations committee chairman jesse helms said that the us policy is that taiwan is not a chinese province and that the united states only acknowledges that chinese people on both sides of the strait hold that there is only one china , while bolton said that the united states never subscribed to the view that the " china " in the " one china " policy refers to the prc . 
+0.15760039986978955
+during his visit to the united states , qian qichen also separately met with us vice president dick cheney , defense secretary donald rumsfeld , and national security adviser to the president condoleezza rice to exchange views with them on china 's accession to the world trade organization , the human rights issue , bilateral trade and the issue of the us establishment of the nmd . 
+0.16123468751218792
+this is of course related to the us domestic political situation , but it should be realized that for the united states nmd is not a purely security issue but also involves vast science and technology and economic interests ; at the same time it is also a strategic means by which the united states will continue to preserve its " world hegemony " status in the future , and so the united states will not lightly change course . 
+0.16341496475704795
+however , we hope and believe that , during the term of president george w . bush , the united states ' china policy , supported by the two us parties , will continue to be implemented and that sino-us relations will see new development . 
+0.16366390772155245
+brezinsky , a renowned us expert on security issues , once said : the united states will continually abide by its present policy of " one china . " 
+0.16439888311678882
+while denouncing iraq in strong terms , the us government is working on a new set of national security strategy . defense officials said that the united states will take preemptive military actions against states that support terrorism and seek to develop weapons of mass destruction . 
+0.16515352221301977
+the us government and military have said that they will not hastily withdraw the rok-based us troops and shut down the military bases , but the development of the situation is something independent of the united states ' will . 
+0.1654558526699977
+the us government hopes that china will smoothly accede to the wto and the united states firmly applies itself to bringing about permanent normal trade relations between the united states and china . 
+0.1694944272946072
++++++++++++++++++++++++++
+澳门
+w
+KL
+macao 0.05258737945717092
+china 0.007183204895267006
+chinese 0.006909350442871742
+will 0.006563543167688058
+people 0.005243135735634286
+hong 0.005192115278441612
+kong 0.005171846282940086
+said 0.004948373656046897
+government 0.004836330284505414
+two 0.004797031614844843
+new 0.004757627897119221
+motherland 0.004430433678254058
+sar 0.00434830122179667
+law 0.004315673136997786
+year 0.004104821752018547
+development 0.0039434140777313085
+one 0.0038008536705633218
+country 0.0033684567621851715
+also 0.003264593432552955
+taiwan 0.0032383242003467534
+--------------
+edmund ho hao-wah , chief executive of the macao special administrative region , said : since its return to china a year ago , macao 's situation has been fine , the " basic law " has been implemented and the successful practice of the " one country , two system " principle in macao has further strengthened the confidence of the sar government and the vast numbers of the residents in macao 's future development . 
+1.1778714693902108
+over the past year since macao 's return to the motherland , the central government has firmly implemented the principle of " one country , two systems " and the sar government has managed government affairs in accordance with " the macao sar basic law " ; has realized " macao people governing macao " as well as a high degree of autonomy ; has quickly assumed its role and ensured normal operations ; 
+1.2334957702021943
+when meeting with the governor of macao viera here today , premier of the state council peng li said the policy of the chinese government towards macao is consistent , firm and unchanging , and that the chinese government would , in accordance to the policy of " one country , two systems " and strictly according to the regulations in the joint declaration between china and portugal and the basic laws of macao , maintain the stability and development of macao . 
+1.238716512726474
+" one country , two systems , " " macao people administering macao , " the policy of a high degree of self-autonomy and the macao basic law have been fully implemented . the operation of the msar government with mr . edmund ho hau wah as the chief executive is now on the right track , and the broad masses of compatriots in macao have heightened their enthusiasm in taking part in the administration of social affairs and construction work in macao . 
+1.2520745823406931
+the central government will firmly implement policies of " one country , two systems , " " macao people administering macao " and a high degree of self-autonomy , implement the macao basic law , go all out to support the work of the msar government led by mr . edmund ho hau wah , and support the msar government 's efforts to maintain social stability and promote economic and cultural development . 
+1.2605756338050496
+hong kong , december 10 ( xinhua ) hong kong and macao have reached agreement that after macao 's return to china , there will be no change in entry arrangements to the hong kong special administrative region ( sar ) for macao residents holding existing travel documents , a spokesman for hong kong immigration department said friday 
+1.2613528158106542
+jiang said the hong kong special administrative region has stood the test of the past two years and is continuing to maintain prosperity , and the forthcoming return of macao to the motherland will be a new page in china 's reunification cause , which he said can be a great celebration by chinese at home and abroad 
+1.2657542594400923
+macao , july 2 ( xinhua ) the macao special administrative region ( sar ) will further play the role of a bridge between china ' s inland and the portuguese speaking areas , macao sar chief executive edmund ho hau wah said here monday 
+1.2663886629629233
+in accordance with the " one country , two systems " guideline and the provisions of the basic law of the macao special administrative region , the standing committee has formulated laws such as the law on the military stationed in the macao sar and issued decisions on legal issues ; in accordance with law it has established the macao sar basic law committee , and the work of electing macao sar deputies to the ninth npc has been completed . 
+1.2691417892636503
+macao , december 6 ( xinhua ) the government of the macao special administrative region ( sar ) of china has decided to grant two pieces of land to the chinese troops stationed in macao 
+1.2775457017118308
+in particular , hong kong and macao have successively returned to the motherland and their prosperity and stability remain . since the " one country , two systems " concept is being successfully practiced in hong kong and macao , it has won not only the hong kong and macao compatriots ' warm support , but also the understanding and approval of the great majority of countries . the success in hong kong and macao has also objectively played an exemplary role in helping taiwan compatriots understand the " one country , two systems " concept . 
+1.2820242328697393
+--------------
+edmund ho hao-wah , chief executive of the macao special administrative region , said : since its return to china a year ago , macao 's situation has been fine , the " basic law " has been implemented and the successful practice of the " one country , two system " principle in macao has further strengthened the confidence of the sar government and the vast numbers of the residents in macao 's future development . 
+0.24810562099378516
+over the past year since macao 's return to the motherland , the central government has firmly implemented the principle of " one country , two systems " and the sar government has managed government affairs in accordance with " the macao sar basic law " ; has realized " macao people governing macao " as well as a high degree of autonomy ; has quickly assumed its role and ensured normal operations ; 
+0.2889260383829957
+when meeting with the governor of macao viera here today , premier of the state council peng li said the policy of the chinese government towards macao is consistent , firm and unchanging , and that the chinese government would , in accordance to the policy of " one country , two systems " and strictly according to the regulations in the joint declaration between china and portugal and the basic laws of macao , maintain the stability and development of macao . 
+0.3034476581036181
+jiang said the hong kong special administrative region has stood the test of the past two years and is continuing to maintain prosperity , and the forthcoming return of macao to the motherland will be a new page in china 's reunification cause , which he said can be a great celebration by chinese at home and abroad 
+0.30840713502466127
+hong kong , december 10 ( xinhua ) hong kong and macao have reached agreement that after macao 's return to china , there will be no change in entry arrangements to the hong kong special administrative region ( sar ) for macao residents holding existing travel documents , a spokesman for hong kong immigration department said friday 
+0.31100584200378395
+macao , december 6 ( xinhua ) the government of the macao special administrative region ( sar ) of china has decided to grant two pieces of land to the chinese troops stationed in macao 
+0.3190117138514513
+in accordance with the " one country , two systems " guideline and the provisions of the basic law of the macao special administrative region , the standing committee has formulated laws such as the law on the military stationed in the macao sar and issued decisions on legal issues ; in accordance with law it has established the macao sar basic law committee , and the work of electing macao sar deputies to the ninth npc has been completed . 
+0.32072915832562676
+over the past year since macao 's return , the central government has firmly implemented the principle of " one country , two systems " and has supported the macao sar government in managing government affairs in accordance with the law . 
+0.33245991300076866
+" one country , two systems , " " macao people administering macao , " the policy of a high degree of self-autonomy and the macao basic law have been fully implemented . the operation of the msar government with mr . edmund ho hau wah as the chief executive is now on the right track , and the broad masses of compatriots in macao have heightened their enthusiasm in taking part in the administration of social affairs and construction work in macao . 
+0.33458182159324423
+in particular , hong kong and macao have successively returned to the motherland and their prosperity and stability remain . since the " one country , two systems " concept is being successfully practiced in hong kong and macao , it has won not only the hong kong and macao compatriots ' warm support , but also the understanding and approval of the great majority of countries . the success in hong kong and macao has also objectively played an exemplary role in helping taiwan compatriots understand the " one country , two systems " concept . 
+0.3348406494433185
++++++++++++++++++++++++++
+特区
+w
+KL
+special 0.014618961034603644
+sar 0.01301782712501777
+government 0.012487108760594908
+macao 0.012181937027327816
+economic 0.010911167532601587
+china 0.00710179809829875
+region 0.0063874367471302524
+zone 0.0054472368569061765
+hong 0.005396146217768303
+will 0.005371661566951665
+kong 0.005348897366556447
+development 0.0053039115705191976
+year 0.0049709975824429225
+people 0.004948257528672761
+administrative 0.0043443949460674714
+new 0.004333321129271876
+zones 0.004184302275281127
+said 0.004156186014853402
+two 0.0037560980726715995
+hksar 0.0036713196098620074
+--------------
+edmund ho hao-wah , chief executive of the macao special administrative region , said : since its return to china a year ago , macao 's situation has been fine , the " basic law " has been implemented and the successful practice of the " one country , two system " principle in macao has further strengthened the confidence of the sar government and the vast numbers of the residents in macao 's future development . 
+1.2433432007148295
+beijing , december 18 ( xinhua ) chinese premier zhu rongji expressed his appreciation over the performance of the government of the macao special administrative region ( sar ) this year , when meeting here monday with edmund ho hau wah , chief executive of the macao sar 
+1.322413662248058
+macao , december 17 ( xinhua ) edmund ho hau wah , chief executive of the macao special administrative region ( sar ) , left here sunday for beijing to report his work to the central government 
+1.3396925614607313
+hong kong , february 13 ( xinhua ) the selection committee for the first government of the hong kong special administrative region ( hksar ) held a grand party this evening to celebrate the successful election of the first chief executive of the hksar and the smooth process in organizing the first sar government 
+1.3448636377565704
+the first of july this year marked the third anniversary of both the chinese people 's liberation army [ pla ] ' s entry into hong kong and the enforcement of " the prc hong kong special administrative region [ sar ] garrison law " . over the past three years , the central people 's government has effectively managed the defense affairs of the hong kong sar in accordance with the provisions of the hong kong garrison law ; 
+1.3461849726089243
+macao , july 2 ( xinhua ) the macao special administrative region ( sar ) will further play the role of a bridge between china ' s inland and the portuguese speaking areas , macao sar chief executive edmund ho hau wah said here monday 
+1.3472809550272107
+hong kong , december 10 ( xinhua ) hong kong and macao have reached agreement that after macao 's return to china , there will be no change in entry arrangements to the hong kong special administrative region ( sar ) for macao residents holding existing travel documents , a spokesman for hong kong immigration department said friday 
+1.3569912247588234
+in accordance with the " one country , two systems " guideline and the provisions of the basic law of the macao special administrative region , the standing committee has formulated laws such as the law on the military stationed in the macao sar and issued decisions on legal issues ; in accordance with law it has established the macao sar basic law committee , and the work of electing macao sar deputies to the ninth npc has been completed . 
+1.357372992044529
+macao , december 6 ( xinhua ) the government of the macao special administrative region ( sar ) of china has decided to grant two pieces of land to the chinese troops stationed in macao 
+1.358094878808996
+in a welcoming speech , fernando chui sai on , secretary of social and cultural affairs with the macao special administrative region ( sar ) government , said that the importance of the chinese language has been fully demonstrated as china 's comprehensive national strength gradually improves and the process of reform and opening up continues . with the number of overseas learners soaring and teaching scales expanding , the development of chinese as a second language has been boosted . 
+1.3589828710149179
+beijing , november 22 ( xinhua ) chinese president jiang zemin met here today with chief executive tung chee hwa of the hong kong special administrative region ( sar ) , who is here to report to the central government 
+1.359907932435237
+--------------
+edmund ho hao-wah , chief executive of the macao special administrative region , said : since its return to china a year ago , macao 's situation has been fine , the " basic law " has been implemented and the successful practice of the " one country , two system " principle in macao has further strengthened the confidence of the sar government and the vast numbers of the residents in macao 's future development . 
+0.3108589284907658
+beijing , december 18 ( xinhua ) chinese premier zhu rongji expressed his appreciation over the performance of the government of the macao special administrative region ( sar ) this year , when meeting here monday with edmund ho hau wah , chief executive of the macao sar 
+0.38223725814398923
+hong kong , february 13 ( xinhua ) the selection committee for the first government of the hong kong special administrative region ( hksar ) held a grand party this evening to celebrate the successful election of the first chief executive of the hksar and the smooth process in organizing the first sar government 
+0.3914148952675963
+macao , december 17 ( xinhua ) edmund ho hau wah , chief executive of the macao special administrative region ( sar ) , left here sunday for beijing to report his work to the central government 
+0.39558898095550177
+macao , december 6 ( xinhua ) the government of the macao special administrative region ( sar ) of china has decided to grant two pieces of land to the chinese troops stationed in macao 
+0.39795354742325006
+the first of july this year marked the third anniversary of both the chinese people 's liberation army [ pla ] ' s entry into hong kong and the enforcement of " the prc hong kong special administrative region [ sar ] garrison law " . over the past three years , the central people 's government has effectively managed the defense affairs of the hong kong sar in accordance with the provisions of the hong kong garrison law ; 
+0.40235510824876447
+in accordance with the " one country , two systems " guideline and the provisions of the basic law of the macao special administrative region , the standing committee has formulated laws such as the law on the military stationed in the macao sar and issued decisions on legal issues ; in accordance with law it has established the macao sar basic law committee , and the work of electing macao sar deputies to the ninth npc has been completed . 
+0.4111909498287911
+hong kong , november 6 ( xinhua ) the interpretation of the basic law of the hong kong special administrative region ( sar ) by the national people 's congress standing committee ( npcsc ) is entirely legal and constitutional , said a government spokesman saturday 
+0.41501653787756765
+macao , july 2 ( xinhua ) the macao special administrative region ( sar ) will further play the role of a bridge between china ' s inland and the portuguese speaking areas , macao sar chief executive edmund ho hau wah said here monday 
+0.4189166841208194
+under the entry arrangements , holders of the macao special administrative region ( sar ) passport or the macao sar travel permit with macao identity cards for not less than two years may transit hong kong for seven days visa free 
+0.4193253355124472
++++++++++++++++++++++++++
+进口
+w
+KL
+imports 0.020052780882031062
+import 0.015330424559817651
+china 0.010586181518629827
+products 0.009115932725414404
+percent 0.00797836339045375
+us 0.007976630359298225
+year 0.006352172939920603
+will 0.006316325957920299
+dollars 0.005370346199418565
+imported 0.005052637599960813
+trade 0.004937942874327208
+exports 0.004767922924964745
+said 0.004717383023732408
+japan 0.004456359160220292
+foreign 0.003942066326685546
+also 0.0034961021894377286
+eu 0.0034291876045353387
+growth 0.0031906164614603875
+goods 0.0031034759523451876
+united 0.003074625586066228
+--------------
+china imported more primary goods and electronics products during the 10 months the import volume of crude oil , for example , reached 57-94-million tons , up 99 percent those imports were worth of 11 9 billion u s dollars , 2 5 times more than the year before 
+1.4271451608062173
+last year , the exports of foreign-invested enterprises to japan were 14.9-billion us dollars , up 35.4% , and accounted for 48% of china 's exports to japan ; imports were 19.5-billion us dollars , up 14.7% , and accounted for 67% of china 's total import value from japan . 
+1.4922205715933021
+this year , in xiamen , foreign trade imports and exports have maintained a stably growing state . from january to october , its total import and export value reached 6.41-billion us dollars , increasing by 13.6% , among which , exports and imports respectively reached 3.52-billion us dollars and 2.89-billion us dollars , both increasing by 13.6% . 
+1.5093151439555421
+imports were valued at $ 19.53-billion with a net increase of $ 2.57-billion , up 15.7 percent . the proportion of imports from the united states to china 's gross import value grew from 10.3 percent in 1993 to 11.8 percent . the united states is the third largest source of imports after japan and the european union . 
+1.5418325943243125
+china 's exports have grown much faster than imports over the past two years exports climbed by 26 percent by the end of june this year compared with the same period of 1996 , while imports remain at last year 's level the nation 's trade surplus reached 17 8 billion us dollars for the first half of 1997 
+1.5437028518036728
+out of the april august import basket , non oil imports increased by 14 58 percent to 15-06-billion dollars with this , it has become certain that the targeted 20 percent export growth will not be achieved during the current fiscal year , the sources said 
+1.5447744910802872
+message from the ministry of foreign economic and trade : with the agreement of the state council , china will continue to implement the import taxation policy effective before mar , 31 , 1996 for importing equipment and raw materials within the total investment value of foreign funded enterprises approved before mar , 31 , 1996 until all imports are completed . 
+1.5469404280449206
+since the reform and opening up to the outside , china 's foreign trade is developing rapidly , the amount of imports and exports was up from 20.6-billion us dollars in 1978 to 325-billion us dollars in 1997 . since 1983 , import and export trade has been growing constantly and the momentum has not changed as of now . 
+1.5483325681089242
+import and export trade in electromechanical products continued to increase , and their proportion in total imports and exports continued to climb . 
+1.554142722132244
+according to statistical data from the customs head office , up to february of this year , china 's foreign trade imports and exports have continued to maintain a growth trend . the total value of imports and exports reached 36.1-billion us dollars , increasing by 13.9% compared with the same period last year . 
+1.5543776562427831
+from january to october this year , xiamen 's total import and export value was 6.41-billion us dollars , increasing by 13.6% , including exports and imports which were separately 3.52-billion us dollars and 2.89-billion us dollars , increasing by 13.6% . 
+1.5553721787135997
+--------------
+china imported more primary goods and electronics products during the 10 months the import volume of crude oil , for example , reached 57-94-million tons , up 99 percent those imports were worth of 11 9 billion u s dollars , 2 5 times more than the year before 
+0.40874006325352036
+last year , the exports of foreign-invested enterprises to japan were 14.9-billion us dollars , up 35.4% , and accounted for 48% of china 's exports to japan ; imports were 19.5-billion us dollars , up 14.7% , and accounted for 67% of china 's total import value from japan . 
+0.4352772706833538
+this year , in xiamen , foreign trade imports and exports have maintained a stably growing state . from january to october , its total import and export value reached 6.41-billion us dollars , increasing by 13.6% , among which , exports and imports respectively reached 3.52-billion us dollars and 2.89-billion us dollars , both increasing by 13.6% . 
+0.46822476379043937
+import and export trade in electromechanical products continued to increase , and their proportion in total imports and exports continued to climb . 
+0.49141013372722586
+out of the april august import basket , non oil imports increased by 14 58 percent to 15-06-billion dollars with this , it has become certain that the targeted 20 percent export growth will not be achieved during the current fiscal year , the sources said 
+0.4993230011848197
+imports were valued at $ 19.53-billion with a net increase of $ 2.57-billion , up 15.7 percent . the proportion of imports from the united states to china 's gross import value grew from 10.3 percent in 1993 to 11.8 percent . the united states is the third largest source of imports after japan and the european union . 
+0.5019177004147269
+from january to october this year , xiamen 's total import and export value was 6.41-billion us dollars , increasing by 13.6% , including exports and imports which were separately 3.52-billion us dollars and 2.89-billion us dollars , increasing by 13.6% . 
+0.509322475437024
+message from the ministry of foreign economic and trade : with the agreement of the state council , china will continue to implement the import taxation policy effective before mar , 31 , 1996 for importing equipment and raw materials within the total investment value of foreign funded enterprises approved before mar , 31 , 1996 until all imports are completed . 
+0.5096969474761426
+since the reform and opening up to the outside , china 's foreign trade is developing rapidly , the amount of imports and exports was up from 20.6-billion us dollars in 1978 to 325-billion us dollars in 1997 . since 1983 , import and export trade has been growing constantly and the momentum has not changed as of now . 
+0.5103869537577168
+according to statistical data from the customs head office , up to february of this year , china 's foreign trade imports and exports have continued to maintain a growth trend . the total value of imports and exports reached 36.1-billion us dollars , increasing by 13.9% compared with the same period last year . 
+0.5108755411652797
++++++++++++++++++++++++++
+科技
+w
+KL
+technology 0.02034093064953388
+science 0.019554608335072533
+scientific 0.010101930190502859
+training 0.010067423752670026
+military 0.009605067737117482
+technological 0.008794499372222007
+development 0.008095309351025405
+china 0.007187232796006408
+will 0.005321202607582292
+new 0.0049722527339157736
+economic 0.004303312948062148
+; 0.004281384499310898
+said 0.003670030315798288
+innovation 0.00360623975420203
+also 0.003563588992620973
+people 0.003444851684164167
+two 0.0031415581447044485
+must 0.003069026314636651
+world 0.003046851024181945
+education 0.0029760101623729053
+--------------
+the training quality will directly affect the implementation of work related to combat readiness . in giving training guidance , this department persisted in guiding the equipment training practice with scientific and technological achievements , and chanted the slogan of " conducting training with science and technology and doing everything for the sake of winning the battle " during the training . it also probed into the law governing military training with science and technology in order to seek development in equipment training . 
+1.0511259365722734
+we hope that the academicians will continue to make efforts , serve as a good example in carrying forward the spirit of science and boosting scientific and technological innovation and serve as good teachers in training qualified personnel , and make new contribution to the development of science and technology of our country and army . 
+1.0566207659361713
+leaders at all levels should profoundly study issues in the worldwide military revolution and development , and meticulously study and master scientific and technological knowledge on military training through science and technology . 
+1.0615161369257837
+should energetically help build the college-based science and technology gardens ; bring into full play their superiority in qualified personnel and knowledge ; and turn them into a base for breeding hi-tech enterprises , a base for training qualified personnel for scientific and technological enterprises , and a base for high and new technological research and development . 
+1.07368387404164
+in this situation , in order to bridge the gap and catch up with the countries at the forefront of the world 's military development , our only answer is to unswervingly implement the strategy of strengthening the military through science and technology and to promote scientific and technological innovation on a large scale . only in this way , can we make great strides in development . 
+1.078530850895361
+ever since the convocation of the third plenary session of the 11th cpc central committee , in particular , all the comrades working on the scientific and technological front for national defense and weaponry development have firmly implemented the strategy established by the party central committee and the central military commission on strengthening the army through science and technology , successfully adapted themselves to the world 's development trend of high technologies and changes in the world 's military field , gone all out to make the country strong , and have attained new achievements of world interest . 
+1.082911727805257
+the distinct theme of this scientific and technological troop training review is to speed up the conversion of military science and technology into combat strength , with the preparations for military struggle as the principle aim of in-depth scientific and technological troops training . 
+1.0864263540333554
+to correctly understand the relationship between being scientific and pursuing effectiveness and reform and innovation and steer military training through science and technology towards the correct direction , leaders at all levels must strengthen their sense of being scientific and widen their knowledge in high technology . 
+1.0901284711071968
+as in-depth changes in the military fields in the world are caused by the development of modern science and technology , especially high technology , the scientific and technological content of army building and modern warfare has been increased to an unprecedentedly high level . this has put ever higher demands on the scientific and cultural qualities of our officers and men . 
+1.0908777539028174
+to innovate in military theory , we should give an eye to the needs for military struggle preparation and development of military training through science and technology , by means of reviewing and sorting out training achievements made by the entire military in military research and training , creating a theory on military training through science and technology composed of a high-tech war tactical system with the characteristics of our military , and provide a theoretical guide to military training through science and technology in the new century . 
+1.091100241635458
+basing on training needs for real combat under high-tech conditions , the unit has opened classes for their officers and men to learn high technological knowledge , and has successively sent more than 1,000 cadres to study in different academies . this has resulted in a marked improvement in the modern scientific and technological quality of officers and men , and has brought about a new leap forward in training units through science and technology . 
+1.0917561936420601
+--------------
+leaders at all levels should profoundly study issues in the worldwide military revolution and development , and meticulously study and master scientific and technological knowledge on military training through science and technology . 
+0.18951849196744067
+we hope that the academicians will continue to make efforts , serve as a good example in carrying forward the spirit of science and boosting scientific and technological innovation and serve as good teachers in training qualified personnel , and make new contribution to the development of science and technology of our country and army . 
+0.19329956191696873
+the training quality will directly affect the implementation of work related to combat readiness . in giving training guidance , this department persisted in guiding the equipment training practice with scientific and technological achievements , and chanted the slogan of " conducting training with science and technology and doing everything for the sake of winning the battle " during the training . it also probed into the law governing military training with science and technology in order to seek development in equipment training . 
+0.19754866379498273
+should energetically help build the college-based science and technology gardens ; bring into full play their superiority in qualified personnel and knowledge ; and turn them into a base for breeding hi-tech enterprises , a base for training qualified personnel for scientific and technological enterprises , and a base for high and new technological research and development . 
+0.21218980826368805
+in this situation , in order to bridge the gap and catch up with the countries at the forefront of the world 's military development , our only answer is to unswervingly implement the strategy of strengthening the military through science and technology and to promote scientific and technological innovation on a large scale . only in this way , can we make great strides in development . 
+0.21790573834342405
+the distinct theme of this scientific and technological troop training review is to speed up the conversion of military science and technology into combat strength , with the preparations for military struggle as the principle aim of in-depth scientific and technological troops training . 
+0.22255167603797305
+to correctly understand the relationship between being scientific and pursuing effectiveness and reform and innovation and steer military training through science and technology towards the correct direction , leaders at all levels must strengthen their sense of being scientific and widen their knowledge in high technology . 
+0.22757728992963647
+consistently being scientific and pursuing effectiveness and adhering to reform and innovation are two extremely important principles for satisfactorily carrying out military training through science and technology in the new century . 
+0.228728850082301
+9.8 billion yuan for the establishment of science and technology development fund , a knowledge innovation project , and increased investment in basic science research and key scientific and technological projects , increasing by 14.6 percent as compared with the previous year ; 
+0.23011984418671028
+to innovate in military theory , we should give an eye to the needs for military struggle preparation and development of military training through science and technology , by means of reviewing and sorting out training achievements made by the entire military in military research and training , creating a theory on military training through science and technology composed of a high-tech war tactical system with the characteristics of our military , and provide a theoretical guide to military training through science and technology in the new century . 
+0.2368409785827486
++++++++++++++++++++++++++
+中国 传统
+w
+KL
+china 0.03099777264023503
+traditional 0.024787821537901978
+chinese 0.021663315770061586
+said 0.008548833841862509
+people 0.008021721716210772
+relations 0.0071423133340958326
+will 0.006727505721254316
+issues 0.006491212550556125
+good 0.006453698239473065
+friendship 0.006361075484295513
+macao 0.006301946477855352
+countries 0.006253909852035241
+stamps 0.005966959688181732
+teahouse 0.005963324168906865
+two 0.005683141544491413
+tradition 0.00558872968206643
+business 0.004999400413418072
+moslems 0.004896503357246513
+new 0.004881885723970661
+superiority 0.004846188762564422
+--------------
+macao issues stamps on traditional chinese teahouse 
+1.3575792960144257
+china has consistently paid attention to developing good-neighborly , friendly , and cooperative relations with india . the chinese people have extremely cherished the traditional friendship with the indian people . 
+1.3685064886985845
+the chinese government treasures the traditional friendship between china and laos and will continue , as always , to develop good-neighborly and friendly relations with laos . 
+1.3696077512672242
+on the opening ceremony of the " chinese art week " before the show , li mu , the head of the chinese artistic delegation and vice president of the china federation of literary and art circles said in a speech that the " chinese art week " put together by the cflac , the entrepreneurs association in ottawa , the canadian health times , the china news and the canadian maple bridge business group would definitely further strengthen cultural exchanges between china and canada , as well as the traditional friendship between the two peoples . 
+1.3760090013871595
+chikan , also the minister of economy , said that the new hungarian government attaches importance to its relations with china and hopes to develop the traditional friendship between the two countries , in particular in expanding economic and trade cooperation 
+1.3832221879018496
+he said : the ongoing visit to turkey has not only brought the traditional friendship of the chinese people to the people in turkey , but will also strengthen the friendly relations of a long history between the two peoples , and promote development of a multiple aspects in the bilateral cooperation oriented towards the 21st century . 
+1.3914777146819963
+in particular , the chinese premier said , he is convinced this visit will further consolidate and strengthen the traditional friendship between china and pakistan , and help to promote steadily the china pakistan partnership of all round cooperation 
+1.4002287041544466
+zhang wannian said : bangladesh is china 's close and friendly neighbor and the two countries have a traditional friendship and relations of cooperation . 
+1.4016761353021034
+china 's moslems have traditional superiority at being good at doing business . 
+1.4017581476090246
+the spokesman expressed his belief that jiang 's visit will serve to further promote the traditional friendship and mutual understanding between china and africa and help consolidate and develop the friendly relations and cooperation between china and african countries 
+1.4161720981157855
+he said that his excellency the speaker attaches importance to developing relations with china and for years has dedicated himself to the cause of friendship between china and cambodia . he expressed his belief that the visit will surely promote further development of the traditional good-neighborly and friendly relations between china and cambodia . 
+1.4186409044112005
+--------------
+macao issues stamps on traditional chinese teahouse 
+0.5056275798660775
+the chinese government treasures the traditional friendship between china and laos and will continue , as always , to develop good-neighborly and friendly relations with laos . 
+0.5303665904512139
+china 's moslems have traditional superiority at being good at doing business . 
+0.5498064314606763
+chikan , also the minister of economy , said that the new hungarian government attaches importance to its relations with china and hopes to develop the traditional friendship between the two countries , in particular in expanding economic and trade cooperation 
+0.5507213726171694
+he said : the ongoing visit to turkey has not only brought the traditional friendship of the chinese people to the people in turkey , but will also strengthen the friendly relations of a long history between the two peoples , and promote development of a multiple aspects in the bilateral cooperation oriented towards the 21st century . 
+0.5542351399355012
+china has consistently paid attention to developing good-neighborly , friendly , and cooperative relations with india . the chinese people have extremely cherished the traditional friendship with the indian people . 
+0.5603699669245957
+in particular , the chinese premier said , he is convinced this visit will further consolidate and strengthen the traditional friendship between china and pakistan , and help to promote steadily the china pakistan partnership of all round cooperation 
+0.5679592938515
+zhang wannian said : bangladesh is china 's close and friendly neighbor and the two countries have a traditional friendship and relations of cooperation . 
+0.5712803538220527
+on the opening ceremony of the " chinese art week " before the show , li mu , the head of the chinese artistic delegation and vice president of the china federation of literary and art circles said in a speech that the " chinese art week " put together by the cflac , the entrepreneurs association in ottawa , the canadian health times , the china news and the canadian maple bridge business group would definitely further strengthen cultural exchanges between china and canada , as well as the traditional friendship between the two peoples . 
+0.5720636754917033
+huaqing liu said that , the people of china and thailand have traditional friendship and the relationship between the two countries was also very friendly too . 
+0.5739169163970855
++++++++++++++++++++++++++
+台湾 问题
+w
+KL
+taiwan 0.06085347817057448
+issue 0.043368118805800486
+china 0.025607146391257513
+chinese 0.00972601915381274
+government 0.007500464672073878
+internal 0.007374752775272474
+will 0.007230882529618823
+question 0.0068309595677212755
+affair 0.006356433842931151
+one 0.006045818249835678
+can 0.005770185686129504
+people 0.005428740331088621
+also 0.0052381792636457284
+said 0.005090655276185005
+peaceful 0.004932482414694402
+us 0.004867162006149729
+two 0.004858316507989568
+relations 0.004767483104285905
+reunification 0.0047172216021174095
+principle 0.0047068975270398985
+--------------
+he reiterated : russia has supported all along the principled stand of the chinese government on the taiwan issue , and maintained that the taiwan issue is an internal affair of china , and taiwan is an inseparable part of chinese territory . 
+1.1332562244125508
+my esteemed fellow colleagues : not long ago , the chinese government issued the white paper on " the one-china principle and the taiwan issue . " in this paper , we reiterated our principle and stance on the taiwan issue , that is , upholding the one-china principle and the basic principles of " peaceful reunification and one china , two systems , " opposing any attempts of splitting china and permanently maintaining the current state of separation , and not allowing the taiwan issue to drag on indefinitely . 
+1.144360043589122
+speaking on the taiwan issue , goh chok tong said that taiwan is one of the provinces of china , and the taiwan issue is an internal chinese affair . 
+1.1448196444247
+the taiwan issue is china 's internal affair . 
+1.1687821218758951
+resolving the taiwan issue is china 's internal affair ; 
+1.1735126421677036
+he said the white paper " the one-china principle and the taiwan issue " manifested the chinese government 's consistent stand on the taiwan issue and reflected all chinese people 's aspiration . the great cause of china 's reunification is irresistible . 
+1.1780267742439803
+taiwan is an inalienable part of china and the taiwan issue is an internal affair of china . 
+1.1789815887269772
+whereas the hong kong issue was a historical issue left over by colonial aggression , the taiwan issue is an issue left over by china 's civil war and is totally an internal affair of china . 
+1.179557054930897
+the taiwan issue is a historical issue left over by the chinese civil war , which is a completely internal affair of china . no external forces are entitled to intervene in it . 
+1.182244938102081
+on 21 february , the chinese government issued a white paper " the one-china principle and the taiwan issue " to wholly and systematically explain the principled stand and policy of the chinese government on adhering to the principle of one china . this has shown the chinese people 's determination and confidence in solving the taiwan issue at an early date and realizing the complete reunification of the motherland . 
+1.1867136594969152
+jiang zemin expounded china 's basic principle on the taiwan issue . he pointed out : the chinese government has been devoting consistent efforts to the realization of a peaceful solution of the taiwan issue . 
+1.1922051743134914
+--------------
+he reiterated : russia has supported all along the principled stand of the chinese government on the taiwan issue , and maintained that the taiwan issue is an internal affair of china , and taiwan is an inseparable part of chinese territory . 
+0.4541653729866993
+speaking on the taiwan issue , goh chok tong said that taiwan is one of the provinces of china , and the taiwan issue is an internal chinese affair . 
+0.4598989231792761
+the taiwan issue is china 's internal affair . 
+0.47233877354239157
+resolving the taiwan issue is china 's internal affair ; 
+0.47706929383420066
+taiwan is an inalienable part of china and the taiwan issue is an internal affair of china . 
+0.48729910321468145
+whereas the hong kong issue was a historical issue left over by colonial aggression , the taiwan issue is an issue left over by china 's civil war and is totally an internal affair of china . 
+0.490585768155483
+my esteemed fellow colleagues : not long ago , the chinese government issued the white paper on " the one-china principle and the taiwan issue . " in this paper , we reiterated our principle and stance on the taiwan issue , that is , upholding the one-china principle and the basic principles of " peaceful reunification and one china , two systems , " opposing any attempts of splitting china and permanently maintaining the current state of separation , and not allowing the taiwan issue to drag on indefinitely . 
+0.4906960925604419
+the taiwan issue is a historical issue left over by the chinese civil war , which is a completely internal affair of china . no external forces are entitled to intervene in it . 
+0.49496035682204526
+he said the white paper " the one-china principle and the taiwan issue " manifested the chinese government 's consistent stand on the taiwan issue and reflected all chinese people 's aspiration . the great cause of china 's reunification is irresistible . 
+0.5056531081454163
+however , resolving the taiwan issue is absolutely an internal affair of china . 
+0.5079585528189576
++++++++++++++++++++++++++
+海上 冲突
+w
+KL
+sea 0.0666723784515204
+clash 0.06571755916399225
+north 0.05736447320383684
+south 0.055823654744771384
+koreas 0.05541574280620383
+accusations 0.05536093673342818
+traded 0.05536092778337228
+world 0.010077750860940636
+place 0.009404715409012842
+took 0.00938103125621406
+right 0.009349441775171967
+close 0.009339657066461218
+20 0.009327901158224378
+cup 0.009238168274377071
+minutes 0.009234075501340389
+lasted 0.009229193826729383
+soccer 0.00922431746118497
+tournament 0.009219867849906329
+new 0.003810451012274164
+line 0.0035666347923594423
+--------------
+south and north koreas traded more accusations after clash at sea 
+0.7716692737552623
+( afp , seoul ) after the june 29 naval clash in the yellow sea between south and north koreas , both sides resumed hostility and traded accusations . south korean navy said the yellow sea clash was " elaborately orchestrated " by pyongyang . 
+1.1066490005494842
+national security council held an emergency meeting a few hours after a naval clash between south and north koreas broke out on the 29th in the yellow sea . 
+2.12327688127511
+in the wake of the june 29 yellow sea clash , south and north koreas yelled at each other in the harshest tone of warning ever in recent years . 
+2.151242165166942
+the 20-minute sea battle between south and north koreas took place at a time when the world cup soccer tournament is drawing to a close in south korea and japan . 
+2.2664951969661575
+south and north koreas blamed each other for provoking the clash . 
+2.323078290813675
+the sea clash that lasted 20 minutes took place right before the world cup soccer tournament was about to close . 
+2.529562726927224
+the naval clash between south and north koreas hah increased the tensions and pushed their ties to the lowest level since kim dae-jung held a historic summit with north korean leader kim jong-il two years ago . 
+2.5698716311598124
+the un headquarter , which had been overseeing the situation along the frontier between south and north koreas since the 1950-1953 korean war , proposed a meeting between the two sides following yesterday 's naval clash . 
+2.5774903518346943
+the 20-second naval clash in the yellow sea took place as the world cup football tournament drew to a close between south korea and japan . 
+2.5806430604059214
+the naval clash between south and north koreas has escalated tensions between the two sides , making their relationship plunge to the lowest point since kim dae-jung and north korean leader kim jong-il held the historic summit meeting two years ago . 
+2.5922835390959813
+--------------
+south and north koreas traded more accusations after clash at sea 
+0.6954616017240781
+( afp , seoul ) after the june 29 naval clash in the yellow sea between south and north koreas , both sides resumed hostility and traded accusations . south korean navy said the yellow sea clash was " elaborately orchestrated " by pyongyang . 
+1.036753812391605
+national security council held an emergency meeting a few hours after a naval clash between south and north koreas broke out on the 29th in the yellow sea . 
+2.052248956127668
+in the wake of the june 29 yellow sea clash , south and north koreas yelled at each other in the harshest tone of warning ever in recent years . 
+2.078206672092926
+the 20-minute sea battle between south and north koreas took place at a time when the world cup soccer tournament is drawing to a close in south korea and japan . 
+2.1927286130561017
+south and north koreas blamed each other for provoking the clash . 
+2.247488895457211
+the sea clash that lasted 20 minutes took place right before the world cup soccer tournament was about to close . 
+2.45335505489604
+the naval clash between south and north koreas hah increased the tensions and pushed their ties to the lowest level since kim dae-jung held a historic summit with north korean leader kim jong-il two years ago . 
+2.50386412722177
+the 20-second naval clash in the yellow sea took place as the world cup football tournament drew to a close between south korea and japan . 
+2.506777410335338
+the un headquarter , which had been overseeing the situation along the frontier between south and north koreas since the 1950-1953 korean war , proposed a meeting between the two sides following yesterday 's naval clash . 
+2.511563900330742
++++++++++++++++++++++++++
+民主党
+w
+KL
+democratic 0.023350519858418576
+party 0.01965473516853942
+democrats 0.00857163893205619
+us 0.008251891077985435
+will 0.007778447106426535
+bush 0.005640766827443453
+said 0.005575652249653461
+national 0.005302084314995499
+new 0.005050520896957832
+president 0.004975325143338532
+china 0.004750170549598221
+convention 0.004237347677709867
+also 0.004141789757460017
+presidential 0.004114162650379151
+kerry 0.00406601094150537
+republican 0.00367912104245823
+gore 0.003364544430746099
+election 0.0032205978925500312
+people 0.0031411636210005125
+house 0.0031145012955077034
+--------------
+four days after the us democratic national convention formally nominated kerry as the party 's presidential candidate , the massachusetts senator 's white house bid is shadowed by new terror threats and disappointing support rate in polls . 
+1.5159481417257274
+" democrats are stronger than ever on national security issues and are embracing the presidential election confident of winning the debate over which party will keep americans safe , " said democratic national committee chairman mcauliffe . 
+1.521342185623088
+kerry and edwards will be officially crowned as the democratic party 's presidential candidates at the national party convention in boston , massachusetts , july 26-28 . 
+1.5307220791764018
+the democratic national convention will be held in boston this month from the 26-29th , while incumbent president bush 's republican party is to hold its convention in new york august 30-september 2 . 
+1.5314001760018174
+although many democrats oppose the war in iraq , both the presidential hopeful kerry , soon to be formally anointed by the democratic party , and his running mate senator edwards , voted in favor of the war in iraq in late 2002 . 
+1.5335760413578143
+the newly revealed development comes at an awkward time for the kerry 's camp . the democratic national convention will be held in boston next week , which will formally nominate kerry to represent the democrats in this year 's presidential election . 
+1.5356422976286102
+from 14 to 17 august , during four noisy days in the western us city of los angeles , the democratic national convention set the tone for the party 's 2000 presidential campaign platform , and confirmed al gore and joe lieberman as the democratic presidential and vice-presidential candidates , opening up the decisive final stages of the race against the republicans for the white house . 
+1.544807282561532
+as it now enters the crucial stage for the us presidential election , and as the republican party 's candidate bush calls for rapid deployment of the nmd and the democratic party 's candidate al gore stands for caution , the nmd thus becomes a part of us election politics . 
+1.5471032343116762
+with " national security " the most crucial campaign issue in november 's us presidential election polling , democratic candidate kerry is exerting all his efforts trying to convince voters he can better safeguard america than republican president bush . 
+1.5476213633479665
+5,000 party delegates , 15,000 ceremony guests and 15,000 media reporters flooded into senator kerry 's hometown , to attend the four-day democratic national convention opening tomorrow , at which they will nominate kerry as the party 's presidential candidate to participate in the november 2 presidential election . 
+1.550142764931924
+upon his arrival , zeng qinghong met with minister of foreign affairs and trade yi chong-pin , minister of government administration and local autonomy choe in-ki , president of the united liberal democrats yi han-tong , president of the grand national party yi hoe-chang , candidate of the new millennium democratic party so yong-hun , and some other celebrities in the kok political and economic circles . 
+1.5516437005602786
+--------------
+" democrats are stronger than ever on national security issues and are embracing the presidential election confident of winning the debate over which party will keep americans safe , " said democratic national committee chairman mcauliffe . 
+0.4153636634361216
+four days after the us democratic national convention formally nominated kerry as the party 's presidential candidate , the massachusetts senator 's white house bid is shadowed by new terror threats and disappointing support rate in polls . 
+0.4203607065047929
+kerry and edwards will be officially crowned as the democratic party 's presidential candidates at the national party convention in boston , massachusetts , july 26-28 . 
+0.4253449845065123
+the democratic national convention will be held in boston this month from the 26-29th , while incumbent president bush 's republican party is to hold its convention in new york august 30-september 2 . 
+0.4253548265835507
+the newly revealed development comes at an awkward time for the kerry 's camp . the democratic national convention will be held in boston next week , which will formally nominate kerry to represent the democrats in this year 's presidential election . 
+0.4346226367477059
+with " national security " the most crucial campaign issue in november 's us presidential election polling , democratic candidate kerry is exerting all his efforts trying to convince voters he can better safeguard america than republican president bush . 
+0.4419466795660909
+as it now enters the crucial stage for the us presidential election , and as the republican party 's candidate bush calls for rapid deployment of the nmd and the democratic party 's candidate al gore stands for caution , the nmd thus becomes a part of us election politics . 
+0.4436860568884088
+5,000 party delegates , 15,000 ceremony guests and 15,000 media reporters flooded into senator kerry 's hometown , to attend the four-day democratic national convention opening tomorrow , at which they will nominate kerry as the party 's presidential candidate to participate in the november 2 presidential election . 
+0.44588121886338894
+the democratic national convention is being held in boston . while party delegates sing high praise for kerry , he will declare at a campaign rally today in norfolk , virginia , that he will be more competent for the presidency than bush once there is a warfare . 
+0.4460679689402381
+although many democrats oppose the war in iraq , both the presidential hopeful kerry , soon to be formally anointed by the democratic party , and his running mate senator edwards , voted in favor of the war in iraq in late 2002 . 
+0.45128471242254853
++++++++++++++++++++++++++
+巨人 体育馆
+w
+KL
+will 0.04476575007504936
+stadium 0.04241862928399924
+giants 0.04241417407954326
+held 0.03290923612836683
+across 0.032660613471646935
+river 0.03263282113333655
+square 0.03262708653714455
+convention 0.03262524782728731
+republican 0.03260852587658051
+located 0.03260778560818285
+garden 0.03258899190505223
+madison 0.0325858844421774
+hudson 0.032585736452869614
+new 0.010975285335497418
+president 0.01030435238149623
+bush 0.0100302930632815
+day 0.009992956631907735
+another 0.009971166778357519
+1 0.009935025185692333
+september 0.009907399302019641
+--------------
+giants stadium is located across the hudson river from madison square garden where the republican convention will be held . 
+1.0122900708705695
+the online petition calls on bruce springsteen to perform at giants stadium in new jersey on september 1 , the same day the republicans will formally nominate president bush to serve another term . 
+2.495925394289089
+the democratic national convention will be held in boston this month from the 26-29th , while incumbent president bush 's republican party is to hold its convention in new york august 30-september 2 . 
+3.860142029931642
+us republicans gathered in new york for their national convention where they will nominate president bush to continue to represent the republican party in the reelection bid , as anti-bush demonstrators planned a massive , noisy demonstration in the streets of new york . 
+3.8865590332832123
+a new york music promoter and democratic activist rasiej has recentlyl started an internet drive to persuade bruce springsteen to headline a concert that he hopes will drown out the upcoming republican party convention . 
+3.9476059288406726
+shenzhen , june 26 , xinhua ( he guanghuai ) on june 26 which marks the international anti-drug day , guangdong province , hong kong and macao autonomous regions jointly held a meeting of destroying narcotics this morning in the west square of shenzhen stadium . officials from the three parties together read the joint anti-drug declaration , showing they will further strengthen cooperation to effectively control the spreading of drug trafficking and abusing in the three places . 
+3.9556262582989974
+a grand opening ceremony was held this morning at ningxia stadium , on which riders from across the country rode one lap around the synthetic track one after another to demonstrate their charm . 
+3.9854887763586064
+ron reagan , 46 , a political independent and critic of republican president bush , will talk about stem cell research on the democratic national convention , according to the report . 
+4.075601183617521
+the newly revealed development comes at an awkward time for the kerry 's camp . the democratic national convention will be held in boston next week , which will formally nominate kerry to represent the democrats in this year 's presidential election . 
+4.079223951957087
+the city of philadelphia , famous in american history , was a scene of bustle and excitement from 31 july to 3 august , as the republican convention , which was held there in a atmosphere of great joy , formally selected george walker bush and cheney as its presidential and vice presidential candidates and adopted its election platform . 
+4.0817185480720655
+the republican convention opens at a time when bush is enjoying a new but slight lead in polls over the democratic rival kerry , but bush has to face bad news on the economy and the iraqi crisis , and he has also admitted there was miscalculation on how the situation will develop after the iraqi war . 
+4.120033284857897
+--------------
+giants stadium is located across the hudson river from madison square garden where the republican convention will be held . 
+1.012063869865765
+the online petition calls on bruce springsteen to perform at giants stadium in new jersey on september 1 , the same day the republicans will formally nominate president bush to serve another term . 
+2.4956991932842825
+the democratic national convention will be held in boston this month from the 26-29th , while incumbent president bush 's republican party is to hold its convention in new york august 30-september 2 . 
+3.8625027236569607
+us republicans gathered in new york for their national convention where they will nominate president bush to continue to represent the republican party in the reelection bid , as anti-bush demonstrators planned a massive , noisy demonstration in the streets of new york . 
+3.8881562747352967
+a new york music promoter and democratic activist rasiej has recentlyl started an internet drive to persuade bruce springsteen to headline a concert that he hopes will drown out the upcoming republican party convention . 
+3.9495635727511287
+shenzhen , june 26 , xinhua ( he guanghuai ) on june 26 which marks the international anti-drug day , guangdong province , hong kong and macao autonomous regions jointly held a meeting of destroying narcotics this morning in the west square of shenzhen stadium . officials from the three parties together read the joint anti-drug declaration , showing they will further strengthen cooperation to effectively control the spreading of drug trafficking and abusing in the three places . 
+3.967014346661068
+a grand opening ceremony was held this morning at ningxia stadium , on which riders from across the country rode one lap around the synthetic track one after another to demonstrate their charm . 
+3.9877812291475783
+ron reagan , 46 , a political independent and critic of republican president bush , will talk about stem cell research on the democratic national convention , according to the report . 
+4.078516747366808
+the newly revealed development comes at an awkward time for the kerry 's camp . the democratic national convention will be held in boston next week , which will formally nominate kerry to represent the democrats in this year 's presidential election . 
+4.081812777821195
+the city of philadelphia , famous in american history , was a scene of bustle and excitement from 31 july to 3 august , as the republican convention , which was held there in a atmosphere of great joy , formally selected george walker bush and cheney as its presidential and vice presidential candidates and adopted its election platform . 
+4.087626547575138
++++++++++++++++++++++++++
+南韩
+w
+KL
+south 0.04358557918392567
+korea 0.03959604677508399
+korean 0.02057561576105611
+north 0.017030890767694856
+said 0.008016075069119801
+will 0.005238171237967334
+japan 0.005104686190108898
+party 0.005061957235710597
+high 0.004841952841544126
+defense 0.004818679479105344
+first 0.004773235690777995
+alert 0.004588511015771498
+world 0.003976544552190746
+two 0.0037733416692805892
+ministry 0.003770377635505125
+china 0.0036430803936087766
+border 0.0036270778255044563
+one 0.0036010637257268712
+president 0.003397878416749455
+officials 0.0032856010967229747
+--------------
+( afp , seoul ) as south korean president kim dae-jung went to attend the closing ceremony of the world cup soccer tournament in japan , south korea 's armed forces are maintaining a high level of alert against north korea today . 
+1.2692676976441355
+seoul , ( afp ) as south korean president kim dae-jung left for japan to attend the closing ceremony of the world cup tournament , south korean armed forces maintained high alert against north korea today . 
+1.2825560844301653
+( afp report from seoul ) as south korean president kim dae-jung went to japan to attend the closing ceremony of the world cup , south korean forces today were keeping high vigilance over north korea . 
+1.3100045153994997
+south korea maintains high alert along south and north korean border 
+1.3322251885111929
+( afp report from seoul ) a south korean official said that north korea had expressed regret over the naval clash incident between the south and the north last month and proposed to resume the ministerial-level negotiations between the two sides . 
+1.3681620288165697
+south korea 's unification ministry said today that north korea had received a south korean proposal . the two sides will hold initial talks in north korea 's resort of mt . kumgang on friday and saturday . 
+1.3811995008451703
+( agence france-presse , seoul ) - south korea president kim dae-jung departed for japan to attend the world cup closing ceremony . meanwhile , armed forces of south korea continue to maintain a high alert against north korea . 
+1.3854394612214826
+according to the south korean media report , this is the first time that aid goods to north korea provided by the south korean government and a civic organization were directly shipped from south korea to north korea . 
+1.4014448520406155
+200 north korean defectors arrive in south korea 
+1.4054709428903251
+( afp , seoul ) lee nam-shin , south korea 's chairman of the joint chiefs of staff , said to the members of parliament that south korean navy exercised restraints in the gunbattle between south and north koreas in the yellow sea to avert a full-scale war . 
+1.4055578832055526
+north korea rejects talks after south and north korean naval clash 
+1.4082354740518481
+--------------
+( afp , seoul ) as south korean president kim dae-jung went to attend the closing ceremony of the world cup soccer tournament in japan , south korea 's armed forces are maintaining a high level of alert against north korea today . 
+0.4042834190299673
+seoul , ( afp ) as south korean president kim dae-jung left for japan to attend the closing ceremony of the world cup tournament , south korean armed forces maintained high alert against north korea today . 
+0.4049907636125151
+( afp report from seoul ) as south korean president kim dae-jung went to japan to attend the closing ceremony of the world cup , south korean forces today were keeping high vigilance over north korea . 
+0.4295995933333581
+south korea maintains high alert along south and north korean border 
+0.43456629601216945
+( afp report from seoul ) a south korean official said that north korea had expressed regret over the naval clash incident between the south and the north last month and proposed to resume the ministerial-level negotiations between the two sides . 
+0.4730787763073214
+south korea 's unification ministry said today that north korea had received a south korean proposal . the two sides will hold initial talks in north korea 's resort of mt . kumgang on friday and saturday . 
+0.4963213297086609
+north korea rejects talks after south and north korean naval clash 
+0.5044810163698298
+after a clash between south and north korean navy , north korea refuses further talks 
+0.5053307709336712
+according to the south korean media report , this is the first time that aid goods to north korea provided by the south korean government and a civic organization were directly shipped from south korea to north korea . 
+0.5142624933940084
+( agence france-presse , seoul ) - south korea president kim dae-jung departed for japan to attend the world cup closing ceremony . meanwhile , armed forces of south korea continue to maintain a high alert against north korea . 
+0.5233934210361306
++++++++++++++++++++++++++
+朝鲜
+w
+KL
+dprk 0.022761474139625676
+korean 0.013338790012714303
+korea 0.00966622526827906
+peninsula 0.009183374305923411
+north 0.008361423766762171
+will 0.00672340583635208
+states 0.006639538091429033
+united 0.006463678332852995
+china 0.006030021483754058
+people 0.005981317040197312
+said 0.005606992259438068
+us 0.005552423331557119
+development 0.004323065933378128
+countries 0.004297577782459782
+south 0.004278659438293798
+relations 0.004128397673983251
+also 0.004007043475602948
+kim 0.003385722205006932
+two 0.0033626270565356125
+government 0.0030324780726313136
+--------------
+the four-party korean peninsula talks , participated in by the dprk , south korea , china , and the united states , has held many meetings ; the dprk has kept up its contacts and dialogues with the united states ; talks on normalizing diplomatic relations have been reopened between the dprk and japan ; 
+1.13427459222385
+new york , august 7 ( xinhua ) senior officials from china , the united states , the democratic people 's republic of korea ( dprk ) and south korea ended here today their first session of the preparatory meeting for the four party talks on a peace mechanism on the korean peninsula 
+1.1374066089270707
+in recent years , the dprk conducted diplomatic consultations with the united states , japan , and other countries on many occasions , and parties concerned also make reflections and readjustments over the policies toward the korean peninsula . gratifying changes in the peninsula 's greater international environment and peace , reconciliation , and cooperation gradually becoming the main theme in the development of the situation on the peninsula have helped create the necessary conditions and basis for the north-south summit meeting . 
+1.1726934565024771
+last may , william perry , us dprk policy coordinator and former us secretary of defense , paid a visit to the dprk where the two sides held consultations on bilateral relations and issues concerning the korean peninsula , during which the dprk demanded that the united states recognize the dprk system and sovereignty ; treat the dprk on an equal footing ; and thoroughly abolish its hostile policies towards the dprk . 
+1.183798323625613
+second , the summit between south korea and the dprk can help remove distrust between the south and the north , thus guiding the korean peninsula to move toward the direction of a peaceful reunification . 
+1.18865781665335
+and the dprk 's relations with italy and other western countries have undergone some improvement . the dialogues and relaxed surrounding atmosphere of the korean peninsula have made a summit meeting possible between south korea and the dprk . 
+1.1917945914685883
+first of all , the summit meeting between south korea and the dprk is expected to further ease the situation on the korean peninsula , help bring true peace and stability to the korean peninsula , and thus make positive contribution to maintaining peace in asia and the entire world . 
+1.1923729903952451
+on 13 june , kim tae-chung , president of the republic of korea [ rok ] , will lead a large delegation to pyongyang , capital of the democratic people 's republic of korea [ dprk ] , for a historical meeting with kim chong-il , general secretary of the korean workers ' party and chairman of the dprk national defense council . 
+1.1934154817672256
+he pointed out that the chinese people will , as always , firmly support the efforts of the dprk workers ' party and government for easing the tension on the korean peninsula and to realize the peaceful reunification of korea 
+1.1975602463048776
+first , dprk national defense commission chairman kim chong-il , and rok president kim tae-chung decided to " meet in the millennium . " the first meeting between heads of state of the dprk and rok was successfully held in p'yongyang in june this year . both sides signed an epoch-making joint declaration , thus laying a foundation for reconciliation and cooperation between dprk and rok and opening a new course for easing tension on the korean peninsula and finally realizing peaceful reunification through self-reliance . 
+1.1975931674775877
+the confrontation between the dprk and the united states has lasted half a century , and there is profound rancor between the two sides . for a long time in the past , the united states pursued a policy of " confrontation , isolation , and sanctions " against the dprk . this not only became a major external factor that obstructed economic growth in the dprk , but also caused prolonged tension on the korean peninsula and endangered peace and stability on the peninsula and east asia . 
+1.2053161995291024
+--------------
+the four-party korean peninsula talks , participated in by the dprk , south korea , china , and the united states , has held many meetings ; the dprk has kept up its contacts and dialogues with the united states ; talks on normalizing diplomatic relations have been reopened between the dprk and japan ; 
+0.2280462812857026
+new york , august 7 ( xinhua ) senior officials from china , the united states , the democratic people 's republic of korea ( dprk ) and south korea ended here today their first session of the preparatory meeting for the four party talks on a peace mechanism on the korean peninsula 
+0.24418143589234426
+last may , william perry , us dprk policy coordinator and former us secretary of defense , paid a visit to the dprk where the two sides held consultations on bilateral relations and issues concerning the korean peninsula , during which the dprk demanded that the united states recognize the dprk system and sovereignty ; treat the dprk on an equal footing ; and thoroughly abolish its hostile policies towards the dprk . 
+0.28542766649071005
+and the dprk 's relations with italy and other western countries have undergone some improvement . the dialogues and relaxed surrounding atmosphere of the korean peninsula have made a summit meeting possible between south korea and the dprk . 
+0.2857750459504118
+second , the summit between south korea and the dprk can help remove distrust between the south and the north , thus guiding the korean peninsula to move toward the direction of a peaceful reunification . 
+0.2863833147800693
+first of all , the summit meeting between south korea and the dprk is expected to further ease the situation on the korean peninsula , help bring true peace and stability to the korean peninsula , and thus make positive contribution to maintaining peace in asia and the entire world . 
+0.28785079348875686
+in recent years , the dprk conducted diplomatic consultations with the united states , japan , and other countries on many occasions , and parties concerned also make reflections and readjustments over the policies toward the korean peninsula . gratifying changes in the peninsula 's greater international environment and peace , reconciliation , and cooperation gradually becoming the main theme in the development of the situation on the peninsula have helped create the necessary conditions and basis for the north-south summit meeting . 
+0.29293192023020626
+he pointed out that the chinese people will , as always , firmly support the efforts of the dprk workers ' party and government for easing the tension on the korean peninsula and to realize the peaceful reunification of korea 
+0.3087044562474046
+on 13 june , kim tae-chung , president of the republic of korea [ rok ] , will lead a large delegation to pyongyang , capital of the democratic people 's republic of korea [ dprk ] , for a historical meeting with kim chong-il , general secretary of the korean workers ' party and chairman of the dprk national defense council . 
+0.3120145146696438
+the four-party talks on the question of the korean peninsula , which involved the dprk , the rok , the united states , and china , have undergone several rounds . besides , the dprk has improved its ties with quite a few countries , such as the united states , japan , italy , australia , and so on . 
+0.316286930504142
++++++++++++++++++++++++++
+伊拉克
+w
+KL
+iraq 0.03525467080659748
+iraqi 0.010682037490603678
+us 0.010677908980882507
+said 0.008269677075520737
+will 0.006245122123373909
+united 0.006169721283620018
+states 0.005329383732060377
+china 0.004272676114429458
+government 0.00407872711174784
+people 0.003919055328997982
+military 0.0039030363301414284
+also 0.003755482983344719
+un 0.0036096155482733244
+new 0.0035991860008081117
+war 0.0035836564745551163
+weapons 0.0035292862932662606
+troops 0.0034891779621313576
+countries 0.0032631740031348767
+president 0.0030232592909932147
+bush 0.0030133305690744987
+--------------
+butler , former person in charge of the un iraq weapons verification group , also said that the bush administration should work with russia to persuade the iraqi government to agree to let un weapons inspectors to return to iraq . he said that even if this does not work , the united states will not again portray itself in the international community as a boorish " cowboy " who always does things his own way . 
+1.222436382464098
+allawi , prime minister of the iraqi interim government , announced earlier that u.s . troops would definitely hand over saddam to iraq before the transfer of sovereignty from the occupation forces to iraq on june 30 . nonetheless , u.s . president bush later stated that the united states would not hand over saddam in a situation in which the iraqi government could not secure public order . 
+1.2396458388100338
+on the iraq problem , the two leaders reiterated that they will maintain a tough containment policy against iraq . they said that the united states and britain will take " appropriate action " if the iraqi government is found to be developing weapons of mass destruction or threatening its neighbors . 
+1.2443768341771138
+the creation of a " no-fly zone " in iraq has violated the un charter and norms governing international relations . the bombing of iraq by the us and british warplanes is not conducive to the efforts made by the international community to resolve the iraqi question . the united states and britain should immediately abolish the " no-fly zone " and stop their military actions in the region . 
+1.2613094394939866
+the u.s . president bush wants to remove the iraqi president saddam hussein so that the un weapons inspectors may return to iraq and carry out inspections of the development of chemical and biological weapons in iraq . 
+1.2716966042673392
+a senior official of the iraqi ruling party said that because kuwait was stealing iraqi oil with the covert support of the untied states , the remarks made by us officials on iraq 's threats to security in the gulf region are " absurd " . 
+1.2726729060765314
+sanctions launched against iraq by the united states have now been in force for 10 years , and although iraq has made many efforts to have the sanctions lifted , and international opinion has repeatedly called for lifting the sanctions , the united states has not loosened the bonds on iraq , and the more than 22-million innocent iraqi people are still undergoing bitter suffering . 
+1.2749942596101262
+while denouncing iraq in strong terms , the us government is working on a new set of national security strategy . defense officials said that the united states will take preemptive military actions against states that support terrorism and seek to develop weapons of mass destruction . 
+1.2781982529269915
+manama , ( afp ) - calling iraqi president saddam hussein a " world class liar , " us defense secretary rumsfeld once again raised us charges that iraq is actively developing biological weapons and other weapons of mass destruction . 
+1.2840702207700856
+( afp report from manama ) us secretary of defense rumsfeld directly accused iraqi president saddam hussein of a " world big liar " , reiterating us accusation that iraq was actively developing biological weapons and other weapons of mass destruction . 
+1.2847921545450793
+u.s . secretary of defense rumsfeld stated today that the united states would transfer sovereignty to iraq on june 30 . nonetheless , the u.s . army will not evacuate immediately . rumsfeld warned that the new iraqi leaders would experience a difficult learning process . iraq will not transform into a mature democratic country that earns worldwide praises overnight . 
+1.2868678234691395
+--------------
+butler , former person in charge of the un iraq weapons verification group , also said that the bush administration should work with russia to persuade the iraqi government to agree to let un weapons inspectors to return to iraq . he said that even if this does not work , the united states will not again portray itself in the international community as a boorish " cowboy " who always does things his own way . 
+0.22318756749765725
+on the iraq problem , the two leaders reiterated that they will maintain a tough containment policy against iraq . they said that the united states and britain will take " appropriate action " if the iraqi government is found to be developing weapons of mass destruction or threatening its neighbors . 
+0.24747941516534908
+allawi , prime minister of the iraqi interim government , announced earlier that u.s . troops would definitely hand over saddam to iraq before the transfer of sovereignty from the occupation forces to iraq on june 30 . nonetheless , u.s . president bush later stated that the united states would not hand over saddam in a situation in which the iraqi government could not secure public order . 
+0.2514306352977254
+the creation of a " no-fly zone " in iraq has violated the un charter and norms governing international relations . the bombing of iraq by the us and british warplanes is not conducive to the efforts made by the international community to resolve the iraqi question . the united states and britain should immediately abolish the " no-fly zone " and stop their military actions in the region . 
+0.2600176386511781
+the u.s . president bush wants to remove the iraqi president saddam hussein so that the un weapons inspectors may return to iraq and carry out inspections of the development of chemical and biological weapons in iraq . 
+0.2606801322153212
+a senior official of the iraqi ruling party said that because kuwait was stealing iraqi oil with the covert support of the untied states , the remarks made by us officials on iraq 's threats to security in the gulf region are " absurd " . 
+0.26392609864085653
+sanctions launched against iraq by the united states have now been in force for 10 years , and although iraq has made many efforts to have the sanctions lifted , and international opinion has repeatedly called for lifting the sanctions , the united states has not loosened the bonds on iraq , and the more than 22-million innocent iraqi people are still undergoing bitter suffering . 
+0.26930623573781937
+manama , ( afp ) - calling iraqi president saddam hussein a " world class liar , " us defense secretary rumsfeld once again raised us charges that iraq is actively developing biological weapons and other weapons of mass destruction . 
+0.2753656422694723
+furthermore , iraqi deputy prime minister aziz has said that if the united states dares to launch an attack on iraq by using this as an excuse , iraq will meet the challenge to defend its state sovereignty and legitimate rights . 
+0.2796505293750821
+as us president bush frankly admitted us difficulties in iraq today , bremer , the us-appointed provisional administrator in iraq , said the united states is facing a crisis in iraq and described the surging turmoil as " poison " that the us troops must purge . 
+0.2805822784948251
++++++++++++++++++++++++++
+就业 问题
+w
+KL
+employment 0.03677965784883506
+issue 0.01783309538410982
+people 0.012904564310705099
+workers 0.010002488593783236
+major 0.009564023802130856
+increase 0.009496280093035728
+believe 0.009437712106150454
+control 0.009275585541302376
+reemployment 0.009091498119020262
+laid-off 0.008938357956033418
+carrying 0.008758909664486324
+target 0.00865781725587155
+macro-economic 0.008614083504224471
+social 0.008599339136216286
+security 0.0078070568645895394
+reform 0.007340426127738098
+will 0.006864596309404324
+also 0.006009320942243406
+tackle 0.00577367001012021
+problems 0.005751476011027437
+--------------
+on the issue of employment , some people believe that the major target in carrying out macro-economic control should be employment . 
+1.3395189752126775
+a : how to increase employment and tackle laid-off workers ' reemployment issue through further reform ? 
+1.408051167861234
+i believe that the pressure from unemployment is actually high . we must adopt all kinds of measures to reduce this kind of pressure . we should open up new channels for employment , train more laid-off workers , and help people change their concepts on employment and improve their skills for new jobs in order to properly solve the problem of unemployment . 
+1.4620789275534687
+this reporter has learned from the ministry of labor and social security that the current sustained growth of national economy can help create jobs ; however , as economic restructuring will be intensified , the number of workers laid off by state-owned enterprises is expected to remain at a fairly high level in 2001 . moreover , a noticeable increase in the numbers of new members of the work force and unemployed personnel directly seeking job in the labor market will bring considerable pressure on chinese cities and country in employment this year . 
+1.5651142893525016
+and has ensured that the financial system will remain stable . the government has also shown unreserved concern for the problem of unemployment , which was left over from history , by helping unemployed workers find jobs or tackle problems in livelihood . the government has joined hands with social forces in introducing a variety of training activities and in opening up new employment channels and this has helped check a rising unemployment rate and ease up the unemployment situation . 
+1.5698684096090032
+it should attach great importance to the issues of labor employment and social security , strive to increase employment opportunities , and enhance social security capacity . 
+1.5868560507208587
+minister of labor and social security zhang zuoji said : in view of the current employment situation , we will seize the excellent opportunity of sustained growth in the national economy this year , and adopt effective measures to actively create jobs to resettle at least 40 percent laid-off workers , controlling the registered unemployment rate in cities and towns at around 3.5 percent . 
+1.601695890464377
+since the reform across the country is currently in the stage of solving the most difficult problems , the social problem of employment is still serious and the government is still faced with great difficulties and pressure in settling laid-off individuals . this especially requires the whole society , the whole military , the whole of the people and the whole party to strive , with one mind and one heart , to solve kernel problems . 
+1.617565679673893
+for example , there are things such as afforestation work , controlling environmental pollution , and community service , etc . , where there are a great many job opportunities , so we should get the laid-off workers to alter their concept of employment and actively seek reemployment . 
+1.6348701533391032
+over the past few years , with the reform of the state 's economic system and employment system , some new situations and new problems have cropped up regarding the employment of military cadres ' families and their social security . 
+1.650338739648362
+our current tasks are extremely arduous , such as deepening the reform of state-owned enterprises , realigning industrial structures , increasing peasant income , re-arranging laid-off workers , expanding social employment , balancing the distribution of incomes , and setting up and improving the socialist security system . 
+1.6506399972170651
+--------------
+on the issue of employment , some people believe that the major target in carrying out macro-economic control should be employment . 
+0.6479513602417899
+a : how to increase employment and tackle laid-off workers ' reemployment issue through further reform ? 
+0.7164835528903464
+i believe that the pressure from unemployment is actually high . we must adopt all kinds of measures to reduce this kind of pressure . we should open up new channels for employment , train more laid-off workers , and help people change their concepts on employment and improve their skills for new jobs in order to properly solve the problem of unemployment . 
+0.8392694046401615
+it should attach great importance to the issues of labor employment and social security , strive to increase employment opportunities , and enhance social security capacity . 
+0.8952884357499722
+and has ensured that the financial system will remain stable . the government has also shown unreserved concern for the problem of unemployment , which was left over from history , by helping unemployed workers find jobs or tackle problems in livelihood . the government has joined hands with social forces in introducing a variety of training activities and in opening up new employment channels and this has helped check a rising unemployment rate and ease up the unemployment situation . 
+0.9432527233304431
+this reporter has learned from the ministry of labor and social security that the current sustained growth of national economy can help create jobs ; however , as economic restructuring will be intensified , the number of workers laid off by state-owned enterprises is expected to remain at a fairly high level in 2001 . moreover , a noticeable increase in the numbers of new members of the work force and unemployed personnel directly seeking job in the labor market will bring considerable pressure on chinese cities and country in employment this year . 
+0.9446566661620851
+minister of labor and social security zhang zuoji said : in view of the current employment situation , we will seize the excellent opportunity of sustained growth in the national economy this year , and adopt effective measures to actively create jobs to resettle at least 40 percent laid-off workers , controlling the registered unemployment rate in cities and towns at around 3.5 percent . 
+0.9516467134527148
+since the reform across the country is currently in the stage of solving the most difficult problems , the social problem of employment is still serious and the government is still faced with great difficulties and pressure in settling laid-off individuals . this especially requires the whole society , the whole military , the whole of the people and the whole party to strive , with one mind and one heart , to solve kernel problems . 
+0.9580493854855362
+for example , there are things such as afforestation work , controlling environmental pollution , and community service , etc . , where there are a great many job opportunities , so we should get the laid-off workers to alter their concept of employment and actively seek reemployment . 
+0.9660906542569108
+over the past few years , with the reform of the state 's economic system and employment system , some new situations and new problems have cropped up regarding the employment of military cadres ' families and their social security . 
+0.988717136643862
++++++++++++++++++++++++++
