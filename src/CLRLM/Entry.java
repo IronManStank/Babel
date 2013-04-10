@@ -155,7 +155,7 @@ public class Entry {
 			for(Map.Entry<String, HashMap<Integer, Double>> m:probWordGivenSource.entrySet()) {
 				bw.print(m.getKey() + " ");
 				for(Map.Entry<Integer, Double> x: m.getValue().entrySet()) {	
-					bw.print(x.getKey() + " " + (0.8*x.getValue()+0.2*ps.get(m.getKey())) + " ");
+					bw.print(x.getKey() + " " + x.getValue() + " ");
 				}
 				bw.println();
 			}
@@ -164,7 +164,7 @@ public class Entry {
 			for(Map.Entry<String, HashMap<Integer, Double>> m:probWordGivenTarget.entrySet()) {
 				bw.print(m.getKey() + " ");
 				for(Map.Entry<Integer, Double> x: m.getValue().entrySet()) {	
-					bw.print(x.getKey() + " " + (0.8*x.getValue()+0.2*pt.get(m.getKey())) + " ");
+					bw.print(x.getKey() + " " + x.getValue() + " ");
 				}
 				bw.println();
 			}
