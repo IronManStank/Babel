@@ -7,36 +7,36 @@ import java.util.TreeMap;
 import search.document.Document;
 
 /**
- * ¸ºÔğ½«ÎÄ¼şĞ´ÈëË÷Òı
- * ±éÀúÎÄ¼şµÄÃ¿Ò»¸öfield£¬Èç¹û²»´æÔÚÓÚindexInfoÖĞÔò´´½¨field£»±éÀúfieldµÄcontentµÄÃ¿Ò»¸ötermĞ´µ¹ÅÅ±í
+ * è´Ÿè´£å°†æ–‡ä»¶å†™å…¥ç´¢å¼•
+ * éå†æ–‡ä»¶çš„æ¯ä¸€ä¸ªfieldï¼Œå¦‚æœä¸å­˜åœ¨äºindexInfoä¸­åˆ™åˆ›å»ºfieldï¼›éå†fieldçš„contentçš„æ¯ä¸€ä¸ªtermå†™å€’æ’è¡¨
  * @author locoyou
  *
  */
 
 public class DocumentsWriter {
 	public static void addDocument(IndexInfo indexInfo, Document doc, File directory) {
-		//±éÀúdocµÄËùÓĞfield
+		//éå†docçš„æ‰€æœ‰field
 		for(Map.Entry<String, String> m : doc.fields.entrySet()) {
 			String field = m.getKey();
 			String content = m.getValue();
-			//Èç¹û¸ÃfieldÒÑ¾­ÔÚË÷ÒıÖĞ±»¼ÇÂ¼¹ı
+			//å¦‚æœè¯¥fieldå·²ç»åœ¨ç´¢å¼•ä¸­è¢«è®°å½•è¿‡
 			if(indexInfo.fieldID.containsKey(field)) {
 				int fieldID = indexInfo.fieldID.get(field);
 				TreeMap<String, Position> invertedListEntry = indexInfo.fieldList.get(fieldID);
 				String[] terms = content.split(" ");
-				//±éÀú¸ÃfieldµÄÃ¿Ò»¸öterm
+				//éå†è¯¥fieldçš„æ¯ä¸€ä¸ªterm
 				for(String term : terms) {
-					//Èç¹û¸Ãterm±»¼ÇÂ¼¹ı£¬¶ÁÈ¡¶ÔÓ¦ÎÄ¼ş²¢ĞŞ¸ÄĞ´»Ø
+					//å¦‚æœè¯¥termè¢«è®°å½•è¿‡ï¼Œè¯»å–å¯¹åº”æ–‡ä»¶å¹¶ä¿®æ”¹å†™å›
 					if(invertedListEntry.containsKey(term)) {
 						
 					}
-					//Ã»±»¼ÇÂ¼¹ıµÄterm½«ĞÂ´´½¨Ò»¸öµ¹ÅÅ±íµÄentry£¬¶ÁÈ¡×îºóÒ»¸öÎÄ¼ş£¨»òĞÂ½¨£©²¢Ôö¼ÓĞÂĞĞ
+					//æ²¡è¢«è®°å½•è¿‡çš„termå°†æ–°åˆ›å»ºä¸€ä¸ªå€’æ’è¡¨çš„entryï¼Œè¯»å–æœ€åä¸€ä¸ªæ–‡ä»¶ï¼ˆæˆ–æ–°å»ºï¼‰å¹¶å¢åŠ æ–°è¡Œ
 					else {
 						
 					}
 				}
 			}
-			//Ã»±»¼ÇÂ¼¹ıµÄfield½«±»ĞÂ´´½¨
+			//æ²¡è¢«è®°å½•è¿‡çš„fieldå°†è¢«æ–°åˆ›å»º
 			else {
 				
 			}

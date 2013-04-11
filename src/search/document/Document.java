@@ -3,7 +3,7 @@ package search.document;
 import java.util.TreeMap;
 
 /**
- * 文件类，定义Babel中的文件，每个文件包含若干个field
+ * 鏂囦欢绫伙紝瀹氫箟Babel涓殑鏂囦欢锛屾瘡涓枃浠跺寘鍚嫢骞蹭釜field
  * @author locoyou
  *
  */

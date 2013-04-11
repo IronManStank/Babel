@@ -10,7 +10,7 @@ import search.document.Document;
 
 
 /**
- * IndexWriterÀà£¬¸ºÔðÐ´Ë÷Òý
+ * IndexWriterç±»ï¼Œè´Ÿè´£å†™ç´¢å¼•
  * @author locoyou
  *
  */

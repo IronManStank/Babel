@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.TreeMap;
 
 /**
- * Ë÷ÒıĞÅĞÄÀà£¬ÓÃÓÚ½øĞĞË÷ÒıµÄµ¼Òı£¬ĞòÁĞ»¯Ö®ºó×÷ÎªË÷ÒıµÄÒ»²¿·Ö
+ * ç´¢å¼•ä¿¡æ¯ç±»ï¼Œç”¨äºè¿›è¡Œç´¢å¼•çš„å¯¼å¼•ï¼Œåºåˆ—åŒ–ä¹‹åä½œä¸ºç´¢å¼•çš„ä¸€éƒ¨åˆ†
  * @author locoyou
  *
  */
@@ -15,15 +15,15 @@ public class IndexInfo implements Serializable {
 	
 	private static final long serialVersionUID = 1L;	
 	
-	public int fieldNum; //¼ÇÂ¼ÓĞ¶àÉÙ¸öfield
+	public int fieldNum; //è®°å½•æœ‰å¤šå°‘ä¸ªfield
 	
-	public HashMap<String, Integer> fieldID; //½«field¶ÔÓ¦µ½Ã¿Ò»¸öID£¬Ã¿¸öID¼´ÎªfieldListÖĞµÄÏÂ±ê
+	public HashMap<String, Integer> fieldID; //å°†fieldå¯¹åº”åˆ°æ¯ä¸€ä¸ªIDï¼Œæ¯ä¸ªIDå³ä¸ºfieldListä¸­çš„ä¸‹æ ‡
 	
-	public ArrayList<TreeMap<String, Position>> fieldList;//Ã¿Ò»¸öTreeMapÔªËØ¶¼ÊÇÒ»¸öfieldµÄµ¹ÅÅ±íÈë¿Ú£¬½«termºÍµ¹ÅÅ±íµÄÄ³Ò»ĞĞ¶ÔÓ¦ÆğÀ´
+	public ArrayList<TreeMap<String, Position>> fieldList;//æ¯ä¸€ä¸ªTreeMapå…ƒç´ éƒ½æ˜¯ä¸€ä¸ªfieldçš„å€’æ’è¡¨å…¥å£ï¼Œå°†termå’Œå€’æ’è¡¨çš„æŸä¸€è¡Œå¯¹åº”èµ·æ¥
 	
-	public ArrayList<Integer> fieldIndexNum;//¼ÇÂ¼Ã¿Ò»¸öfieldµÄµ¹ÅÅ±íÓĞ¶àÉÙ¸öÎÄ¼ş
+	public ArrayList<Integer> fieldIndexNum;//è®°å½•æ¯ä¸€ä¸ªfieldçš„å€’æ’è¡¨æœ‰å¤šå°‘ä¸ªæ–‡ä»¶
 	
-	public ArrayList<Integer> fieldIndexLine;//¼ÇÂ¼Ã¿Ò»¸öfieldµÄµ¹ÅÅ±í×îºóÒ»¸öÎÄ¼şÄ¿Ç°µÄĞĞÊı£¬Ã¿¸öÎÄ¼ş1000ĞĞ
+	public ArrayList<Integer> fieldIndexLine;//è®°å½•æ¯ä¸€ä¸ªfieldçš„å€’æ’è¡¨æœ€åä¸€ä¸ªæ–‡ä»¶ç›®å‰çš„è¡Œæ•°ï¼Œæ¯ä¸ªæ–‡ä»¶1000è¡Œ
 	
 	public IndexInfo() {
 		fieldNum = 0;
