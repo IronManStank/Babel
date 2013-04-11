@@ -129,7 +129,7 @@ public class Relevance {
 			double p = 1;
 			for(int j = 0; j < queryTerms.length; j++) {
 				if(probWordGivenSource.get(queryTerms[j]).containsKey(i+1)) {
-					p *= alpha*probWordGivenSource.get(queryTerms[j]).get(i+1) + beta*probSource.get(queryTerms[j]);//probS(queryTerms[j], sourceText.get(i));
+					p *= alpha*probWordGivenSource.get(queryTerms[j]).get(i+1) + beta*probSource.get(queryTerms[j]);
 				}
 				else {
 					p *= beta*probSource.get(queryTerms[j]);

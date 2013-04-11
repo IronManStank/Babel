@@ -1,0 +1,341 @@
+Ready
+德国
+w
+KL
+germany 0.04262573562075089
+german 0.02736739406119812
+pound 0.008572009737202565
+sterling 0.008571830579649088
+president 0.008535085973265981
+china 0.00850729284358523
+economic 0.005864822019576101
+year 0.0048050983170146175
+chinese 0.004661605139126777
+visit 0.004566665842106167
+government 0.004398176002359427
+countries 0.0043264849437926805
+visits 0.004003719450117208
+also 0.003940580309787473
+economy 0.0038888322571671158
+people 0.0038388380913508607
+united 0.003624139006623382
+foreign 0.003537841961234044
+states 0.003523001785932995
+military 0.0034609419584254245
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+2.0142077384744903
+bonn , november 14 ( xinhua ) germany 's " five sages " ( german council of economic experts ) predicts a 2 5 percent economic increase for germany , in 1998 in its annual report to be submitted to the government tomorrow 
+2.0278920255448565
+the shift of focus from politics to economy also affects german american relations , the german foreign minister said it is equally important for germany to develop relations with both the united states and europe , he remarked 
+2.0406124985421767
+hans olaf henkel , president of the federation of german industry , said in koln over the weekend that although germany is the second largest exporter in the world after the united states , some two thirds of its products were exported to countries of the european union 
+2.041939135549078
+bonn , march 10 ( xinhua ) german chancellor helmut kohl said here today that germany will adopt a single european currency only if monetary stability is maintained within europe 
+2.0421285622238945
+bonn , may 3 ( xinhua ) german exports to asian countries increased to 93-7-billion germany marks ( about 80-billion u s dollars ) in 1994 , up 18-4 percent over last year , while its imports from those countries stood at 112 5 billion , an increase of 8 8 percent 
+2.0428934286240135
+bonn , october 7 ( xinhua ) germany 's new aviation research plan will receive 1200-million marks ( 800-million u s dollars ) in financial support over the next four years , half from the government and half from industrial sponsors , according to the german newspaper " suddeutsche zeitung " today 
+2.047273993333542
+glos said that germany attaches great importance to its friendly relations with china mr glos added that premier kohl had also expressed support and concern for german chinese ties 
+2.052849609836648
+the economic growth in germany remains promising and the effect of the mark 's revaluation on the german economy is yet to be felt next year 
+2.0551208890062123
+germany has been suffering a huge trade deficit in farm products with the united states statistics show that germany 's farm product trade deficit with the united states last year stood at 1 9 billion german marks 
+2.055472859570929
+bonn , march 17 ( xinhua ) german foreign minister klaus kinkel today urged syria and israel to reopen peace talks , saying that germany is willing to contribute to stability in the middle east 
+2.05952702014181
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+0.5801473527603791
+the shift of focus from politics to economy also affects german american relations , the german foreign minister said it is equally important for germany to develop relations with both the united states and europe , he remarked 
+0.5859934229461754
+hans olaf henkel , president of the federation of german industry , said in koln over the weekend that although germany is the second largest exporter in the world after the united states , some two thirds of its products were exported to countries of the european union 
+0.5871218305581926
+bonn , november 14 ( xinhua ) germany 's " five sages " ( german council of economic experts ) predicts a 2 5 percent economic increase for germany , in 1998 in its annual report to be submitted to the government tomorrow 
+0.5910445784038444
+the economic growth in germany remains promising and the effect of the mark 's revaluation on the german economy is yet to be felt next year 
+0.6002175284183624
+bonn , march 10 ( xinhua ) german chancellor helmut kohl said here today that germany will adopt a single european currency only if monetary stability is maintained within europe 
+0.600804824772856
+germany will manufacture the new plane in cooperation with some other european countries , including france negotiations are being conducted on the issue , a spokesman for the german defense ministry said monday 
+0.6104988044209939
+glos said that germany attaches great importance to its friendly relations with china mr glos added that premier kohl had also expressed support and concern for german chinese ties 
+0.6136330274996153
+germany has been suffering a huge trade deficit in farm products with the united states statistics show that germany 's farm product trade deficit with the united states last year stood at 1 9 billion german marks 
+0.6193828910294894
+bonn , may 7 ( xinhua ) both germany and jordan hope that the middle east peace process will be maintained until a comprehensive and lasting peace is established in the region , a german government spokesman said today 
+0.6206567225568134
++++++++++++++++++++++++++
+德国 经济 发展
+w
+KL
+economic 0.046337994233653694
+germany 0.03630789952052416
+development 0.024360840125077006
+economy 0.021090932818132374
+german 0.017771873326481755
+growth 0.012686380074617545
+china 0.010200721374740217
+recovery 0.008796292040045948
+expected 0.008641008714657075
+western 0.008526897461366537
+beijing 0.008314988030639264
+year 0.008152865921229413
+also 0.007613304748687583
+cooperation 0.00759079944048931
+greater 0.007587554483841203
+begins 0.007381813445516742
+provide 0.00531788695752872
+foreign 0.005292704278528104
+games 0.005132213196244623
+olympic 0.005131592803542541
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+1.7963832196165177
+liu qi said beijing has enjoyed a close economic and technological cooperation and exchange with germany for a long time . quite a few german entrepreneurs have become members of the beijing mayor 's international entrepreneurs ' council . each year they provide excellent suggestions and opinions on the major issues concerning beijing and its economic development and play a very important role in promoting the economic exchange and cooperation between beijing and germany . 
+1.8764270087319828
+bonn , october 9 ( xinhua ) germany will provide the philippines with 77 5 million marks ( 52 6 million u s dollars ) in development aid , the foreign economic cooperation ministry announced today 
+1.8797468784938318
+germany is an economic and technological power with rich experience in these fields . beijing welcomes the experts from the german manufacturers , small and medium-sized companies as well as related fields to bring their advanced experience , technologies , and capitals to beijing to jointly promote beijing 's economic development and ensure the smooth preparation for the 2008 olympic games . 
+1.8989937113029112
+inspired by economic integration , latin america has become one of the regions with rapid economic development , which has provided " a good chance " for germany , economic figures said 
+1.9107097252317493
+the economic growth in germany remains promising and the effect of the mark 's revaluation on the german economy is yet to be felt next year 
+1.936301612726357
+greater economic growth expected in germany 
+2.0161931850155583
+bonn , november 14 ( xinhua ) germany 's council of economic advisors , known as the " five wise men " have drawn a gloomy picture of its 1994 economy with a zero growth in western germany and 7 5 percent growth in the eastern part 
+2.0196463790532824
+( afp , berlin ) economy ministry said today that germany , as the biggest economy in the eurozone of 12 nations , has seen an accelerated economic recovery in the 2nd quarter this year , and the gdp is estimated to grow by more than 0.5% over the previous quarter . 
+2.027067960368169
+after the strong momentum given the economy by exports , active investment in equipment in germany will become a second impetus but the slowing down of western germany 's investment in building and the rise in interest rates on the capital market will curb its economic development 
+2.0302523522754394
+economists here believe that the strategy to fine tune the rate to approximately the same as japan , the u s , germany , france and britain will encourage investment and consumer spending which will , they say , also promote economic recovery and development 
+2.036481099952439
+--------------
+bonn , may 9 ( xinhua ) germany will provide albania with a total of 87-million german marks ( 60-million u s dollars ) in development assistance to the country this year , the ministry of economic cooperation announced today 
+1.0125541967433296
+inspired by economic integration , latin america has become one of the regions with rapid economic development , which has provided " a good chance " for germany , economic figures said 
+1.0882812250127967
+bonn , october 9 ( xinhua ) germany will provide the philippines with 77 5 million marks ( 52 6 million u s dollars ) in development aid , the foreign economic cooperation ministry announced today 
+1.0993908015015406
+liu qi said beijing has enjoyed a close economic and technological cooperation and exchange with germany for a long time . quite a few german entrepreneurs have become members of the beijing mayor 's international entrepreneurs ' council . each year they provide excellent suggestions and opinions on the major issues concerning beijing and its economic development and play a very important role in promoting the economic exchange and cooperation between beijing and germany . 
+1.1385623200186972
+the economic growth in germany remains promising and the effect of the mark 's revaluation on the german economy is yet to be felt next year 
+1.1424172447292564
+germany is an economic and technological power with rich experience in these fields . beijing welcomes the experts from the german manufacturers , small and medium-sized companies as well as related fields to bring their advanced experience , technologies , and capitals to beijing to jointly promote beijing 's economic development and ensure the smooth preparation for the 2008 olympic games . 
+1.1775172582702957
+greater economic growth expected in germany 
+1.1937646847966057
+bonn , november 14 ( xinhua ) germany 's council of economic advisors , known as the " five wise men " have drawn a gloomy picture of its 1994 economy with a zero growth in western germany and 7 5 percent growth in the eastern part 
+1.2206476449736507
+( afp , berlin ) economy ministry said today that germany , as the biggest economy in the eurozone of 12 nations , has seen an accelerated economic recovery in the 2nd quarter this year , and the gdp is estimated to grow by more than 0.5% over the previous quarter . 
+1.2390746630828147
+after the strong momentum given the economy by exports , active investment in equipment in germany will become a second impetus but the slowing down of western germany 's investment in building and the rise in interest rates on the capital market will curb its economic development 
+1.241450868940074
++++++++++++++++++++++++++
+美国 贸易
+w
+KL
+trade 0.04346111305348615
+china 0.03489347163110595
+us 0.02744498134060356
+united 0.016629177995545766
+states 0.016624959359812792
+visit 0.011909922396445248
+barshefsky 0.011237424617237871
+s 0.008005952951760622
+u 0.007923023666620866
+free 0.006835274749119521
+partner 0.006648301732182192
+may 0.005659652650954953
+largest 0.0054275300187929835
+slow 0.005014081809071727
+dollars 0.004871341610465912
+economic 0.00442037417656604
+year 0.004362639505504169
+u.s 0.004208783300361676
+trading 0.00419813944209067
+world 0.00386048235637121
+--------------
+us trade representative charlene barshefsky said here on 22 march that the bilateral agreement on china 's accession to the world trade organization is a " win-win " achievement beneficial to both the united states and china , and the agreement will help develop relations between the two countries . 
+1.7642097324938684
+the united states is china 's second largest trade partner . chinese workers produce good-quality yet inexpensive commodity worth tens of billion us dollars every year for us companies . american people now can not live without things " made in china . " 
+1.8344417080769981
+sun zhenyu , vice chairman of the ministry of foreign trade and economic cooperation of china , who is visiting here met with us congressmen on 1 march during which he pointed out : the treatment of permanent normal trade relations is not a favor given by the us but the content of the stipulations in the bilateral agreement signed between china and the united states on china 's entry into the world trade organization [ wto ] and a commitment which the us should keep . 
+1.83935493984759
+beijing , june 13 ( xinhua ) acting us trade representative charlene barshefsky will arrive in beijing to visit china at the invitation of the chinese ministry of foreign trade and economic cooperation ( moftec ) 
+1.8404750662019125
+the united states is china 's second largest trade partner , while china is the united states ' fourth biggest trade partner . 
+1.8559403004376462
+japan has , for four years , successively ranked first place among china 's foreign trade partners , and the bilateral trade volume last year was 17.22-billion us dollars higher than that of china and the us , china 's second largest trade partner . 
+1.8665941902871424
+the us government hopes that china will smoothly accede to the wto and the united states firmly applies itself to bringing about permanent normal trade relations between the united states and china . 
+1.876687796699035
+the minister of foreign trade and economic cooperation ( moftec ) said that chinese and u s negotiators worked arduously , sometimes overnight , during premier zhu 's visit to the united states , and have achieved importance progress on the issue the u s side voiced firm support for china 's entry into the wto in the year 1999 
+1.8838531082235974
+he believes that it is " unwise " to link china 's trade status to issues such as taiwan , human rights , and arms proliferation because if the us congress rejects the pntr bill , the united states will not be able to benefit from china 's entry into the wto and its own national interests will be undermined . 
+1.8868127771607541
+the finance committee of the us senate held a hearing on granting china permanent normal trade relations status , at which committee chairman william ruth appealed congress to settle the problem facing the trade relations between the united states and china through legislation . 
+1.8975243303187688
+eggleton is the first foreign trade minister to visit china after the ministerial level wto conference in singapore during that conference , trade officials from the united states , the european union , and japan discussed china 's entry into the wto 
+1.899617778403173
+--------------
+us trade representative charlene barshefsky said here on 22 march that the bilateral agreement on china 's accession to the world trade organization is a " win-win " achievement beneficial to both the united states and china , and the agreement will help develop relations between the two countries . 
+0.7266970321799447
+the united states is china 's second largest trade partner , while china is the united states ' fourth biggest trade partner . 
+0.7806579090315751
+beijing , june 13 ( xinhua ) acting us trade representative charlene barshefsky will arrive in beijing to visit china at the invitation of the chinese ministry of foreign trade and economic cooperation ( moftec ) 
+0.7823774280884495
+the united states is china 's second largest trade partner . chinese workers produce good-quality yet inexpensive commodity worth tens of billion us dollars every year for us companies . american people now can not live without things " made in china . " 
+0.7868786199562139
+the us government hopes that china will smoothly accede to the wto and the united states firmly applies itself to bringing about permanent normal trade relations between the united states and china . 
+0.8128794795746132
+sun zhenyu , vice chairman of the ministry of foreign trade and economic cooperation of china , who is visiting here met with us congressmen on 1 march during which he pointed out : the treatment of permanent normal trade relations is not a favor given by the us but the content of the stipulations in the bilateral agreement signed between china and the united states on china 's entry into the world trade organization [ wto ] and a commitment which the us should keep . 
+0.8167923093114455
+japan has , for four years , successively ranked first place among china 's foreign trade partners , and the bilateral trade volume last year was 17.22-billion us dollars higher than that of china and the us , china 's second largest trade partner . 
+0.8242751411919012
+the minister of foreign trade and economic cooperation ( moftec ) said that chinese and u s negotiators worked arduously , sometimes overnight , during premier zhu 's visit to the united states , and have achieved importance progress on the issue the u s side voiced firm support for china 's entry into the wto in the year 1999 
+0.8342347555126026
+the united states claimed that it had trade deficit with china of 18-3-billion u s dollars , japan claimed its trade deficit with china hit 4 989 billion u s dollars and the ec alleged that its deficit with china exceeded 10-billion u s dollars 
+0.8519340817107531
+eggleton is the first foreign trade minister to visit china after the ministerial level wto conference in singapore during that conference , trade officials from the united states , the european union , and japan discussed china 's entry into the wto 
+0.8566045477326767
++++++++++++++++++++++++++
+中国 传统
+w
+KL
+china 0.039144911797971846
+traditional 0.03361424532192669
+chinese 0.028365727688167253
+people 0.009874290878644946
+relations 0.009482002177572666
+issues 0.008885683168429333
+good 0.008846262399331563
+macao 0.008673858647791322
+friendship 0.008656229077776328
+stamps 0.008315371885012583
+teahouse 0.008311687872757868
+countries 0.00808405105425286
+tradition 0.007411485683635983
+two 0.007341358478969405
+business 0.006871619125736942
+moslems 0.006803052841822992
+superiority 0.006705562567695092
+cultural 0.006382609125993948
+new 0.005922732945437371
+cooperation 0.005821502838730199
+--------------
+macao issues stamps on traditional chinese teahouse 
+1.8407002849942316
+china has consistently paid attention to developing good-neighborly , friendly , and cooperative relations with india . the chinese people have extremely cherished the traditional friendship with the indian people . 
+1.8687910428355468
+the chinese government treasures the traditional friendship between china and laos and will continue , as always , to develop good-neighborly and friendly relations with laos . 
+1.8910313287561418
+on the opening ceremony of the " chinese art week " before the show , li mu , the head of the chinese artistic delegation and vice president of the china federation of literary and art circles said in a speech that the " chinese art week " put together by the cflac , the entrepreneurs association in ottawa , the canadian health times , the china news and the canadian maple bridge business group would definitely further strengthen cultural exchanges between china and canada , as well as the traditional friendship between the two peoples . 
+1.9061204667057492
+china 's moslems have traditional superiority at being good at doing business . 
+1.909441385097199
+chikan , also the minister of economy , said that the new hungarian government attaches importance to its relations with china and hopes to develop the traditional friendship between the two countries , in particular in expanding economic and trade cooperation 
+1.9245029021745577
+zhang wannian said : bangladesh is china 's close and friendly neighbor and the two countries have a traditional friendship and relations of cooperation . 
+1.9453451344792443
+he said : the ongoing visit to turkey has not only brought the traditional friendship of the chinese people to the people in turkey , but will also strengthen the friendly relations of a long history between the two peoples , and promote development of a multiple aspects in the bilateral cooperation oriented towards the 21st century . 
+1.9520838540211256
+the telegram says that china and laos are friendly neighbors joined by common mountains and rivers and that the peoples of the two countries share traditional and friendly relations . strengthening and developing the long-term neighborly and friendly relations between china and laos is a firm principle of the cpc and the chinese government . 
+1.9566714100951526
+the spokesman expressed his belief that jiang 's visit will serve to further promote the traditional friendship and mutual understanding between china and africa and help consolidate and develop the friendly relations and cooperation between china and african countries 
+1.9577783314018584
+in particular , the chinese premier said , he is convinced this visit will further consolidate and strengthen the traditional friendship between china and pakistan , and help to promote steadily the china pakistan partnership of all round cooperation 
+1.9678529989931335
+--------------
+macao issues stamps on traditional chinese teahouse 
+0.7016378315547768
+the chinese government treasures the traditional friendship between china and laos and will continue , as always , to develop good-neighborly and friendly relations with laos . 
+0.7690893327477512
+china 's moslems have traditional superiority at being good at doing business . 
+0.7703789316577437
+china has consistently paid attention to developing good-neighborly , friendly , and cooperative relations with india . the chinese people have extremely cherished the traditional friendship with the indian people . 
+0.7736995434921141
+chikan , also the minister of economy , said that the new hungarian government attaches importance to its relations with china and hopes to develop the traditional friendship between the two countries , in particular in expanding economic and trade cooperation 
+0.811994341434409
+on the opening ceremony of the " chinese art week " before the show , li mu , the head of the chinese artistic delegation and vice president of the china federation of literary and art circles said in a speech that the " chinese art week " put together by the cflac , the entrepreneurs association in ottawa , the canadian health times , the china news and the canadian maple bridge business group would definitely further strengthen cultural exchanges between china and canada , as well as the traditional friendship between the two peoples . 
+0.8289595127402132
+he said : the ongoing visit to turkey has not only brought the traditional friendship of the chinese people to the people in turkey , but will also strengthen the friendly relations of a long history between the two peoples , and promote development of a multiple aspects in the bilateral cooperation oriented towards the 21st century . 
+0.8317270913522841
+the telegram says that china and laos are friendly neighbors joined by common mountains and rivers and that the peoples of the two countries share traditional and friendly relations . strengthening and developing the long-term neighborly and friendly relations between china and laos is a firm principle of the cpc and the chinese government . 
+0.8331613283322751
+zhang wannian said : bangladesh is china 's close and friendly neighbor and the two countries have a traditional friendship and relations of cooperation . 
+0.8378167636747563
+huaqing liu said that , the people of china and thailand have traditional friendship and the relationship between the two countries was also very friendly too . 
+0.8462096809284784
++++++++++++++++++++++++++
+台湾 问题
+w
+KL
+taiwan 0.07803315064835072
+issue 0.056128426721649576
+china 0.032144427879043834
+chinese 0.012198176276167903
+internal 0.009567648351734714
+government 0.00938508956572912
+question 0.008913036665207184
+affair 0.008252304421478906
+one 0.007566064535544707
+can 0.007174242677064912
+people 0.006430057873470805
+peaceful 0.00637135762936584
+also 0.006340845038258534
+reunification 0.006096637809193024
+principle 0.005991237924550279
+relations 0.005962347222411779
+two 0.005924303602189265
+us 0.005913558388030444
+left 0.005183794670496747
+indefinitely 0.004976611710531196
+--------------
+he reiterated : russia has supported all along the principled stand of the chinese government on the taiwan issue , and maintained that the taiwan issue is an internal affair of china , and taiwan is an inseparable part of chinese territory . 
+1.5179285616860687
+my esteemed fellow colleagues : not long ago , the chinese government issued the white paper on " the one-china principle and the taiwan issue . " in this paper , we reiterated our principle and stance on the taiwan issue , that is , upholding the one-china principle and the basic principles of " peaceful reunification and one china , two systems , " opposing any attempts of splitting china and permanently maintaining the current state of separation , and not allowing the taiwan issue to drag on indefinitely . 
+1.5323269538075626
+speaking on the taiwan issue , goh chok tong said that taiwan is one of the provinces of china , and the taiwan issue is an internal chinese affair . 
+1.5437891533836445
+the taiwan issue is china 's internal affair . 
+1.5671722432158186
+resolving the taiwan issue is china 's internal affair ; 
+1.572894348316113
+whereas the hong kong issue was a historical issue left over by colonial aggression , the taiwan issue is an issue left over by china 's civil war and is totally an internal affair of china . 
+1.5773762122226767
+taiwan is an inalienable part of china and the taiwan issue is an internal affair of china . 
+1.5804450034151016
+the taiwan issue is a historical issue left over by the chinese civil war , which is a completely internal affair of china . no external forces are entitled to intervene in it . 
+1.581041053642433
+on 21 february , the chinese government issued a white paper " the one-china principle and the taiwan issue " to wholly and systematically explain the principled stand and policy of the chinese government on adhering to the principle of one china . this has shown the chinese people 's determination and confidence in solving the taiwan issue at an early date and realizing the complete reunification of the motherland . 
+1.5887603874029426
+he said the white paper " the one-china principle and the taiwan issue " manifested the chinese government 's consistent stand on the taiwan issue and reflected all chinese people 's aspiration . the great cause of china 's reunification is irresistible . 
+1.5899505511052623
+jiang zemin expounded china 's basic principle on the taiwan issue . he pointed out : the chinese government has been devoting consistent efforts to the realization of a peaceful solution of the taiwan issue . 
+1.5975186612045327
+--------------
+he reiterated : russia has supported all along the principled stand of the chinese government on the taiwan issue , and maintained that the taiwan issue is an internal affair of china , and taiwan is an inseparable part of chinese territory . 
+0.6129251179477289
+speaking on the taiwan issue , goh chok tong said that taiwan is one of the provinces of china , and the taiwan issue is an internal chinese affair . 
+0.6393069194851335
+the taiwan issue is china 's internal affair . 
+0.6468719596121446
+resolving the taiwan issue is china 's internal affair ; 
+0.6525940647124391
+my esteemed fellow colleagues : not long ago , the chinese government issued the white paper on " the one-china principle and the taiwan issue . " in this paper , we reiterated our principle and stance on the taiwan issue , that is , upholding the one-china principle and the basic principles of " peaceful reunification and one china , two systems , " opposing any attempts of splitting china and permanently maintaining the current state of separation , and not allowing the taiwan issue to drag on indefinitely . 
+0.6607718333790298
+taiwan is an inalienable part of china and the taiwan issue is an internal affair of china . 
+0.6663969169059271
+whereas the hong kong issue was a historical issue left over by colonial aggression , the taiwan issue is an issue left over by china 's civil war and is totally an internal affair of china . 
+0.666560142229472
+the taiwan issue is a historical issue left over by the chinese civil war , which is a completely internal affair of china . no external forces are entitled to intervene in it . 
+0.6724278074580184
+however , resolving the taiwan issue is absolutely an internal affair of china . 
+0.6924195563314601
+jiang zemin expounded china 's basic principle on the taiwan issue . he pointed out : the chinese government has been devoting consistent efforts to the realization of a peaceful solution of the taiwan issue . 
+0.6958368349783123
++++++++++++++++++++++++++
