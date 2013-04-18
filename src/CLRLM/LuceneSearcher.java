@@ -10,7 +10,6 @@ import java.util.TreeMap;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.queryParser.QueryParser;
@@ -25,7 +24,7 @@ public class LuceneSearcher {
 	HashMap<String, HashMap<String, Double>> dict;
 	HashMap<Document, Double> documents;
 	Directory directory;
-	String indexDir = "/data/index/";
+	String indexDir = "data/index/";
 	
 	public LuceneSearcher(HashMap<String, HashMap<String, Double>> dict) {
 		this.dict = dict;
@@ -40,6 +39,7 @@ public class LuceneSearcher {
 	public ArrayList<Map.Entry<Document,Double>> search(String query) {
 		//TODO 完成query的翻译、lucene的查询，并对相关文档进行排序
 		String[] queryTerms = query.split(" ");
+		System.out.println("search:"+query+" "+queryTerms.length);
 		//将所有query中term的目标语言对应term存入targetTerms中并计算概率
 		HashMap<String, Double> targetTerms = new HashMap<String, Double>();
 		for(String term:queryTerms) {
@@ -72,10 +72,10 @@ public class LuceneSearcher {
 					for(int i = 0 ; i < hits.length; i++){
 						Document hitDoc = searcher.doc(hits[i].doc);
 						if(documents.containsKey(hitDoc)) {
-							documents.put(hitDoc, hits[i].score + documents.get(hitDoc));
+							documents.put(hitDoc, hits[i].score*targetTerm.getValue() + documents.get(hitDoc));
 						}
 						else {
-							documents.put(hitDoc, (double)hits[i].score);
+							documents.put(hitDoc, hits[i].score*targetTerm.getValue());
 						}
 					}
 				}

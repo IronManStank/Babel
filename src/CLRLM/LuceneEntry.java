@@ -43,6 +43,12 @@ public class LuceneEntry {
 	
 	public static void main(String[] args) {
 		LuceneEntry le = new LuceneEntry();
-		le.search("美国");
+		ArrayList<Map.Entry<Document,Double>> results = le.search("德国 经济");
+		int count = 0;
+		for(Map.Entry<Document,Double> result:results) {
+			if(count > 50) break;
+			count++;
+			System.out.println(result.getValue() + " " + result.getKey().get("content"));
+		}
 	}
 }
