@@ -1,4 +1,4 @@
-package CLRLM;
+package experiment;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -16,7 +16,7 @@ public class LuceneEntry {
 	public LuceneEntry() {
 		try {
 			dict = new HashMap<String, HashMap<String, Double>>();
-			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("data/dict.txt")));
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("data/en-ch.txt")));
 			String line;
 			while((line = br.readLine()) != null) {
 				String[] terms = line.split("\\|\\|\\|");

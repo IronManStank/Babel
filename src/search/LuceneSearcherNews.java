@@ -1,4 +1,4 @@
-package CLRLM;
+package search;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -7,8 +7,11 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.cn.ChineseAnalyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexReader;
@@ -20,13 +23,13 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
-public class LuceneSearcher {
-	HashMap<String, HashMap<String, Double>> dict;
+public class LuceneSearcherNews {
+	HashMap<String, TreeMap<Double, String>> dict;
 	HashMap<Document, Double> documents;
 	Directory directory;
-	String indexDir = "data/index/";
+	String indexDir = "data/newsIndex/";
 	
-	public LuceneSearcher(HashMap<String, HashMap<String, Double>> dict) {
+	public LuceneSearcherNews(HashMap<String, TreeMap<Double, String>> dict) {
 		this.dict = dict;
 		try{
 			directory = FSDirectory.open(new File(indexDir));
@@ -36,23 +39,34 @@ public class LuceneSearcher {
 		}
 	}
 	
+	public String transformSolrMetacharactor(String input){
+	    StringBuffer sb = new StringBuffer();
+	    String regex = "[+\\-&|!(){}\\[\\]^\"~*?:(\\)]";
+	    Pattern pattern = Pattern.compile(regex);
+	    Matcher matcher = pattern.matcher(input);
+	    while(matcher.find()){
+	        matcher.appendReplacement(sb, "\\\\"+matcher.group());
+	    }
+	    matcher.appendTail(sb);
+	    return sb.toString();
+	}
+	
 	public ArrayList<Map.Entry<Document,Double>> search(String query) {
+		query = transformSolrMetacharactor(query);
 		//完成query的翻译、lucene的查询，并对相关文档进行排序
 		//TODO 使用IBM MODEL 1计算生成的目标语言query的概率
 		String[] queryTerms = query.split(" ");
 		System.out.println("search:"+query+" "+queryTerms.length);
-		//将所有query中term的目标语言对应term存入targetTerms中并计算概率
-		HashMap<String, Double> targetTerms = new HashMap<String, Double>();
+		//使用query中term的目标语言对应前k个term组成目标语言query
+		String targetQuery = "";
 		for(String term:queryTerms) {
 			if(dict.containsKey(term)) {
-				HashMap<String, Double> x = dict.get(term);
-				for(Map.Entry<String, Double> targetTerm:x.entrySet()) {
-					if(targetTerms.containsKey(targetTerm.getKey())) {
-						targetTerms.put(targetTerm.getKey(), targetTerm.getValue() + targetTerms.get(targetTerm.getKey()));
-					}
-					else {
-						targetTerms.put(targetTerm.getKey(), targetTerm.getValue());
-					}
+				TreeMap<Double, String> x = dict.get(term);
+				int num = 0;
+				for(Map.Entry<Double, String> targetTerm:x.entrySet()) {
+					if(num > 2) break;
+					num++;
+					targetQuery += " " + targetTerm.getValue();
 				}
 				
 			}
@@ -61,26 +75,21 @@ public class LuceneSearcher {
 		
 		//遍历所有可能的target term，分别检索出相关文档并合并
 		try {
-			Analyzer analyzer = new EnglishAnalyzer(Version.LUCENE_36);
+			Analyzer analyzer = new ChineseAnalyzer();
 			IndexReader ireader = IndexReader.open(directory);
 			IndexSearcher searcher = new IndexSearcher(ireader);
 			QueryParser parser = new QueryParser(Version.LUCENE_36, "content",analyzer);
 			Query queryTerm = null;
-			for(Map.Entry<String, Double> targetTerm:targetTerms.entrySet()) {
-				queryTerm = parser.parse(targetTerm.getKey());
-				if(queryTerm != null) {
-					ScoreDoc[] hits  = searcher.search(queryTerm,null,50).scoreDocs;
-					for(int i = 0 ; i < hits.length; i++){
-						Document hitDoc = searcher.doc(hits[i].doc);
-						if(documents.containsKey(hitDoc)) {
-							documents.put(hitDoc, hits[i].score*targetTerm.getValue() + documents.get(hitDoc));
-						}
-						else {
-							documents.put(hitDoc, hits[i].score*targetTerm.getValue());
-						}
-					}
+			System.out.println(targetQuery);
+			queryTerm = parser.parse(targetQuery);
+			if(queryTerm != null) {
+				ScoreDoc[] hits  = searcher.search(queryTerm,null,50).scoreDocs;
+				for(int i = 0 ; i < hits.length; i++){
+					Document hitDoc = searcher.doc(hits[i].doc);
+					documents.put(hitDoc, (double)hits[i].score);
 				}
 			}
+
 			searcher.close();
 			ireader.close();
 		} catch(Exception e) {

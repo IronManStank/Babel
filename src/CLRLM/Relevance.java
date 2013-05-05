@@ -20,8 +20,8 @@ public class Relevance {
 	TreeMap<Double, String[]> KLDocument, KLDocument2; 
 	HashMap<String, HashMap<Integer, Double>> probWordGivenSource;
 	HashMap<String, HashMap<Integer, Double>> probWordGivenTarget;
-	String[] result;
-	TreeMap<Double, String> pwRs;
+	public String[] result;
+	public TreeMap<Double, String> pwRs;
 	Entry entry;
 	double alpha = 0.8, beta = 0.2;
 	

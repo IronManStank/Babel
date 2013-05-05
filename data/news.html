@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Babel Search</title>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css">
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+$(document).bind('mobileinit',function(){
+  $.extend($.mobile, {
+    loadingMessage: '正在载入⋯⋯',
+    pageLoadErrorMessage: '载入失败，请稍后再试。'
+  })
+});
+function doSearch() {
+    $.mobile.showPageLoadingMsg('e', '正在搜索，请稍等⋯⋯');
+
+	var query = document.getElementById('query').value;
+    $.ajax({
+        type:"GET",
+        url:"/search?"+query,
+        dataType:"json",
+				data:{},
+        success:function(data, textStatus, jqXHR) {
+          var s = '';
+    	  	s += '<table width="1200px" border="0" align="center" cellspacing="10">';
+          $.mobile.hidePageLoadingMsg();
+          results = data;
+          var i = 0;
+          s += '<tr><td width="100%">';
+          s += '<h3>';
+          for(; i < 10; i++) {
+          	s += '<tr><td width="100%">';
+          	s += '<a href=\'' + results[i].url+'\'>'+ results[i].title+'</a>';
+          	s += '</tr><td width="100%">';
+          	s += '<tr><td width="100%">';
+          	s +=  results[i].show;
+          	s += '</tr><td width="100%">';
+          }
+          s += '</h3>';
+          s += ' </td></tr>';
+          s += '</table>';
+          document.getElementById('result_panel').innerHTML = s;
+        },
+        error:function(jqXHR, textStatus, errorThrown) {
+          $.mobile.hidePageLoadingMsg();
+          alert('搜索失败，请稍后重试。');
+        }
+      });
+}
+</script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="c">
+<div data-role="header" data-theme="b">
+</div>
+<div data-role="content">
+<center>
+<h2 style="color:#FF0000">Babel Search<br/></h2>
+<hr width="800px">
+<table width="700px" border="0" align="center" cellspacing="10">
+<tr>
+<td width="10%">&nbsp;</td>
+
+<td width="60%"><input type="text" name="query" id="query" value=""></td>
+<td width="20%" align="center"><strong><a data-role="button" data-theme="e" data-icon="gear" data-inline="true" href="javascript:doSearch()">搜索</a></strong></td>
+<td width="10%">&nbsp;</td>
+</tr>
+<tr>
+<td width="10%">&nbsp;</td>
+</tr>
+</table>
+
+</center>
+<hr width="1200px">
+<div id="result_panel">
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package CLRLM;
+package server;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,6 +10,9 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.Executors;
 
+import CLRLM.Entry;
+import CLRLM.Relevance;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.sun.net.httpserver.Headers;
@@ -17,6 +20,11 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
+/**
+ * simple http server for CLRLM
+ * @author locoyou
+ *
+ */
 public class SimpleHttpServer {
 
 	public static void main(String[] args) throws IOException {
