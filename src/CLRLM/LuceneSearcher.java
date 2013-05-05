@@ -37,7 +37,8 @@ public class LuceneSearcher {
 	}
 	
 	public ArrayList<Map.Entry<Document,Double>> search(String query) {
-		//TODO 完成query的翻译、lucene的查询，并对相关文档进行排序
+		//完成query的翻译、lucene的查询，并对相关文档进行排序
+		//TODO 使用IBM MODEL 1计算生成的目标语言query的概率
 		String[] queryTerms = query.split(" ");
 		System.out.println("search:"+query+" "+queryTerms.length);
 		//将所有query中term的目标语言对应term存入targetTerms中并计算概率

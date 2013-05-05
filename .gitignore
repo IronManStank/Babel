@@ -174,3 +174,7 @@ pip-log.txt
 *.cfs
 segments.gen
 segments_1
+
+#resource
+ch-en.txt
+en-ch.txt
