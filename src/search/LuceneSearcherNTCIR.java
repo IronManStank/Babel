@@ -15,7 +15,6 @@ import org.apache.lucene.analysis.cn.ChineseAnalyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexReader;
-import org.apache.lucene.queryParser.MultiFieldQueryParser;
 import org.apache.lucene.queryParser.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
@@ -24,14 +23,15 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
-public class LuceneSearcherNews {
+public class LuceneSearcherNTCIR {
 	HashMap<String, TreeMap<Double, String>> dict;
 	HashMap<Document, Double> documents;
 	Directory directory;
-	String indexDir = "data/newsIndex/";
+	String indexDir;
 	
-	public LuceneSearcherNews(HashMap<String, TreeMap<Double, String>> dict) {
+	public LuceneSearcherNTCIR(HashMap<String, TreeMap<Double, String>> dict, String indexDir) {
 		this.dict = dict;
+		this.indexDir = indexDir;
 		try{
 			directory = FSDirectory.open(new File(indexDir));
 		}
@@ -53,7 +53,7 @@ public class LuceneSearcherNews {
 	}
 	
 	public ArrayList<Map.Entry<Document,Double>> search(String query) {
-		
+		query = transformSolrMetacharactor(query);
 		//完成query的翻译、lucene的查询，并对相关文档进行排序
 		//TODO 使用IBM MODEL 1计算生成的目标语言query的概率
 		String[] queryTerms = query.split(" ");
@@ -67,25 +67,19 @@ public class LuceneSearcherNews {
 				for(Map.Entry<Double, String> targetTerm:x.entrySet()) {
 					if(num > 2) break;
 					num++;
-					targetQuery += transformSolrMetacharactor(targetTerm.getValue())+"^"+(targetTerm.getKey()*100)+" ";
+					targetQuery += " " + targetTerm.getValue();
 				}
 				
 			}
 		}
 		documents = new HashMap<Document, Double>();
-
+		
 		//遍历所有可能的target term，分别检索出相关文档并合并
 		try {
 			Analyzer analyzer = new ChineseAnalyzer();
 			IndexReader ireader = IndexReader.open(directory);
 			IndexSearcher searcher = new IndexSearcher(ireader);
-			String fields[] = new String[]{"title","content", "description"};
-			Map<String, Float> weight = new HashMap<String, Float>();
-			weight.put("title", 5.0f);
-			weight.put("content", 1.0f);
-			weight.put("descriotion", 2.0f);
-			MultiFieldQueryParser parser = new MultiFieldQueryParser(Version.LUCENE_36, fields, analyzer, weight);
-			//QueryParser parser = new QueryParser(Version.LUCENE_36, "content",analyzer);
+			QueryParser parser = new QueryParser(Version.LUCENE_36, "TEXT",analyzer);
 			Query queryTerm = null;
 			System.out.println(targetQuery);
 			queryTerm = parser.parse(targetQuery);

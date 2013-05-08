@@ -1,0 +1,37 @@
+﻿<TOP>
+<TOPIC>
+<NUM>016</NUM>
+<ONUM>NTCIR4-016</ONUM>
+<SLANG>KR</SLANG>
+<TLANG>EN</TLANG>
+<TITLE>North Korea, Missile, Test, Firing</TITLE>
+<DESC>Find articles on North Korea's long-range missile test-firing</DESC>
+<NARR>
+<BACK>
+North Korea is showing considerable progress on long-range ground-to-ground missile development and officially announced that they test fired one "Daepo Dong I."
+</BACK>
+<REL>
+Relevant articles should address North Korea's long-range ground-to-ground missile test-firing with test-firing plans or evidence of test-firing. Articles that include the missile's specifications including the range are also relevant. Articles mainly discussing a foreign country's reaction to the missile test-firing are partially relevant.
+</REL>
+</NARR>
+<CONC>North Korea, ground-to-ground missile, long-range missile, missile, range, intercontinental, Daepo Dong</CONC>
+</TOPIC>
+
+<TOPIC>
+<NUM>026</NUM>
+<ONUM>NTCIR4-026</ONUM>
+<SLANG>KR</SLANG>
+<TLANG>EN</TLANG>
+<TITLE>China, Reaction, Taiwan, Diplomatic Relations</TITLE>
+<DESC>Find articles that show China's reaction to Taiwan's establishment of diplomatic relations with foreign countries</DESC>
+<NARR>
+<BACK>
+Taiwan is making efforts to establish relations with foreign countries such as North Korea, Macedonia, etc. as well as expanding existing relations. China is showing negative reactions.
+</BACK>
+<REL>
+Articles recording China's reaction to Taiwan's attempt to establish and strengthen diplomatic relations with foreign countries are relevant. Articles that interpret China's actions in international conferences or international organizations that are related to Taiwan's attempt to strengthen diplomatic relations are also relevant.
+</REL>
+</NARR>
+<CONC>Taiwan, Macedonia, amity, China, reaction, retaliation</CONC>
+</TOPIC>
+</TOP>
