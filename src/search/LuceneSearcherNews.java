@@ -13,6 +13,7 @@ import java.util.regex.Pattern;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.cn.ChineseAnalyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.queryParser.MultiFieldQueryParser;
@@ -76,7 +77,8 @@ public class LuceneSearcherNews {
 
 		//遍历所有可能的target term，分别检索出相关文档并合并
 		try {
-			Analyzer analyzer = new ChineseAnalyzer();
+			//Analyzer analyzer = new ChineseAnalyzer();
+			Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_36);
 			IndexReader ireader = IndexReader.open(directory);
 			IndexSearcher searcher = new IndexSearcher(ireader);
 			String fields[] = new String[]{"title","content", "description"};

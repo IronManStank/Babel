@@ -17,6 +17,8 @@ import search.LuceneEntryNTCIR;
 
 public class NTCIRTest {
 	HashMap<String, HashMap<String, String>> relevance;
+	HashMap<String, Integer> pos;
+	HashMap<String, Integer> neg;
 	LuceneEntryNTCIR le;
 	String taskFile;
 	DocumentBuilderFactory factory;
@@ -33,17 +35,26 @@ public class NTCIRTest {
 			NodeList nl = document.getElementsByTagName("TOPIC");
 			for(int i = 0; i < nl.getLength(); i++) {
 				String query = "", topic = "";
+				int pp = 0, all = 0;
 				if(document.getElementsByTagName("TITLE").item(i).getFirstChild() != null)
 					query = document.getElementsByTagName("TITLE").item(i).getFirstChild().getNodeValue();
-				if(document.getElementsByTagName("TOPIC").item(i).getFirstChild() != null)
-					topic = document.getElementsByTagName("TOPIC").item(i).getFirstChild().getNodeValue();
+				if(document.getElementsByTagName("NUM").item(i).getFirstChild() != null)
+					topic = document.getElementsByTagName("NUM").item(i).getFirstChild().getNodeValue();
 				if(!query.equalsIgnoreCase("") && !topic.equalsIgnoreCase("")) {
-					query = query.replaceAll(", ","");
+					query = query.replaceAll(", "," ");
 					ArrayList<Map.Entry<Document,Double>> results = le.search(query);
+					System.out.println(pos.get(topic)+";"+neg.get(topic));
 					for(Map.Entry<Document, Double> result:results) {
 						String docno = result.getKey().get("DOCNO");
-						System.out.println(docno + " " + relevance.get(topic).get(docno));
+						String rel = relevance.get(topic).get(docno);
+						if(rel != null) {
+							if(rel.endsWith("1"))
+								pp++;
+							all++;
+							System.out.println(docno + " " + relevance.get(topic).get(docno));
+						}
 					}
+					System.out.println(pp+" "+all);
 				}
 			}
 		}
@@ -68,10 +79,24 @@ public class NTCIRTest {
 	private void getRelevance(String relevanceFile) {
 		try {
 			relevance = new HashMap<String, HashMap<String, String>>();
+			pos = new HashMap<String, Integer>();
+			neg = new HashMap<String, Integer>();
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(relevanceFile)));
 			String line;
 			while((line = br.readLine()) != null) {
-				String[] lines = line.split(" "); 
+				String[] lines = line.split("\t"); 
+				if(lines[3].equalsIgnoreCase("1")) {
+					if(pos.containsKey(lines[0]))
+						pos.put(lines[0], pos.get(lines[0])+1);
+					else
+						pos.put(lines[0], 1);
+				}
+				else {
+					if(neg.containsKey(lines[0]))
+						neg.put(lines[0], neg.get(lines[0])+1);
+					else
+						neg.put(lines[0], 1);
+				}
 				if(relevance.containsKey(lines[0])) {
 					relevance.get(lines[0]).put(lines[2], lines[1]+lines[3]);
 				}

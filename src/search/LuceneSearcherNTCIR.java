@@ -13,8 +13,10 @@ import java.util.regex.Pattern;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.cn.ChineseAnalyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.queryParser.MultiFieldQueryParser;
 import org.apache.lucene.queryParser.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
@@ -67,7 +69,7 @@ public class LuceneSearcherNTCIR {
 				for(Map.Entry<Double, String> targetTerm:x.entrySet()) {
 					if(num > 2) break;
 					num++;
-					targetQuery += " " + targetTerm.getValue();
+					targetQuery += transformSolrMetacharactor(targetTerm.getValue())+"^"+(targetTerm.getKey()*100)+" ";
 				}
 				
 			}
@@ -76,15 +78,20 @@ public class LuceneSearcherNTCIR {
 		
 		//遍历所有可能的target term，分别检索出相关文档并合并
 		try {
-			Analyzer analyzer = new ChineseAnalyzer();
+			Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_36);
 			IndexReader ireader = IndexReader.open(directory);
 			IndexSearcher searcher = new IndexSearcher(ireader);
-			QueryParser parser = new QueryParser(Version.LUCENE_36, "TEXT",analyzer);
+			//QueryParser parser = new QueryParser(Version.LUCENE_36, "TEXT",analyzer);
+			String fields[] = new String[]{"HEADLINE","TEXT"};
+			Map<String, Float> weight = new HashMap<String, Float>();
+			weight.put("HEADLINE", 10.0f);
+			weight.put("TEXT", 1.0f);
+			MultiFieldQueryParser parser = new MultiFieldQueryParser(Version.LUCENE_36, fields, analyzer, weight);
 			Query queryTerm = null;
 			System.out.println(targetQuery);
 			queryTerm = parser.parse(targetQuery);
 			if(queryTerm != null) {
-				ScoreDoc[] hits  = searcher.search(queryTerm,null,50).scoreDocs;
+				ScoreDoc[] hits  = searcher.search(queryTerm,null,120).scoreDocs;
 				for(int i = 0 ; i < hits.length; i++){
 					Document hitDoc = searcher.doc(hits[i].doc);
 					documents.put(hitDoc, (double)hits[i].score);
