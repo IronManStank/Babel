@@ -91,7 +91,7 @@ public class LuceneSearcherNTCIR {
 			System.out.println(targetQuery);
 			queryTerm = parser.parse(targetQuery);
 			if(queryTerm != null) {
-				ScoreDoc[] hits  = searcher.search(queryTerm,null,120).scoreDocs;
+				ScoreDoc[] hits  = searcher.search(queryTerm,null,3000).scoreDocs;
 				for(int i = 0 ; i < hits.length; i++){
 					Document hitDoc = searcher.doc(hits[i].doc);
 					documents.put(hitDoc, (double)hits[i].score);

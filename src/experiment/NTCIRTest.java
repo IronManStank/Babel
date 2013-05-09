@@ -35,7 +35,8 @@ public class NTCIRTest {
 			NodeList nl = document.getElementsByTagName("TOPIC");
 			for(int i = 0; i < nl.getLength(); i++) {
 				String query = "", topic = "";
-				int pp = 0, all = 0;
+				int pp = 0, alltag = 0, all = 0;
+				double map1 = 0, map2 = 0;
 				if(document.getElementsByTagName("TITLE").item(i).getFirstChild() != null)
 					query = document.getElementsByTagName("TITLE").item(i).getFirstChild().getNodeValue();
 				if(document.getElementsByTagName("NUM").item(i).getFirstChild() != null)
@@ -47,14 +48,18 @@ public class NTCIRTest {
 					for(Map.Entry<Document, Double> result:results) {
 						String docno = result.getKey().get("DOCNO");
 						String rel = relevance.get(topic).get(docno);
+						all++;
 						if(rel != null) {
-							if(rel.endsWith("1"))
+							alltag++;
+							if(rel.endsWith("1")) {
 								pp++;
-							all++;
-							System.out.println(docno + " " + relevance.get(topic).get(docno));
+								map1 += (double)pp/alltag;
+								map2 += (double)pp/all;
+							}
+							//System.out.println(docno + " " + relevance.get(topic).get(docno));
 						}
 					}
-					System.out.println(pp+" "+all);
+					System.out.println(pp+" "+alltag+" "+all+" "+(map1/pp)+" "+(map2/pp));
 				}
 			}
 		}
