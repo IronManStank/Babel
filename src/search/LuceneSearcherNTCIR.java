@@ -26,13 +26,13 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
 public class LuceneSearcherNTCIR {
-	HashMap<String, TreeMap<Double, String>> dict;
+	HashMap<String, TreeMap<Double, String>> reldict;
 	HashMap<Document, Double> documents;
 	Directory directory;
 	String indexDir;
 	
-	public LuceneSearcherNTCIR(HashMap<String, TreeMap<Double, String>> dict, String indexDir) {
-		this.dict = dict;
+	public LuceneSearcherNTCIR(HashMap<String, TreeMap<Double, String>> reldict, String indexDir) {
+		this.reldict = reldict;
 		this.indexDir = indexDir;
 		try{
 			directory = FSDirectory.open(new File(indexDir));
@@ -57,14 +57,13 @@ public class LuceneSearcherNTCIR {
 	public ArrayList<Map.Entry<Document,Double>> search(String query) {
 		query = transformSolrMetacharactor(query);
 		//完成query的翻译、lucene的查询，并对相关文档进行排序
-		//TODO 使用IBM MODEL 1计算生成的目标语言query的概率
 		String[] queryTerms = query.split(" ");
 		System.out.println("search:"+query+" "+queryTerms.length);
 		//使用query中term的目标语言对应前k个term组成目标语言query
 		String targetQuery = "";
 		for(String term:queryTerms) {
-			if(dict.containsKey(term)) {
-				TreeMap<Double, String> x = dict.get(term);
+			if(reldict.containsKey(term)) {
+				TreeMap<Double, String> x = reldict.get(term);
 				int num = 0;
 				for(Map.Entry<Double, String> targetTerm:x.entrySet()) {
 					if(num > 2) break;

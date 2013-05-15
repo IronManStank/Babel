@@ -33,18 +33,18 @@ public class NTCIRTest {
 		try {
 			org.w3c.dom.Document document = builder.parse(taskFile);
 			NodeList nl = document.getElementsByTagName("TOPIC");
+			double map = 0;
 			for(int i = 0; i < nl.getLength(); i++) {
 				String query = "", topic = "";
 				int pp = 0, alltag = 0, all = 0;
-				double map1 = 0, map2 = 0;
+				double ap1 = 0, ap2 = 0;
 				if(document.getElementsByTagName("TITLE").item(i).getFirstChild() != null)
 					query = document.getElementsByTagName("TITLE").item(i).getFirstChild().getNodeValue();
 				if(document.getElementsByTagName("NUM").item(i).getFirstChild() != null)
 					topic = document.getElementsByTagName("NUM").item(i).getFirstChild().getNodeValue();
 				if(!query.equalsIgnoreCase("") && !topic.equalsIgnoreCase("")) {
 					query = query.replaceAll(", "," ");
-					ArrayList<Map.Entry<Document,Double>> results = le.search(query);
-					System.out.println(pos.get(topic)+";"+neg.get(topic));
+					ArrayList<Map.Entry<Document,Double>> results = le.search(query);		
 					for(Map.Entry<Document, Double> result:results) {
 						String docno = result.getKey().get("DOCNO");
 						String rel = relevance.get(topic).get(docno);
@@ -53,15 +53,21 @@ public class NTCIRTest {
 							alltag++;
 							if(rel.endsWith("1")) {
 								pp++;
-								map1 += (double)pp/alltag;
-								map2 += (double)pp/all;
+								ap1 += (double)pp/alltag;
+								ap2 += (double)pp/all;
 							}
 							//System.out.println(docno + " " + relevance.get(topic).get(docno));
 						}
 					}
-					System.out.println(pp+" "+alltag+" "+all+" "+(map1/pp)+" "+(map2/pp));
+					ap1 = ap1/pos.get(topic);
+					ap2 = ap2/pos.get(topic);
+					map += ap2;
+					System.out.println("pos:"+pos.get(topic)+"; neg:"+neg.get(topic));
+					System.out.println("get:"+pp+" tag:"+alltag+" all:"+all+" ap1:"+ap1+" ap2:"+ap2);
 				}
 			}
+			map = map/nl.getLength();
+			System.out.println("MAP: "+map);
 		}
 		catch(Exception e) {
 			e.printStackTrace();

@@ -12,7 +12,7 @@ import java.util.TreeMap;
 import org.apache.lucene.document.Document;
 
 public class LuceneEntryNews {
-	HashMap<String, TreeMap<Double, String>> dict;
+	HashMap<String, TreeMap<Double, String>> reldict;
 	LuceneSearcherNews luceneSearcher;
 	
 	public boolean isTag(String str) {
@@ -24,7 +24,7 @@ public class LuceneEntryNews {
 	
 	public LuceneEntryNews() {
 		try {
-			dict = new HashMap<String, TreeMap<Double, String>>();
+			reldict = new HashMap<String, TreeMap<Double, String>>();
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("data/en-ch.txt")));
 			System.out.println("dict");
 			String line;
@@ -32,8 +32,8 @@ public class LuceneEntryNews {
 				String[] terms = line.split("\\|\\|\\|");
 				if(isTag(terms[0]) || isTag(terms[1]))
 					continue;
-				if(dict.containsKey(terms[0])) {
-					dict.get(terms[0]).put(Double.valueOf(terms[2]), terms[1]);
+				if(reldict.containsKey(terms[0])) {
+					reldict.get(terms[0]).put(Double.valueOf(terms[2]), terms[1]);
 				}
 				else {
 					TreeMap<Double, String> x = new TreeMap<Double, String>(new Comparator<Double>() {
@@ -43,12 +43,12 @@ public class LuceneEntryNews {
 						}
 					});
 					x.put(Double.valueOf(terms[2]), terms[1]);
-					dict.put(terms[0], x);
+					reldict.put(terms[0], x);
 				}
 			}
 			br.close();
 			System.out.println("/dict");
-			luceneSearcher = new LuceneSearcherNews(dict);
+			luceneSearcher = new LuceneSearcherNews(reldict);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
