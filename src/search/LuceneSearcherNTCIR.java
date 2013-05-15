@@ -55,7 +55,7 @@ public class LuceneSearcherNTCIR {
 	}
 	
 	public ArrayList<Map.Entry<Document,Double>> search(String query) {
-		query = transformSolrMetacharactor(query);
+		//query = transformSolrMetacharactor(query);
 		//完成query的翻译、lucene的查询，并对相关文档进行排序
 		String[] queryTerms = query.split(" ");
 		System.out.println("search:"+query+" "+queryTerms.length);
@@ -67,6 +67,7 @@ public class LuceneSearcherNTCIR {
 				int num = 0;
 				for(Map.Entry<Double, String> targetTerm:x.entrySet()) {
 					if(num > 2) break;
+					//if(targetTerm.getValue().length() < 2) continue;
 					num++;
 					targetQuery += transformSolrMetacharactor(targetTerm.getValue())+"^"+(targetTerm.getKey()*100)+" ";
 				}

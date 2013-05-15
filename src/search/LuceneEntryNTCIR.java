@@ -16,7 +16,8 @@ public class LuceneEntryNTCIR {
 	LuceneSearcherNTCIR luceneSearcher;
 	
 	public boolean isTag(String str) {
-		if(str.equals("'") || str.equals(".") || str.equals("-") || str.equals("!") || str.equals("\"") || str.equals("?") || str.equals("<") || str.equals(">") || str.equals("_")) {
+		if(str.equals("'") || str.equals(".") || str.equals("-") || str.equals("!") || str.equals("\"") || 
+			str.equals("?")|| str.equals("<") || str.equals(">") || str.equals("_") || str.equals(":")) {
 			return true;
 		}
 		return false;
