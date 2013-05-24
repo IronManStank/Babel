@@ -13,6 +13,7 @@ import org.apache.lucene.document.Document;
 
 public class LuceneEntryNTCIR {
 	HashMap<String, TreeMap<Double, String>> reldict;
+	HashMap<String, ArrayList<String>> dict;
 	LuceneSearcherNTCIR luceneSearcher;
 	
 	public boolean isTag(String str) {
@@ -48,8 +49,26 @@ public class LuceneEntryNTCIR {
 				}
 			}
 			br.close();
+			
+			dict = new HashMap<String, ArrayList<String>>();
+			br = new BufferedReader(new InputStreamReader(new FileInputStream("general.dict")));
+			while((line = br.readLine()) != null) {
+				line = line.substring(1,line.length()-1);
+				String key = line.split(",")[0].split(":")[1];
+				String value = line.split(",")[1].split(":")[1];
+				key = key.substring(1,key.length()-1);
+				value = value.substring(1, value.length()-1);
+				if(dict.containsKey(key)) {
+					dict.get(key).add(value);
+				}
+				else {
+					ArrayList<String> x = new ArrayList<String>();
+					x.add(value);
+					dict.put(key, x);
+				}
+			}
 			System.out.println("/dict");
-			luceneSearcher = new LuceneSearcherNTCIR(reldict, indexDir);
+			luceneSearcher = new LuceneSearcherNTCIR(dict, reldict, indexDir);
 		}
 		catch(Exception e) {
 			e.printStackTrace();

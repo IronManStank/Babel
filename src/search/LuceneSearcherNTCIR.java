@@ -27,11 +27,13 @@ import org.apache.lucene.util.Version;
 
 public class LuceneSearcherNTCIR {
 	HashMap<String, TreeMap<Double, String>> reldict;
+	HashMap<String, ArrayList<String>> dict;
 	HashMap<Document, Double> documents;
 	Directory directory;
 	String indexDir;
 	
-	public LuceneSearcherNTCIR(HashMap<String, TreeMap<Double, String>> reldict, String indexDir) {
+	public LuceneSearcherNTCIR(HashMap<String, ArrayList<String>> dict, HashMap<String, TreeMap<Double, String>> reldict, String indexDir) {
+		this.dict = dict;
 		this.reldict = reldict;
 		this.indexDir = indexDir;
 		try{
@@ -60,6 +62,8 @@ public class LuceneSearcherNTCIR {
 		String[] queryTerms = query.split(" ");
 		System.out.println("search:"+query+" "+queryTerms.length);
 		//使用query中term的目标语言对应前k个term组成目标语言query
+		//TODO 使用dict
+		//TODO 合并重复target term，计算权重
 		String targetQuery = "";
 		for(String term:queryTerms) {
 			if(reldict.containsKey(term)) {
@@ -76,7 +80,6 @@ public class LuceneSearcherNTCIR {
 		}
 		documents = new HashMap<Document, Double>();
 		
-		//遍历所有可能的target term，分别检索出相关文档并合并
 		try {
 			Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_36);
 			IndexReader ireader = IndexReader.open(directory);
