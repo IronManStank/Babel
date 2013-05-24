@@ -43,6 +43,7 @@ class NewsSearchHandler implements HttpHandler {
 	String mainHTML;
 	LuceneEntryNews le;
 	Gson GSON_BUILDER = (new GsonBuilder()).disableHtmlEscaping().create();
+	ArrayList<Map.Entry<Document,Double>> res;
 	
 	public NewsSearchHandler() throws IOException {
 		le = new LuceneEntryNews();
@@ -73,6 +74,10 @@ class NewsSearchHandler implements HttpHandler {
 				      responseHeaders.set("Content-Type", "text/plain");
 			    	  search(query, responseBody);
 			      }
+			      else if(path.equals("/page")) {
+			    	  responseHeaders.set("Content-Type", "text/plain");
+			    	  page(query, responseBody);
+			      }
 			      else {
 				      responseHeaders.set("Content-Type", "text/html");
 			    	  responseBody.write(mainHTML.getBytes());			    	  
@@ -86,21 +91,56 @@ class NewsSearchHandler implements HttpHandler {
 	    }
 	}
 
-	private void search(String kw, OutputStream responseBody) {
-		try{
-			System.out.println("in search " + kw);
-			ArrayList<Map.Entry<Document,Double>> res = le.search(kw);
+	private void page(String kw, OutputStream responseBody) {
+		try {
+			int pageNo = Integer.valueOf(kw);
 			ArrayList<NewsSearchResults> results = new ArrayList<NewsSearchResults>();
-			int x = 0;
-			for(Map.Entry<Document, Double> result:res) {
-				x++;
+			int size = res.size();
+			int page;
+			if(size % 10 == 0) 
+				page = size / 10;
+			else
+				page = (size / 10) + 1;
+			System.out.println("page:"+page);
+			results.add(new NewsSearchResults(page+"","","","",""));
+			for(int x = (pageNo-1)*10; x < pageNo*10; x++) {
+				if(x >= res.size()) break;
+				Map.Entry<Document,Double> result = res.get(x);
 				Document d = result.getKey();
 				String show = d.get("content");
 				if(show.length() > 200) {
 					show = show.substring(0, 200) + "...";
 				}
 				results.add(new NewsSearchResults(d.get("content"), d.get("title"), d.get("url"), d.get("description"), show));
-				if(x >= 10) break;
+			}
+			responseBody.write(GSON_BUILDER.toJson(results).getBytes());
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private void search(String kw, OutputStream responseBody) {
+		try{
+			System.out.println("in search " + kw);
+			res = le.search(kw);
+			ArrayList<NewsSearchResults> results = new ArrayList<NewsSearchResults>();
+			int size = res.size();
+			int page;
+			if(size % 10 == 0) 
+				page = size / 10;
+			else
+				page = (size / 10) + 1;
+			System.out.println("page:"+page);
+			results.add(new NewsSearchResults(page+"","","","",""));
+			for(int x = 0; x < 10; x++) {
+				Map.Entry<Document,Double> result = res.get(x);
+				Document d = result.getKey();
+				String show = d.get("content");
+				if(show.length() > 200) {
+					show = show.substring(0, 200) + "...";
+				}
+				results.add(new NewsSearchResults(d.get("content"), d.get("title"), d.get("url"), d.get("description"), show));
 			}
 
 			responseBody.write(GSON_BUILDER.toJson(results).getBytes());

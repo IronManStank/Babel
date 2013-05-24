@@ -92,7 +92,7 @@ public class LuceneSearcherNews {
 			System.out.println(targetQuery);
 			queryTerm = parser.parse(targetQuery);
 			if(queryTerm != null) {
-				ScoreDoc[] hits  = searcher.search(queryTerm,null,50).scoreDocs;
+				ScoreDoc[] hits  = searcher.search(queryTerm,null,300).scoreDocs;
 				for(int i = 0 ; i < hits.length; i++){
 					Document hitDoc = searcher.doc(hits[i].doc);
 					documents.put(hitDoc, (double)hits[i].score);

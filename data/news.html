@@ -12,6 +12,56 @@ $(document).bind('mobileinit',function(){
     pageLoadErrorMessage: '载入失败，请稍后再试。'
   })
 });
+
+function page(pageNo) {
+    $.mobile.showPageLoadingMsg('e', '正在搜索，请稍等⋯⋯');
+
+	var query = document.getElementById('query').value;
+    $.ajax({
+        type:"GET",
+        url:"/page?"+pageNo,
+        dataType:"json",
+				data:{},
+        success:function(data, textStatus, jqXHR) {
+          var s = '';
+    	  	s += '<table width="1200px" border="0" align="center" cellspacing="10">';
+          $.mobile.hidePageLoadingMsg();
+          results = data;
+          var page = parseInt(results[0].content);
+          var j = -5;
+          s += '<tr><td width="100%">';
+          for(; j <= 5; j++) {
+          	if(pageNo + j > 0 && pageNo + j <= page && j != 0) {
+          		s += "<a href=javascript:page("+(pageNo+j) + ")>"+(pageNo+j)+"</a> ";
+          	}
+          	else if(j == 0) {
+          		s += pageNo+" ";
+          	}
+          } 
+          s += ' </td></tr>';
+          var i = 1;
+          s += '<tr><td width="100%">';
+          s += '<h3>';
+          for(; i <= 10; i++) {
+          	s += '<tr><td width="100%">';
+          	s += '<a href=\'' + results[i].url+'\'>'+ results[i].title+'</a>';
+          	s += '</tr><td width="100%">';
+          	s += '<tr><td width="100%">';
+          	s +=  results[i].show;
+          	s += '</tr><td width="100%">';
+          }
+          s += '</h3>';
+          s += ' </td></tr>';
+          s += '</table>';
+          document.getElementById('result_panel').innerHTML = s;
+        },
+        error:function(jqXHR, textStatus, errorThrown) {
+          $.mobile.hidePageLoadingMsg();
+          alert('搜索失败，请稍后重试。');
+        }
+      });
+}
+
 function doSearch() {
     $.mobile.showPageLoadingMsg('e', '正在搜索，请稍等⋯⋯');
 
@@ -26,10 +76,20 @@ function doSearch() {
     	  	s += '<table width="1200px" border="0" align="center" cellspacing="10">';
           $.mobile.hidePageLoadingMsg();
           results = data;
-          var i = 0;
+          var page = parseInt(results[0].content);
+          var j = 2;
+          s += '<tr><td width="100%">';
+          s += '1 ';
+          for(; j <= 6; j++) {
+          	if(j <= page) {
+          		s += "<a href=javascript:page("+j + ")>"+j+"</a> ";
+          	}
+          } 
+          s += ' </td></tr>';
+          var i = 1;
           s += '<tr><td width="100%">';
           s += '<h3>';
-          for(; i < 10; i++) {
+          for(; i <= 10; i++) {
           	s += '<tr><td width="100%">';
           	s += '<a href=\'' + results[i].url+'\'>'+ results[i].title+'</a>';
           	s += '</tr><td width="100%">';
