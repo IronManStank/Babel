@@ -66,9 +66,8 @@ class NewsSearchHandler implements HttpHandler {
 		      exchange.sendResponseHeaders(200, 0);
 		      OutputStream responseBody = exchange.getResponseBody();
 		      String path = exchange.getRequestURI().getPath();
-		      System.out.println(path);
 		      String query = exchange.getRequestURI().getQuery();
-	    	  System.out.println(query);
+		      System.out.println(path+" "+query);
 		      if (query!=null) {
 			      if (path.equals("/search")) {
 				      responseHeaders.set("Content-Type", "text/plain");
@@ -101,8 +100,7 @@ class NewsSearchHandler implements HttpHandler {
 				page = size / 10;
 			else
 				page = (size / 10) + 1;
-			System.out.println("page:"+page);
-			results.add(new NewsSearchResults(page+"","","","",""));
+			results.add(new NewsSearchResults(page+"","","","","",""));
 			for(int x = (pageNo-1)*10; x < pageNo*10; x++) {
 				if(x >= res.size()) break;
 				Map.Entry<Document,Double> result = res.get(x);
@@ -111,7 +109,7 @@ class NewsSearchHandler implements HttpHandler {
 				if(show.length() > 200) {
 					show = show.substring(0, 200) + "...";
 				}
-				results.add(new NewsSearchResults(d.get("content"), d.get("title"), d.get("url"), d.get("description"), show));
+				results.add(new NewsSearchResults(d.get("content"), d.get("title"), d.get("url"), d.get("description"), show, d.get("date")));
 			}
 			responseBody.write(GSON_BUILDER.toJson(results).getBytes());
 		}
@@ -132,7 +130,7 @@ class NewsSearchHandler implements HttpHandler {
 			else
 				page = (size / 10) + 1;
 			System.out.println("page:"+page);
-			results.add(new NewsSearchResults(page+"","","","",""));
+			results.add(new NewsSearchResults(page+"","","","","",""));
 			for(int x = 0; x < 10; x++) {
 				Map.Entry<Document,Double> result = res.get(x);
 				Document d = result.getKey();
@@ -140,7 +138,7 @@ class NewsSearchHandler implements HttpHandler {
 				if(show.length() > 200) {
 					show = show.substring(0, 200) + "...";
 				}
-				results.add(new NewsSearchResults(d.get("content"), d.get("title"), d.get("url"), d.get("description"), show));
+				results.add(new NewsSearchResults(d.get("content"), d.get("title"), d.get("url"), d.get("description"), show, d.get("date")));
 			}
 
 			responseBody.write(GSON_BUILDER.toJson(results).getBytes());
@@ -158,11 +156,13 @@ class NewsSearchResults {
 	String url;
 	String description;
 	String show;
-	public NewsSearchResults(String content, String title, String url, String description, String show) {
+	String date;
+	public NewsSearchResults(String content, String title, String url, String description, String show, String date) {
 		this.content = content;
 		this.title = title;
 		this.url = url;
 		this.description = description;
 		this.show = show;
+		this.date = date;
 	}
 }

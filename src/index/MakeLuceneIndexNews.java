@@ -84,7 +84,7 @@ public class MakeLuceneIndexNews {
 				}
 				else {
 					org.w3c.dom.Document document = builder.parse(file);
-					String content = "", title = "", description = "", url = "";
+					String content = "", title = "", description = "", url = "", date = "";
 					if(document.getElementsByTagName("content").item(0).getFirstChild() != null)
 						content = document.getElementsByTagName("content").item(0).getFirstChild().getNodeValue();
 					if(document.getElementsByTagName("title").item(0).getFirstChild() != null)
@@ -93,11 +93,14 @@ public class MakeLuceneIndexNews {
 						description = document.getElementsByTagName("description").item(0).getFirstChild().getNodeValue();
 					if(document.getElementsByTagName("url").item(0).getFirstChild() != null)
 						url = document.getElementsByTagName("url").item(0).getFirstChild().getNodeValue();
+					if(document.getElementsByTagName("pubTime").item(0).getFirstChild() != null)
+						date = document.getElementsByTagName("pubTime").item(0).getFirstChild().getNodeValue();
 					org.apache.lucene.document.Document doc = new org.apache.lucene.document.Document();
 					doc.add(new Field("content", content,Field.Store.YES,Field.Index.ANALYZED));
 					doc.add(new Field("title",title,Field.Store.YES,Field.Index.ANALYZED));
 					doc.add(new Field("description",description,Field.Store.YES,Field.Index.ANALYZED));
 					doc.add(new Field("url",url,Field.Store.YES,Field.Index.NOT_ANALYZED));
+					doc.add(new Field("date",date,Field.Store.YES,Field.Index.NOT_ANALYZED));
 					indexWriter.addDocument(doc);
 				}
 			}

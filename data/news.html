@@ -47,6 +47,9 @@ function page(pageNo) {
           	s += '<a href=\'' + results[i].url+'\'>'+ results[i].title+'</a>';
           	s += '</tr><td width="100%">';
           	s += '<tr><td width="100%">';
+          	s += '<font style="font-size:12px;">' + results[i].date + '</font>';
+          	s += '</tr><td width="100%">';
+          	s += '<tr><td width="100%">';
           	s +=  results[i].show;
           	s += '</tr><td width="100%">';
           }
@@ -92,6 +95,9 @@ function doSearch() {
           for(; i <= 10; i++) {
           	s += '<tr><td width="100%">';
           	s += '<a href=\'' + results[i].url+'\'>'+ results[i].title+'</a>';
+          	s += '</tr><td width="100%">';
+          	s += '<tr><td width="100%">';
+          	s += '<font style="font-size:12px;">' + results[i].date + '</font>';
           	s += '</tr><td width="100%">';
           	s += '<tr><td width="100%">';
           	s +=  results[i].show;
