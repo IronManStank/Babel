@@ -40,21 +40,17 @@ function page(pageNo) {
           } 
           s += ' </td></tr>';
           var i = 1;
-          s += '<tr><td width="100%">';
+          
           s += '<h3>';
           for(; i <= 10; i++) {
           	s += '<tr><td width="100%">';
           	s += '<a href=\'' + results[i].url+'\'>'+ results[i].title+'</a>';
-          	s += '</tr><td width="100%">';
-          	s += '<tr><td width="100%">';
-          	s += '<font style="font-size:12px;">' + results[i].date + '</font>';
-          	s += '</tr><td width="100%">';
-          	s += '<tr><td width="100%">';
-          	s +=  results[i].show;
-          	s += '</tr><td width="100%">';
+          	s += '<p><font style="font-size:12px;">' + results[i].date + '</font></p>';
+          	s += '<p>'+ results[i].show+'</p>';
+          	s += '</td></tr>';
           }
           s += '</h3>';
-          s += ' </td></tr>';
+          
           s += '</table>';
           document.getElementById('result_panel').innerHTML = s;
         },
@@ -90,21 +86,17 @@ function doSearch() {
           } 
           s += ' </td></tr>';
           var i = 1;
-          s += '<tr><td width="100%">';
+
           s += '<h3>';
           for(; i <= 10; i++) {
           	s += '<tr><td width="100%">';
           	s += '<a href=\'' + results[i].url+'\'>'+ results[i].title+'</a>';
-          	s += '</tr><td width="100%">';
-          	s += '<tr><td width="100%">';
-          	s += '<font style="font-size:12px;">' + results[i].date + '</font>';
-          	s += '</tr><td width="100%">';
-          	s += '<tr><td width="100%">';
-          	s +=  results[i].show;
-          	s += '</tr><td width="100%">';
+          	s += '<p><font style="font-size:12px;">' + results[i].date + '</font></p>';
+          	s += '<p>'+ results[i].show+'</p>';
+          	s += '</td></tr>';
           }
           s += '</h3>';
-          s += ' </td></tr>';
+
           s += '</table>';
           document.getElementById('result_panel').innerHTML = s;
         },
@@ -124,7 +116,7 @@ function doSearch() {
 <div data-role="content">
 <center>
 <h2 style="color:#FF0000">Babel Search<br/></h2>
-<hr width="800px">
+
 <table width="700px" border="0" align="center" cellspacing="10">
 <tr>
 <td width="10%">&nbsp;</td>

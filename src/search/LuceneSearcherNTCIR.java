@@ -62,21 +62,43 @@ public class LuceneSearcherNTCIR {
 		String[] queryTerms = query.split(" ");
 		System.out.println("search:"+query+" "+queryTerms.length);
 		//使用query中term的目标语言对应前k个term组成目标语言query
-		//TODO 使用dict
-		//TODO 合并重复target term，计算权重
+		//DONE 使用dict。实验证明，使用gerneal.dict的效果很差，词典本身不带概率，很多无效翻译
+		//DONE 合并重复target term，计算权重
+		HashMap<String, Double> termsWeight = new HashMap<String, Double>();
 		String targetQuery = "";
 		for(String term:queryTerms) {
+			/*
+			if(dict.containsKey(term)) {
+				ArrayList<String> x = dict.get(term);
+				for(String s:x) {
+					if(termsWeight.containsKey(s)) {
+						termsWeight.put(s, termsWeight.get(s)+1.0);
+					}
+					else {
+						termsWeight.put(s, 1.0);
+					}
+				}
+			}*/
 			if(reldict.containsKey(term)) {
 				TreeMap<Double, String> x = reldict.get(term);
 				int num = 0;
 				for(Map.Entry<Double, String> targetTerm:x.entrySet()) {
 					if(num > 2) break;
 					//if(targetTerm.getValue().length() < 2) continue;
+					if(termsWeight.containsKey(targetTerm.getValue())) {
+						termsWeight.put(targetTerm.getValue(),termsWeight.get(targetTerm.getValue())+targetTerm.getKey());
+					}
+					else {
+						termsWeight.put(targetTerm.getValue(),targetTerm.getKey());
+					}
 					num++;
-					targetQuery += transformSolrMetacharactor(targetTerm.getValue())+"^"+(targetTerm.getKey()*100)+" ";
+					//targetQuery += transformSolrMetacharactor(targetTerm.getValue())+"^"+(targetTerm.getKey()*100)+" ";
 				}
 				
 			}
+		}
+		for(Map.Entry<String, Double> queryTermWeight:termsWeight.entrySet()) {
+			targetQuery += transformSolrMetacharactor(queryTermWeight.getKey())+"^"+queryTermWeight.getValue()+" ";
 		}
 		documents = new HashMap<Document, Double>();
 		

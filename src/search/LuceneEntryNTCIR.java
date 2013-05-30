@@ -51,7 +51,7 @@ public class LuceneEntryNTCIR {
 			br.close();
 			
 			dict = new HashMap<String, ArrayList<String>>();
-			br = new BufferedReader(new InputStreamReader(new FileInputStream("general.dict")));
+			br = new BufferedReader(new InputStreamReader(new FileInputStream("data/general.dict")));
 			while((line = br.readLine()) != null) {
 				line = line.substring(1,line.length()-1);
 				String key = line.split(",")[0].split(":")[1];
