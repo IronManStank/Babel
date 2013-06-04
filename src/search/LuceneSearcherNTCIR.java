@@ -67,18 +67,20 @@ public class LuceneSearcherNTCIR {
 		HashMap<String, Double> termsWeight = new HashMap<String, Double>();
 		String targetQuery = "";
 		for(String term:queryTerms) {
-			/*
+			
 			if(dict.containsKey(term)) {
 				ArrayList<String> x = dict.get(term);
-				for(String s:x) {
-					if(termsWeight.containsKey(s)) {
-						termsWeight.put(s, termsWeight.get(s)+1.0);
-					}
-					else {
-						termsWeight.put(s, 1.0);
+				if(x.size() <= 2) {
+					for(String s:x) {
+						if(termsWeight.containsKey(s)) {
+							termsWeight.put(s, termsWeight.get(s)+1.0);
+						}
+						else {
+							termsWeight.put(s, 1.0);
+						}
 					}
 				}
-			}*/
+			}
 			if(reldict.containsKey(term)) {
 				TreeMap<Double, String> x = reldict.get(term);
 				int num = 0;
