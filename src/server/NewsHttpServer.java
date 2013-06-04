@@ -25,12 +25,12 @@ public class NewsHttpServer {
 
 	public static void main(String[] args) {
 		try {
-		    InetSocketAddress addr = new InetSocketAddress(8080);
+		    InetSocketAddress addr = new InetSocketAddress(8082);
 		    HttpServer server = HttpServer.create(addr, 0);
 		    server.createContext("/", new NewsSearchHandler());
 		    server.setExecutor(Executors.newCachedThreadPool());
 		    server.start();
-		    System.out.println("Server is listening on port 8080" );
+		    System.out.println("Server is listening on port 8082" );
 		}
 		catch(Exception e) {
 			e.printStackTrace();

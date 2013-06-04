@@ -60,6 +60,7 @@ public class PhraseTable {
 			for(String s:engPhraseList) {
 				bw.println(s);
 			}
+			bw.flush();
 			bw.close();
 		}
 		catch(Exception e) {
@@ -72,6 +73,7 @@ public class PhraseTable {
 			for(String s:chiPhraseList) {
 				bw.println(s);
 			}
+			bw.flush();
 			bw.close();
 		}
 		catch(Exception e) {
@@ -154,28 +156,30 @@ public class PhraseTable {
 						phraseFreq.put(engPhrase, (1.0/engPhrases.size()));
 				}
 				
-				PrintWriter bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("data/phraseTable_en-ch.txt")));
-				for(Map.Entry<String, HashMap<String, Double>> entry:phraseTable.entrySet()) {
-					String engPhrase = entry.getKey();
-					if(engPhrase.length() == 0) continue;
-					ArrayList<Entry<String, Double>> l = new ArrayList<Entry<String, Double>>(entry.getValue().entrySet());
-					System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
-					Collections.sort(l, new Comparator<Map.Entry<String, Double>>(){
-						public int compare(Map.Entry<String, Double> o1, Map.Entry<String, Double> o2) {
-							if(o2.getValue() - o1.getValue() > 0) return 1;
-							else return -1;
-						}
-					});
-					for(int i = 0; i < 10 && i < l.size(); i++) {
-						if(l.get(i).getKey().length() == 0) continue;
-						bw.println(engPhrase+"|||"+l.get(i).getKey()+"|||"+l.get(i).getValue()/phraseFreq.get(engPhrase));
-					}
-					bw.flush();
-				}
-				bw.close();
+				
 			}
 			eng.close();
 			chi.close();
+			
+			PrintWriter bw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("data/phraseTable_en-ch.txt")));
+			for(Map.Entry<String, HashMap<String, Double>> entry:phraseTable.entrySet()) {
+				String engPhrase = entry.getKey();
+				if(engPhrase.length() == 0) continue;
+				ArrayList<Entry<String, Double>> l = new ArrayList<Entry<String, Double>>(entry.getValue().entrySet());
+				System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
+				Collections.sort(l, new Comparator<Map.Entry<String, Double>>(){
+					public int compare(Map.Entry<String, Double> o1, Map.Entry<String, Double> o2) {
+						if(o2.getValue() - o1.getValue() > 0) return 1;
+						else return -1;
+					}
+				});
+				for(int i = 0; i < 10 && i < l.size(); i++) {
+					if(l.get(i).getKey().length() == 0) continue;
+					bw.println(engPhrase+"|||"+l.get(i).getKey()+"|||"+l.get(i).getValue()/phraseFreq.get(engPhrase));
+				}
+				bw.flush();
+			}
+			bw.close();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
